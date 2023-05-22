@@ -1,0 +1,2115 @@
+
+
+
+POLYPHONIC ANALOG SYNTHESIZER
+
+
+
+
+
+User’s Guide
+Version 1.3
+Feb, 2021
+Sequential LLC
+1527 Stockton Street, 3rd Floor
+San Francisco, CA  94133
+USA
+©2020 Sequential LLC
+www.sequential.com
+
+
+Tested to Comply
+With FCC StandardsFOR HOME OR OFFICE USE
+This device complies with Part 15 of the FCC Rules. Operation is subject to 
+the following two conditions: (1) This device may not cause harmful inter -
+ference and (2) this device must accept any interference received, including 
+interference that may cause undesired operation.
+This Class B digital apparatus meets all requirements of the Canadian 
+Interference-Causing Equipment Regulations.
+Cet appareil numerique de la classe B respecte toutes les exigences du Regle -
+ment sur le materiel brouilleur du Canada.
+For pluggable equipment, the socket-outlet must be installed near the equipment 
+and must be easily accessible.
+For Technical Support, email: support@sequential.com
+CALIFORNIA PROP 65 WARNING  
+This product may expose you to chemicals including BPA, which is known to the State of 
+California to cause cancer and birth defects or other reproductive harm. Though indepen -
+dent laboratory testing has certified that our products are several orders of magnitude 
+below safe limits, it is our responsibility to alert you to this fact and direct you to:  
+https://www.p65warnings.ca.gov for more information.
+
+
+Table of Contents
+Welcome Back, Old Friend  .................................. x
+Chapter 1: Getting Started  ................................... 1
+Rear Panel Connections  ....................................... 2
+Using USB  ................................................ 4
+Setting Up the Prophet-5  ....................................... 5
+Calibrating the Oscillators and Filters  ............................ 5
+Sound Banks  .............................................. 6
+Selecting Programs  ......................................... 6
+Editing Programs  ........................................... 7
+How to Check a Parameter Setting in a Preset  .................... 7
+Comparing an Edited Program to its Original State  ................. 8
+Creating a Program from Scratch  ............................... 8
+Live Panel Mode  ............................................ 9
+Saving a Program  ........................................... 9
+Canceling Save . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+Comparing Before You Save  ................................... 10
+Exploring the Prophet-5  ....................................... 11
+Chapter 2: Prophet-5 Controls  ............................... 12
+Global Settings  .............................................. 12
+Globals - Top Row  ......................................... 13
+Globals - Bottom Row  ....................................... 14
+Oscillators  .................................................. 17
+Oscillator Controls  ......................................... 18
+Mixer  .................................................... 21
+Filter  .................................................... 22
+Filter Controls  .............................................. 24
+Filter Envelope  ............................................ 25
+Filter Envelope Controls  ..................................... 26
+Amplifier Envelope  ........................................... 28
+Amplifier Envelope Controls  ................................. 29
+Low Frequency Oscillator  ...................................... 31
+LFO Controls  ............................................. 32
+Wheel-Mod Controls . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+Using LFO and Wheel-Mod  .................................. 33
+Poly Mod  .................................................. 34
+Poly Mod Parameters  ....................................... 35
+
+
+Using the Vintage Knob  ....................................... 36
+Pitch and Mod Wheels  ........................................ 37
+Pitch Wheel . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37
+Mod Wheel  ............................................... 38
+Adding Aftertouch  ............................................ 38
+Glide Rate  ................................................. 39
+Unison  .................................................... 40
+Using Chord Memory  ....................................... 41
+Master Tune  ................................................ 42
+The Release Switch  .......................................... 43
+The Tune Button  ............................................. 44
+Key Priority Modes  ........................................... 45
+About Voice Assignment  ..................................... 45
+Chapter 3: Creating Sounds  ......................................... 46
+Synth Bass  ................................................. 46
+Short Version  ............................................. 46
+Long Version  .............................................. 47
+Creating Synth Brass  ......................................... 50
+Turning Synth Brass into a String Pad  .......................... 51
+Creating a Hard-Sync Lead  .................................... 51
+A Final Word  ................................................ 52
+Chapter 4: Using CVs and Gates  ............................ 53
+Using Prophet-5’s CV Out  ..................................... 53
+Adjusting the Prophet-5’s CV Output Scaling:  ...................... 53
+Adjusting the Prophet-5’s CV Input Scaling:  ....................... 54
+Using Prophet-5’s Gate In and Gate Out  .......................... 55
+Appendix A: Troubleshooting and Support  ................... 57
+Troubleshooting  ............................................. 57
+Resetting the Global Parameters  ................................ 59
+Contacting Technical Support  ................................... 59
+Warranty Repair  ............................................. 60
+Appendix B: Calibrating the Prophet-5  ....................... 61
+Calibrating the VCOs and Filters  ................................ 61
+Calibrating the Pitch and Mod Wheels   ............................ 61
+Resetting the Global Parameters  ................................ 62
+
+
+Appendix C: Exporting and Importing Programs/Banks  ....... 62
+Importing Programs and Banks  ................................. 63
+Appendix D: Alternative Tunings  ............................ 64
+1. 12-Tone Equal Temperament (non-erasable)  ..................... 64
+2. Harmonic Series  ........................................... 64
+3. Carlos Harmonic Twelve Tone  ................................ 64
+4. Meantone Temperament  .................................... 64
+5. 1/4 Tone Equal Temperament  ................................ 64
+6. 19 Tone Equal Temperament  ................................. 65
+7. 31 Tone Equal Temperament  ................................. 65
+8. Pythagorean C  ............................................ 65
+9. Just Intonation in A with 7-Limit Tritone at D#  .................... 65
+10. 3-5 Lattice in A  ........................................... 65
+11. 3-7 Lattice in A  ........................................... 65
+12. Other Music 7-Limit Black Keys in C  .......................... 65
+13. Dan Schmidt Pelog/Slendro  ................................. 66
+14. Yamaha Just Major C  ...................................... 66
+15. Yamaha Just Minor C  ...................................... 66
+16. Harry Partch 11-Limit 43 Note Just Intonation  ................... 66
+
+
+viii  
+Sequential
+
+
+ix
+Prophet-5 User’s Guide  
+THE SEQUENTIAL CREW
+Art Arellano, Gerry Bassermann, Gus Callahan, Fabien Cesari, Bob Coover, Carson Day, 
+Chris Hector, Tony Karavidas, Mark Kono, Justin Labrecque, Andy Lambert, Michelle Marshall, 
+Andrew McGowan, Joanne McGowan, Julio Ortiz, Denise Smith, Brian Tester, Tracy Wadley, 
+and Mark Wilcox
+PROPHET-5 SOUND DESIGN
+John Bowen, Peter Dyer, Tim Koon, Kurt Kurasaki, Drew Neumann, Julian Pollack/J3PO,  
+Francis Preve, Robert Rich, Paul Schilling, Nicholas Semrad, Mitchell Sigman, Matia Simovich,  
+Huston Singletary, James Terris, and Mitch Thomas
+Special thanks to Robert Rich for the alternative tunings content.  
+
+
+x Welcome Back, Old Friend 
+SequentialWelcome Back, Old Friend 
+It’s not often you get to revisit your past with the accumulated knowledge and 
+experience of the intervening years. Even rarer is the opportunity to retrieve some 
+of the magic of those days and give it new life.
+I was 28 when I created the original Prophet-5. Silicon Valley was just taking 
+shape and I had the notion that these new-ish things called microprocessors 
+might be useful in designing an electronic instrument — a fully programmable 
+polyphonic synthesizer — the first of its kind.
+It turned out I was right. The Prophet-5 changed many things: the basic concept 
+of the polyphonic synth, how musicians used them, and even the sound of music 
+back then. 
+Fast forward to 2020. I’ve just turned 70, and after contemplating the how and 
+why, decided the time was right to welcome an old friend back to the musical 
+stage. So let me present, once again, the Prophet-5. Or as we call it around here, 
+the Prophet-5 Rev4 .
+Without going into a lot of technical details, I’ll tell you that we designed the new 
+Prophet-5 with the original, genuine Curtis VCOs and filters used in the Prophet-5 
+Rev3, and the new, Dave Rossum- designed SSI 2140 filter, which is the modern 
+counterpart of the original SSM 2040 Dave designed in the Prophet-5 Rev1 and 
+Rev2. 
+This is why you’ll find a “Rev” switch to choose your preferred filter and a 
+“Vintage” knob that will loosen up the oscillators and envelopes just like they 
+were in the good old days. It lets you dial in progressively more vintage character 
+as you go from a stable 4 (as in Prophet-5 Rev4 ) all the way to 1 (as in Prophet-5 
+Rev1 , the rarest and most temperamental of all Prophet-5s).
+We’ve even included the original factory sounds. (Listen to programs 511-558.) 
+It’s been a labor of love. So grab those knobs and make some analog magic.
+Cheers,
+
+
+xi
+Prophet-5 User’s Guide Welcome Back, Old Friend 
+
+
+
+1
+Prophet-5 User’s Guide Chapter 1: Getting Started
+Chapter 1: Getting Started
+The Prophet-5 is a five-voice, polyphonic analog synthesizer with analog 
+voltage-controlled oscillators, filters, and amplifiers. It faithfully repro -
+duces the vintage sound and features of all three revisions of the original 
+Sequential Circuits Prophet-5. It does this through the use of genuine 
+Curtis VCOs and filters as well as Dave Rossum’s newly designed SSI 
+2140 filter — the modern counterpart of his original SSM 2040, which 
+was used in vintage Prophet-5-Rev1 and Rev2 synths. The Prophet Rev3 
+featured CEM 3320 Curtis filters. By featuring both types of filters, the 
+new Prophet-5 provides the best of all worlds — and all Prophet-5s.
+The Prophet-5 is first and foremost a performance instrument. All of its 
+sound-shaping controls are immediately accessible on its front panel, 
+packing a tremendous amount of power and versatility into a compact, 
+easy-to-use format.  
+This chapter of your user’s guide provides an overview of essential tasks 
+such as how to make basic audio connections and how to edit and save 
+sounds. Later chapters explain each of the parameters of the Prophet-5 
+as well as how to program sounds and how to use the global  menu to 
+manage its overall behavior.
+All of the Prophet-5’s essential controls are within easy reach on its 
+front panel, so go ahead and dive in and start turning knobs and pressing 
+buttons to explore its sound and capabilities. Then, when you’re ready, 
+dig into this user’s guide to explore the deeper parts of the synth.   
+Prophet-5 front panel
+
+
+2 Rear Panel Connections
+SequentialRear Panel Connections
+The rear panel of the Prophet-5 has connectors for power, USB, MIDI, 
+audio, and pedals.
+1. Power On/Off —This rocker switch controls power on and off to the 
+Prophet-5.
+2. AC Power Connector —Accepts a standard, grounded IEC power 
+cord. Operates over a range of 100 to 240 volts and 50 to 60 Hz.
+3. USB —For bidirectional MIDI communication with a computer. The 
+Prophet-5 is a Class Compliant USB device and does not require addi -
+tional drivers when used with Mac OS or Windows. See “Using USB”  on 
+page 4  for more information.
+4. MIDI In, Out, Thru —Standard 5-pin MIDI DIN connectors for 
+communicating with MIDI-equipped devices. 
+5. Release —Accepts a momentary, normally open or normally closed 
+footswitch to control sustain. 
+6. Pedal —These two connectors accept a standard expression pedal 
+that has a variable resistor on a TRS (tip-ring-sleeve) ¼ inch phone plug. 
+Connecting a pedal to the amp connector controls volume. Connecting a 
+pedal to the filter  connector controls filter cutoff. 1 23 4 5 6 7 8 910 11 12
+
+
+3
+Prophet-5 User’s Guide Rear Panel Connections
+7. Control Voltage Out —Standard ¼ inch connector. This jack outputs a 
+0- +5V signal for interfacing with modular synthesizers and other devices 
+that support this  type of connectivity. It is configured for 1-volt-per-
+octave operation for gear that recognizes that standard. The CV output 
+tracks the last note played on the Prophet-5 keyboard.
+8. Gate Out —Standard ¼ inch connector. This jack outputs a 15-volt 
+on/off signal typically used to gate the envelopes of an external synth 
+that supports this  type of connectivity. The Gate Out signal is triggered 
+whenever a key is pressed on the Prophet-5.
+9. Control Voltage In —Standard ¼ inch connector. This jack accepts 
+a 0 to + 5V signal for interfacing with modular synthesizers and other 
+devices that support this  type of connectivity. They are configured for 
+1-volt-per-octave operation for gear that recognizes that standard. A CV 
+In signal affects only a single voice of the Prophet-5.
+10. Gate In —Standard ¼ inch connector. This jack accepts a 1.5 to 
+15-volt on/off signal to gate the envelopes of a single voice on the 
+Prophet-5. Whenever a ¼ inch connector is inserted into the rear-panel 
+gate in jack on the Prophet-5, its keyboard polyphony is reduced to 
+4 voices. The envelopes of the fifth voice are triggered by the gate in 
+signal.
+11. Phones — ¼ inch stereo headphone jack. Headphone volume is 
+controlled by the volume  knob on the front panel. 
+12. Audio Out —Unbalanced, ¼ inch audio output. 1 23 4 5 6 7 8 910 11 12
+
+
+4 Rear Panel Connections
+SequentialUsing USB
+The Prophet-5’s USB 2.0 port enables bidirectional MIDI communica -
+tion with a computer. A MIDI interface and MIDI cables are not neces -
+sary, just a USB cable. The Prophet-5 is a Class Compliant USB device. 
+That means it does not require any additional drivers to be installed to 
+communicate with a Mac or Windows computer. The Prophet-5 transmits 
+and receives MIDI data via USB, but does not transmit audio.
+MIDI In and USB should not be used at the same time, as overlapping 
+messages from different sources may cause the Prophet-5 to respond unpredictably. 
+MIDI Out and USB can be used at the same time and transmit the same data.
+Under Mac OS, “Prophet-5/10” will appear as a MIDI port when 
+connected via USB and can be configured using the Mac’s Audio MIDI 
+Setup utility (typically found in Applications/Utilities).
+Under Windows, the first time the Prophet-5 is connected via USB, the 
+“Found new hardware” alert appears and it is automatically installed as 
+“Prophet-5.”
+In Windows, if you unplug the USB cable and plug it back in while a 
+program has the Prophet-5 port open, you may have to resync. That 
+usually means going to the Prophet-5 Keyboard Properties — in the 
+Windows Device Manager under “Sound, video, and game controllers” 
+— and clicking OK. If Prophet-5 is no longer listed in the Device Manager, 
+turn off the Prophet-5 then turn it back on again while it is connected via 
+USB. It should be detected on power up.
+
+
+5
+Prophet-5 User’s Guide Setting Up the Prophet-5
+Setting Up the Prophet-5
+Here’s how to get your Prophet-5 up and running:
+1. Plug the power cable into the AC power connector on the back panel of 
+the Prophet-5.
+2. If you have an expression pedal, connect it to amp (for volume) or 
+filter  (for filter cutoff)  on the back of the Prophet-5. If you have a 
+sustain pedal, connect it to the release  jack. 
+3. Turn on the Prophet-5.
+4. Connect the audio  out connector on the back of the Prophet-5 to your 
+amp/mixer/powered speakers using an unbalanced, ¼ inch audio cable. 
+This is the main (mono) output for the synth. 
+5. Turn up the volume on your amp/mixer/powered speakers.
+6. Turn up the volume on the Prophet-5. 
+7. Use the group , bank , and program  switches to explore factory sounds. 
+Calibrating the Oscillators and Filters
+The first time you use the Prophet-5, please run its built-in calibration 
+procedure. Repeat the calibration procedure as needed over the next few 
+days of use. The Prophet-5 learns the range of temperatures at your loca -
+tion and will keep itself in tune over this range. 
+Later, if you use the Prophet-5 in a different environment that is measur -
+ably warmer or cooler (on stage, in an air-conditioned studio, and so on) 
+run the calibration procedure again.
+To calibrate the oscillators and filters:
+1. Press the tune button. The program select  button  LEDs begin flash -
+ing in sequence and the numeric display indicates the tuning sequence 
+while the Prophet-5 performs its auto-calibration procedure. Don’t turn 
+off the power while it’s doing this.
+2. When finished, the front panel controls return to normal and you can 
+play the Prophet-5.
+
+
+6 Setting Up the Prophet-5
+SequentialSound Banks
+The Prophet-5 contains a total of 400 programs. 200 are permanent 
+“Factory” programs and 200 are “User” programs that can be over -
+written. You can edit the programs of either set, but you can only save 
+sounds to the User set. 
+When the factory  switch is enabled, the permanent Factory sound set is 
+active. When the factory  switch is disabled, the User sound set is active. 
+As shipped from the factory, both sound sets are identical. 
+Group, Bank, and Program  Number selectors
+Selecting Programs
+Use the group , bank , and program  selector  buttons to select and recall 
+programs.
+To choose a program:
+1. Press the group  select  button to specify the “hundreds” bank of the 
+program. Each time you press the button, the number increments and 
+cycles through Groups 1-5.
+2. Press the bank  select  button to specify the “tens” bank of the program. 
+Each time you press the button, the number increments and cycles 
+through Banks 1-5.
+3. Press the a program  selector  button (1-8) to specify the “ones” digit of 
+the program. 
+To choose program 123, for example:
+1. Press the group  select  button as many times as needed to cycle around to 
+1.
+2. Press the bank  select  button as many times as need to cycle around to 2.
+3. Press program  selector  button 3.
+
+
+7
+Prophet-5 User’s Guide Setting Up the Prophet-5
+It’s not always necessary to enter all 3 digits of a program number to 
+recall it.
+For example:
+• If the current program is 111 and you want to recall program 118, 
+simply press “8.”
+• If the current program is 111 and you want to recall program 121, 
+simply press the bank  select  button as many times as necessary to 
+cycle around to “2.”
+• If the current program is 111 and you want to recall program 211, 
+simply press the group  select  button as many times as necessary to 
+cycle around to “2.”
+Pressing the globals  button three times in a row saves the current program as 
+the default program that appears when you turn on the Prophet-5.
+Editing Programs
+Because all of the sound-shaping controls of the Prophet-5 appear on its 
+front panel, editing an existing program is simple: just turn a knob and listen 
+to its effect. Keep turning knobs and pressing buttons and if you like what 
+you’ve created, save the program. (See “Saving a Program” on page 9 .)
+How to Check a Parameter Setting in a Preset
+When you’re editing a preset, the Prophet-5 has a convenient way of indicat -
+ing the programmed (saved) value for any knob parameter: Whenever you 
+turn a knob and reach the saved value of a given parameter, an LED dot in 
+the main Prophet-5 display will illuminate. 
+This dot illuminates
+The dot illuminates when a knob position matches a preset’s saved parameter value
+
+
+8 Setting Up the Prophet-5
+SequentialComparing an Edited Program to its Original State
+When editing a program, it’s often useful to compare its edited state to 
+its original state to evaluate your edits. Alternatively, before saving a 
+program to a new location you may want to check the program in the 
+target location before you overwrite it. 
+To compare an edited program to a saved version:
+1. Edit a program.
+2. Press the record  button. It starts flashing.
+3. Press the global  button. Both LEDs on the button light up, indicating 
+compare  mode.
+4. Play the keyboard to hear the saved version of the sound.
+5. To disable the compare function and return to the edited sound, turn off 
+the global  button. Programs can’t be written while in compare mode.
+6. If you want to save the edited sound, the record  button is still flash -
+ing and ready to save, so enter a location with the program  selector  
+buttons. The sound is saved.
+7. Alternatively, if you want to cancel saving and continue editing, press 
+the record  button. It stops flashing and saving is canceled.
+Creating a Program from Scratch
+An existing program can be very useful as a jumping off point for new 
+sounds. But it’s also useful (and educational) to create a new sound from 
+scratch. The Prophet-5 makes this easy by providing a “Basic Preset” 
+that you can quickly recall at any time. This preset is very simple, with a 
+single oscillator as its basis. 
+To recall the Basic Preset:
+1. Hold down the record  button. 
+2. Press the preset  button.
+
+
+9
+Prophet-5 User’s Guide Setting Up the Prophet-5
+Live Panel Mode
+The Prophet-5 also features a “live panel” mode in which its sound 
+switches to the current settings of its knobs and switches. In other words, 
+the current preset is ignored and what you see on the front panel is what you 
+hear. This is a great mode for learning, experimentation, and instant gratification.
+To enter live panel mode:
+• Press the preset  button to toggle it off. Changing Groups, Banks or 
+Programs with Preset off won’t affect the sound.  
+To return to preset mode:
+• Press the preset  button again to toggle it on. 
+PRESET
+Toggling off the preset  button enables “live panel” mode
+Saving a Program
+If you’ve created a sound that you like, you’ll probably want to save it. 
+Saving a program overwrites a previously saved program. Sound design -
+ers often save many incremental versions of a program as they continue 
+to refine it. These intermediate versions often make good jumping off 
+points for new sounds. 
+To save an edited program to the same preset location:
+1. Press the  record  button. Its LED begins blinking.
+2. Press a program  selector  button (1-8) to specify the “ones” digit of the 
+program. 
+3. The record  button LED stops blinking and the program is saved into 
+the User sound set.
+Be careful when record  is enabled. You can change groups  and banks  without 
+executing write , but once you press a program  selector  button (1-8) for the “ones” 
+digit, the record  command is executed and the program at that location is overwritten.
+
+
+10 Setting Up the Prophet-5
+SequentialTo save a program to a different Group and/or Bank location:
+1. Press the  record  button. Its LED begins blinking.
+2. Press the group  button repeatedly to toggle through banks 1-5 to find 
+the desired group  location.
+3. Press the bank  button repeatedly to toggle through banks 1-5 to find the 
+desired bank  location.
+4. Press a program  selector  button (1-8) to specify the “ones” digit of the 
+program. The  record  button LED stops blinking and the program is 
+saved into the User sound set.
+Canceling Save
+Sometimes you may want to cancel saving a program before you 
+commit.
+To cancel the Save process before you commit:
+• If the record  button LED is flashing, press it again. The LED stops 
+flashing and saving is canceled. You can return to editing if you want.
+Comparing Before You Save
+Before saving a program to a new location, it’s a good idea to listen to the 
+program in the target location to make sure you really want to overwrite it. 
+To evaluate a program before you overwrite it: 
+1. Get ready to save by pressing the record  button. It starts flashing.
+2. Press the global  button. Both LEDs on the button light up, indicating 
+compare  mode.
+3. Use the program buttons to navigate to the sound you want to compare 
+and play the keyboard to hear the sound.
+4. To disable the compare function and go back to the edited sound, turn 
+off the global  button. Programs can’t be written while in compare 
+mode.
+5. If you want to save the edited sound, the record  button is still flashing 
+and ready to save, so enter a location with the program buttons. The 
+sound is saved.
+6. Alternatively, if you want to cancel saving and continue editing, press 
+the record  button. It stops flashing and saving is canceled.
+
+
+11
+Prophet-5 User’s Guide Exploring the Prophet-5
+Exploring the Prophet-5
+Before you explore the sound creation possibilities of the Prophet-5, 
+we’d like to point you toward a few things that will help you tailor it to 
+your needs. The better you know it, the more you’ll get out of it.
+First, read “Global Settings” on page 12 . There are useful settings 
+and functions found in the Globals that will affect the overall behavior 
+of your Prophet-5, including tuning, MIDI connections, calibration, and 
+more. In particular, read about Pot Modes and determine which works 
+best for you when you’re editing sounds. 
+Also, if you haven’t already done so, read  “Rear Panel Connections” 
+on page 2  to learn about the various connectors on the back of your 
+Prophet-5 and how you can use its various pedal, audio, MIDI, and USB 
+inputs and outputs.
+Finally, be on the lookout for tips and notes scattered throughout this 
+manual to gain a better working knowledge of the Prophet-5. We wish 
+you many hours of musical exploration!   
+
+
+12 Chapter 2: Prophet-5 Controls
+SequentialChapter 2: Prophet-5 Controls
+This chapter explains all of the front-panel controls of the Prophet-5, 
+section by section and the role each plays in synthesizing sounds. If 
+you’re just getting started with synthesis, take a look at Chapter 4, 
+Creating Sounds , for step-by-step tutorials on how to program some 
+classic sounds such as synth bass, brass, strings, and more.
+Global Settings
+Global settings are parameters that affect all programs. These include 
+settings such as MIDI Channel, Velocity and Aftertouch Response, and 
+others. Global parameters are printed above the numeric program selec -
+tor switches (1 - 8). Use the Globals switch to choose between the two 
+sets. The red LED indicates that the upper row is active. The yellow 
+LED indicates that the lower row is active
+GLOBALS
+The Globals button
+Globals 1-8
+
+
+13
+Prophet-5 User’s Guide Global Settings
+Use the Group and Bank buttons to increment and decrement through the Global settings
+To set a Global parameter:
+1. Press the globals  button. Pressing it once activates the upper set of 
+parameters. Pressing it a second time enables the lower set of param -
+eters.  
+2. Press the program selector button (1 - 8) that corresponds to the desired 
+parameter. The parameters are printed above each switch.
+3. Use the group  and bank  buttons as decrement and increment buttons to 
+step through available settings . 
+4. Once you’ve chosen the desired setting, press the globals  button again 
+to exit. 
+Globals - Top Row
+1. Transpose:  -12…12—Master Transpose control, 0 is centered. Steps 
+in semitones up to one octave up (+12) or down (-12).
+2. MIDI Channel:  ALL, 1…16—Selects which MIDI channel to send and 
+receive data, 1 to 16. all receives on all 16 channels.
+3. Param Xmit:  Off, CC, NRn —Changes to the values of front panel 
+controls are transmitted via MIDI as Continuous Controllers (CC) or 
+Non-registered Parameter Number (NRn). Transmission of parameters 
+can also be turned off. You could, for example, turn the filter cutoff  
+frequency knob on the Prophet-5 and have it affect the cutoff frequency 
+of another synthesizer. For a list of Prophet-5 CCs and NRPNs, see the 
+Support page for the Prophet-5 on the Sequential website.
+NRPNs are the preferred method of parameter transmission, since they cover 
+the complete range of all parameters, while CCs are limited to a range of 128. For a 
+list of Prophet-5 CCs and NRPNs, see the Prophet-5 Support page at Sequential.com.
+
+
+14 Global Settings
+Sequential4. Param Rcv:  Off, CC, NRn—Sets the method by which parameter changes 
+are received via MIDI. As with transmission, NRPNs are the preferred method.
+5. MIDI Control:  Off, On—When On, the synth will respond to MIDI 
+controllers, including Pitch Wheel, Mod Wheel, Pedal, V olume.
+6. MIDI Sysex:  Mdi, USB— When set to MIDI ( Mdi) it will receive 
+and transmit them using the MIDI ports/cables When set to USB it 
+will receive and transmit them using the USB port/cable. MIDI SysEx 
+messages are used when sending and receiving a variety of data includ -
+ing, programs, alternative tunings, system updates, and more.  
+7. MIDI Out:  Off, Mdi , USB, ALL—Sets the port by which MIDI data will 
+be transmitted (MIDI and/or USB).
+8. Local Control:  Off, SOm, ALL—When on (the default), the keyboard 
+and front panel controls directly affect the Prophet-5. When off, the front 
+panel controls are transmitted via MIDI but do not directly affect the 
+“local” synth (that is, the Prophet-5). This is primarily useful for avoid -
+ing MIDI data loops that can occur with some external sequencers. When 
+set to “ SOn ” the front panel controls of the Prophet-5 remain active, but 
+the pitch and mod wheels do not directly affect the “local” synth (that is, 
+the Prophet-5).
+Globals - Bottom Row
+1. Pot Mode:  REL, Pas, Jup (Relative, Passthru, Jump)— There are three pot 
+(potentiometer) modes to determine how the synth reacts when the program -
+mable parameters are edited. (Master volume is not programmable, so these 
+modes don’t apply.)
+In Relative  mode, changes are relative to the stored setting. In Relative mode, the 
+full value range is not available until either the minimum or maximum value and 
+the respective lower or upper limit of the pot’s travel is reached.  For example, 
+the resonance  parameter has an internal value range of 0 to 127. Let’s 
+say the physical position of the resonance  pot is the equivalent to an 
+internal value of 100. If you switch to a program that has a stored Reso -
+nance value of 63 and turn the pot all the way up, it will only go to 90. 
+To get to the maximum value of 127, you first have to turn down until the 
+value is at the other extreme and the pot is at the limit of its travel (in this 
+case, 0 and fully counter-clockwise, respectively).
+
+
+15
+Prophet-5 User’s Guide Global Settings
+In Passthru  mode, turning the pot has no effect until after the edited 
+value equals the preset value (that is, until the edited value “passes 
+through” the stored value). 
+Jump  mode uses an absolute value based upon the position of the pot 
+when edited: turn a pot and the value jumps immediately from the stored 
+value to the edited value.
+2. Release/Sustain :  reL, HLd (Release, Hold)— This determines how 
+the front panel release  switch affects the release  parameter of both the 
+Filter Envelope and Amplifier Envelope. 
+The release  switch affects the behavior of the Filter and Amplifier Enve -
+lopes. The original Prophet-5 had a different way of handling Release 
+from the more common method used today. If the release  switch is on, 
+the release  knob setting on the Filter and Amplifier envelopes is used. If 
+the release  switch is off, the Release on both envelopes is fast.
+If you then connect a footswitch, it acts somewhat like a piano: it’s 
+a quick release when the footswitch is not pressed, and it’s a longer 
+(programmed by the knob) release when the footswitch is held. Note that 
+the release  switch needs to be off for the footswitch to operate this way. 
+Since this is, after all, a Prophet-5, we wanted it to match the original 
+synth. These days, however, many musicians expect the footswitch to be 
+a “hold” function, which is of course different than the Prophet-5 release 
+switch. So, we added a Global parameter that allows you to select the 
+original Prophet-5 method, or a more common hold function with the 
+footswitch.
+Use the release /sustain  parameter to choose between classic Prophet-5 
+Release handling ( rEL) or the more contemporary Hold method ( HLd). 
+3. Pedal Mode:  nOL, REU (Normal, Reversed) — Sets the Prophet-5’s 
+response to an expression connected to either the amp jack or filter  jack 
+on the rear of the Prophet-5. There are two main wiring schemes for 
+expression pedals that use a TRS connector. The most common connects 
+the wiper of the pedal’s potentiometer to the tip of the jack, while the 
+reference voltage is connected to the ring of the jack. Alternatively, 
+pedals may be wired in reverse, with the wiper connected to the ring 
+
+
+16 Global Settings
+Sequentialof the jack and the reference voltage to the tip. Either type can be used 
+with the Prophet-5. If the expression pedal causes abrupt changes in the 
+parameter (instead of smooth, continuous control) try switching this 
+mode.
+4. Alt Tuning:  NOL, 1…16 (Normal, 1…16)— Selects one of the Prophet-5’s 
+built-in tunings. Set to normal  (NOL) the tuning is standard, chromatic tuning. 
+Choosing 1 through 16 selects an alternative, non-chromatic, non-Western 
+scale that can be used to emulate ethnic instruments or in other creative ways. 
+See “Appendix D: Alternative Tunings” on page 64  for a description of 
+each tuning. Additional tunings can be imported into the Prophet-5 as a 
+SysEx message. 
+5. Vel Response:  0-6 (Curve 0, Curve 1, Curve 2, Curve 3, Curve 4, Curve 
+5, Curve 6)— Sets one of seven velocity curves to adjust the keyboard’s velocity 
+response to your playing style. 
+6. AT Response:  0-7 (Curve 0, Curve 1, ... Curve 7)— Sets one of eight 
+pressure curves to adjust the keyboard’s aftertouch response to your play -
+ing style.
+7. Pgm Dump: PrO, Ban, GrP, USr, ALL (Program, Bank, Group, User 
+Banks, All)— Transmits the current program, the current bank, the current 
+group, all user banks, or all banks (both user and factory) in SysEx 
+format via the selected MIDI port. (See “Appendix C: Exporting and 
+Importing Programs/Banks” on page 62 . Dumped programs will load 
+back into the same bank and program location in memory when received by 
+the Prophet-5 via MIDI. 
+
+
+17
+Prophet-5 User’s Guide Oscillators
+Oscillators
+Oscillators provide the raw building blocks of the Prophet-5’s sound by 
+producing waveforms , each of which has its own inherent sound charac -
+ter based on its harmonic content. The Prophet-5 has two oscillators per 
+voice. Level controls for each of these are located in the Mixer section.
+Oscillator A is capable of simultaneously generating sawtooth and 
+variable-width pulse waves. Oscillator B is capable of simultaneously 
+generating sawtooth, triangle, and variable-width pulse waves. 
+ The oscillators on the Prophet-5 are very stable. To emulate the random 
+pitch drift and oscillator instability of vintage instruments, use the vintage  knob to add 
+randomness to the behavior of the VCOs, envelopes, LFOs, and filters.
+The Oscillators section  
+Oscillator A can be hard-synced to Oscillator B for complex, harmoni -
+cally-rich sounds when modulated. 
+Oscillator B features a fine knob for detuning and thickening sounds, 
+a lo freq switch that allows it to function as an LFO for modulation 
+purposes, and a keyboard  switch that disables keyboard control over its 
+pitch (useful when used as an LFO, or for drones and other effects). 
+
+
+18 Oscillators
+SequentialOscillator Controls
+Frequency: Sets the base oscillator frequency over a 4-octave range. 
+Adjustment is in semitones. 
+The Master Tune knob affects the pitch of all oscillators, as does the Transpose 
+parameter in the Globals section.
+Fine:  This adjusts the tuning of Oscillator B upward (sharp) and has a 
+range of nearly a semitone. 
+Shape:  Sawtooth, Triangle, Square/Pulse— Selects the waveshape gener -
+ated by the oscillator. You can turn on multiple waveshapes simultane -
+ously.
+Pulse Width:  Changes the width of the square/pulse wave from a square 
+wave when the pulse  width  knob is at its center position, to a very 
+narrow pulse wave when the pulse  width  knob is fully left or right. 
+Applying pulse width modulation using poly mod or the low frequency  oscillator  
+is a great way to add movement and thickness to a sound, especially when creating 
+pad or string-like sounds.
+Sync:  Off, On —Turns on Oscillator A hard sync. Sync forces Oscillator 
+A to restart its cycle every time Oscillator B starts a cycle. This provides 
+a way to create more complex, harmonically rich shapes from simple 
+waveforms—especially when the frequency of Oscillator A is set to a 
+different interval than Oscillator B.
+Oscillator A
+Oscillator B
+Oscillator A
+synced to
+Oscillator B
+Oscillator hard sync
+
+
+19
+Prophet-5 User’s Guide Oscillators
+Use Poly Mod to sweep the pitch of Oscillator A when it is synced to generate 
+the classic, hard-edged sync sound. See “Creating a Hard-Sync Lead” on page 51  
+for more details.
+Lo freq:  Off, On —Turns Oscillator B into a low-frequency oscillator, 
+essentially providing another LFO source for modulation using Poly 
+Mod. The frequency , fine, shape , and pulse  width  controls still apply and 
+will affect the character of any low-frequency modulation applied using 
+Oscillator B. 
+Keyboard:  Off, On —When off, the Oscillator B ignores the keyboard 
+and note data received via MIDI and plays at its base frequency setting. 
+Oscillator B pitch can still be affected by modulation from other sources 
+when in this mode. When keyboard  is off, the frequency  knob has a 9 
+octave range.
+To listen to the oscillators:
+1. Recall the basic preset by holding down record  and pressing preset .
+2. In the basic program, only Oscillator A is turned up in the Mixer. Oscil -
+lator A waveshape is set to sawtooth. The level of Oscillator B is set to 
+zero.
+3. Hold down a note on the keyboard and in the oscillators  section, 
+toggle the sawtooth and square wave selectors on and off to hear the 
+difference between the two separately, and in combination. 
+4. Turn off the sawtooth wave and turn on the square wave. 
+5. Turn the pulse  width  knob right and left to hear how the timbre of the 
+waveform changes as you narrow its pulse width. At the 12 o’clock 
+position the wave is perfectly square. At either extreme, the pulse width 
+is so narrow that the sound becomes virtually inaudible.
+Pulse Width
+value: 5Pulse Width
+value: 10
+Changing pulse width
+
+
+20 Oscillators
+SequentialTo listen to Oscillator B:
+1. Turn down the level of Oscillator A in the Mixer and turn up the level 
+of Oscillator B.
+2. Turn on the triangle wave and listen to its sound. It has a very mellow 
+sound because it has very few harmonics, unlike the sawtooth and 
+square waves. 
+3. Turn on the sawtooth wave and the square wave and notice how the 
+sound changes.
+4. Turn up Oscillator A again in the mixer. Notice how the sound becomes 
+fuller now that you can hear both oscillators.
+5. Experiment with using the fine knob on the Oscillator B to detune the 
+oscillators in relation to each other. This creates movement and thick -
+ness in their combined sound. 
+6. Try using the frequency  knob of Oscillator B to tune Oscillator B to a 
+interval such as a third, a fifth, or a sixth.
+To sync Oscillator A to Oscillator B:
+• With Oscillator A and B on, press the sync button on Oscillator A, and 
+rotate its frequency  knob while you hold a note. 
+This is the classic hard sync  sound that you’ve probably heard before. 
+Instead of rotating the pitch  knob by hand, you can use Poly Mod to 
+route the filter envelope to Oscillator A to sweep its pitch and create this 
+effect each time you play a note. You’ll learn more about Poly Mod on 
+page 34 . 
+
+
+21
+Prophet-5 User’s Guide Mixer
+Mixer
+The Mixer section is where you set the levels of the various sound gen -
+erators on the Prophet-5. These include Oscillator A, Oscillator B, and 
+the white noise generator. You must turn up at least one of these in order 
+to make sound with the Prophet-5. (Alternatively, you can use the filter to 
+generate its own sine wave in self-oscillating mode by turning Resonance 
+to its maximum.)
+   Rather than limit the Prophet-5’s outputs to keep the instrument from clipping, 
+we allow you to adjust levels at various points in its signal path. This gives you the 
+option to “overload” things in interesting ways, if you wish to do so. If not, try reducing 
+the levels of the oscillators in the mixer  section, the sustain  parameter in the Amplifier 
+Envelope, or the resonance  parameter in the filter.
+The Mixer
+Osc A:  Sets the output level of Oscillator A.
+Osc B:  Sets the output level of Oscillator B.
+Noise:  Sets the output level of the white noise generator.
+
+
+22 Filter
+SequentialFilter
+The function of the filter is to subtract frequencies from the sound 
+produced by the oscillators and noise generator, thereby changing the 
+overall harmonic content of the synth’s sound. This change is varied over 
+time using the Filter Envelope  to produce more dynamic timbres. 
+The original Prophet-5 had three incarnations: the Rev1, Rev2, and Rev3, 
+each with their own unique characteristics. Probably the most significant 
+difference between the Rev 1/2 and the Rev3 was that they had different 
+filters, which gave the instruments a different sound character. The Rev 
+1/2 had a Dave Rossum-designed 2040 low-pass filter, while the Rev3 
+had a Doug Curtis-designed CEM 3320 low-pass filter.
+The new Prophet-5 provides the best of all worlds by providing both 
+types of filters. You can select between these with the rev switch. Each 
+has its own unique character:
+• rev 1/2 is a Dave Rossum-designed SSI 2140 filter. Its 4-pole, 24 
+dB-per-octave resonant design is functionally identical the 2040 filter 
+found on the original Sequential Circuits Prophet-5 Rev1 and Rev2. It 
+can self-oscillate when resonance  is set to its maximum.
+• rev 3 is a genuine Doug Curtis-designed CEM 3320 filter. Its 4-pole, 24 
+dB-per-octave resonant design is functionally identical the filter found 
+on the Sequential Circuits Prophet-5 Rev3. It can self-oscillate when 
+resonance  is set to its maximum.
+The differences between these filters can be subtle or pronounced, depend -
+ing on their individual settings, the amount of filter resonance applied, 
+and other factors. 
+The rev switch not only changes filter type, but also the Filter Envelope’s shape/
+response to match the original Prophet Rev 1/2 and Rev 3 respectively. After setting 
+the Filter Envelope as desired, try changing filter type to hear the dif ference.
+
+
+23
+Prophet-5 User’s Guide Filter
+The Filter
+To hear the effect of the rev 1/2 filter:
+1. Recall the basic preset by holding down record  and pressing preset . 
+The rev3 filter is selected by default. Switch to the Rev 1/2 filter by 
+pressing the rev switch.
+2. In the basic program, only Oscillator A is turned up in the Mixer. For 
+a fuller sound, turn up Oscillator B in the Mixer, set its waveshape to 
+sawtooth and detune it slightly by turning its fine knob to 2.
+3. Hold down a note and rotate the filter’s cutoff  knob. Notice how it cuts 
+the high frequencies as you rotate counter-clockwise, making the sound 
+of the oscillator less bright. If you turn the cutoff  knob fully counter -
+clockwise you’ll filter out all frequencies and hear nothing.
+4. Return the cutoff  knob to its halfway position, hold down a note again 
+then turn the resonance  knob about halfway up.
+5. Rotate the filter’s cutoff  knob again and listen to the sound change as 
+a band of frequencies near the cutoff is amplified. This how to create a 
+classic resonant filter sweep.
+To hear the effect of the rev 3 filter:
+1. Press the rev switch to select rev 3 filter.
+2. Hold down a note and rotate the filter’s cutoff  knob. Again it cuts the 
+high frequencies as you rotate counter-clockwise, but the character of 
+the filter is subtly different.
+
+
+24 Filter
+Sequential3. Return the cutoff  knob to its halfway position, hold down a note again 
+then turn the resonance  knob about halfway up.
+4. Rotate the filter’s cutoff  knob again and listen to the sound change as a 
+band of frequencies near the cutoff is amplified.
+5. Now toggle between the filters by pressing the rev switch and listen 
+to the differences in tone. The differences become more apparent with 
+higher and lower resonance settings.
+In the previous examples, you controlled the filter cutoff by hand. In 
+most cases, you will use the Filter Envelope to do this. To learn more 
+about the Filter Envelope see page 25 .
+Filter Controls 
+Rev Switch: 1/2, 3 —This selects the filter type. The Rev 1/2 filter is a 
+SSI 2140 low-pass, 4-pole, 24 dB per-octave resonant filter. The Rev 3 
+filter is a Curtis CEM 3320 low-pass, 4-pole, 24 dB per-octave resonant 
+filter. Both filters can self-oscillate when resonance  is set to its maximum.
+Cutoff:  0...10 —Sets the filter’s cutoff frequency. 
+Resonance:  0...10 —Emphasizes a narrow band of frequencies around 
+the cutoff frequency. High levels of resonance can cause either filter to 
+self-oscillate and generate its own pitch.
+Envelope Amount:  0...10 —Sets the amount of modulation from the 
+filter envelope to the filter’s cutoff frequency. Any setting above zero 
+means that each time you strike a key, the filter envelope controls how 
+the filter opens and closes. Higher amounts more dramatically affect the 
+cutoff frequency.
+Keyboard:  off, half, full —Sets the amount of modulation from the 
+keyboard to the filter’s cutoff frequency. Selecting half or full means 
+that the higher the note played on the keyboard, the more the filter opens. 
+This is useful for adding brightness to a sound as higher notes are played, 
+which is typically how acoustic instruments behave. If both half and full 
+are off, keyboard filter tracking is off, meaning that filter frequency is unaf -
+fected by playing higher or lower notes on the keyboard.
+
+
+25
+Prophet-5 User’s Guide Filter Envelope 
+Filter Envelope 
+The Prophet-5 filter has a dedicated, 4-stage envelope generator (attack, 
+decay, sustain, release). The Filter Envelope is used to shape the 
+harmonic characteristics of a synthesized sound by giving you filtering 
+control with these stages. 
+This is one of the most important aspects of a synthesized sound. With -
+out an envelope, the filter would be static and unchanging. It would stay 
+open or closed by a fixed amount that wouldn’t change over the duration 
+of a sound. That’s not very expressive or interesting to listen to and it’s 
+not how most real-world instruments behave. 
+In general, sounds produced by an acoustic instrument are brighter at 
+their beginning (the attack stage) and grow mellower as they die out 
+(the decay and release stages). In other words, their harmonic content 
+changes over time. This is exactly what the filter envelope is designed to 
+emulate. 
+The REV Switch Changes Filter Envelope Shape
+The rev switch not only changes filter type, but also the Filter Enve -
+lope’s shape/response to match the original Prophet Rev 1/2 or Rev 3 
+respectively. 
+The Rev 1/Rev 2 Prophet 5 used SSM envelope generators, and the basic 
+shape was very flat, almost linear. The Rev 3 Prophet-5 used a Curtis 
+envelope generator, and it had more of a curve than the SSM parts, so it 
+had a slightly different sound. When you change the filter type with the 
+rev switch, it also changes the Filter Envelope shape to match the SSM 
+or Curtis parts, making the Prophet-5 sound authentic in both cases.
+Filter Envelope controls
+
+
+26 Filter Envelope 
+Sequential
+attack
+decay
+sustain
+releaseamplitude
+time
+note off note on
+A typical 4-stage ADSR envelope
+Filter Envelope Controls
+Attack:  0...10 —Sets the attack time of the envelope. The higher the 
+setting, the slower the attack time and the longer it takes for the filter to 
+open from the level set with the filter cutoff  knob to the level set by the 
+filter envelope amount. Percussive sounds typically have sharp (short) 
+attacks.
+Decay:  0...10 —Sets the decay time of the envelope. After a sound 
+reaches the filter frequency set at its attack stage, decay  controls how 
+quickly the filter then transitions to the cutoff frequency set with the 
+sustain  knob. The higher the setting, the longer the decay. Percussive 
+sounds, such as synth bass, typically have shorter decays (and a generous 
+amount of filter resonance).
+Sustain:  0...10 —Sets the filter cutoff frequency for the sustained portion 
+of the sound. The sound will stay at this filter frequency for as long as a 
+note is held on the keyboard.
+Release:  0...10 —Sets the release time of the envelope. This controls 
+how quickly the filter closes after a note is released.
+Velocity Switch: Filt, Amp —Allows key velocity to influence filter 
+cutoff frequency and amplifier level (volume). When on, the harder you 
+play, the more the filter will open and the brighter the sound will be. If 
+off, key velocity will not affect the filter. This control allows for more 
+touch-sensitive sounds. 
+
+
+27
+Prophet-5 User’s Guide Filter Envelope 
+To hear the effect of the Filter Envelope:
+1. Recall the basic preset by holding down record  and pressing preset . 
+The rev3 filter is selected by default.
+2. Hold down a note and rotate the filter’s cutoff  knob to set it to 3.
+3. Play a note. At this point you may not hear anything because you’ve 
+closed the filter significantly.
+4. Turn the envelope  amount  knob to 2. Play a note. Notice how the sound 
+has changed. The Filter Envelope is controlling filter cutoff by the 
+amount you set with the amount  knob.
+5. Set the Filter Envelope’s sustain  to 0.
+6. Repeatedly strike a note on the keyboard as you turn the Filter Enve -
+lope’s decay  knob clockwise and counterclockwise. Notice how it 
+changes the sound as the note decays faster or slower after its initial 
+attack stage.
+7. Now experiment with the Filter Envelope’s attack  knob. Notice how 
+the attack becomes faster or slower. 
+8. Now hold down a note and experiment with the Filter Envelope’s 
+sustain  knob. This controls how wide the filter stays open while you 
+hold down a key on the keyboard.
+9. The Filter Envelope’s release  parameter acts in conjunction with the 
+Amplifier Envelope, so to hear its effect, first set the Amp Envelope’s 
+release  value to 6. 
+10.  Now repeatedly strike a note on the keyboard as you turn the Filter 
+Envelope’s release  knob clockwise and counterclockwise. Notice how 
+the note fades out faster or slower as you change the release  value. 
+11. Continue experimenting with various Filter Envelope settings while 
+you adjust the Filter Envelope’s env amount  knob. Notice how greater 
+amount  settings amplify the effect of the envelope on the filter.
+As noted above, the Filter Envelope and Amplifier Envelope often work 
+in conjunction, with the Filter Envelope controlling how the filter opens 
+and closes and the Amplifier Envelope controlling how the Amplifier 
+controls the overall volume shape of the sounds you create. To learn 
+more about the Amplifier Envelope see page 28 . 
+The release  switch affects the behavior of the Release stage of the Filter and  
+Amplifier Envelopes. See “The Release Switch” on page 43 .
+
+
+28 Amplifier Envelope
+SequentialAmplifier Envelope
+After passing through the filter, a synthesized sound goes into the 
+Amplifier, which controls its overall volume. The Amplifier has a 
+dedicated, 4-stage envelope generator (attack, decay, sustain, release) 
+which is used to shape the volume characteristics of a sound over time by 
+giving you control over these stages. Along with the filter envelope, this 
+is one of the most important aspects of a synthesized sound. 
+Without a volume envelope, the volume of a sound wouldn’t change 
+over the duration of a note. It would begin immediately, remain at its full 
+volume for its duration of the note, then end immediately when the note 
+was released. Again, that’s not very interesting sonically and it’s not typi -
+cally how instruments behave in the real world. 
+To give you a real-world example, the main difference between the sound 
+of the wind and the sound of a snare drum is that they have very different 
+volume envelopes. Otherwise, they are essentially both white noise. 
+Wind has a relatively slow attack, a long sustain, and a long decay and 
+release. A snare drum has a sharp attack, no sustain, and very little decay 
+or release. But again, they are both fundamentally white noise.
+Amplifier Envelope controls
+
+
+29
+Prophet-5 User’s Guide Amplifier Envelope
+attack
+decay
+sustain
+releaseamplitude
+time
+note off note on
+A typical 4-stage ADSR envelope
+As noted previously, the Amplifier Envelope often works in conjunction 
+with the Filter Envelope, with the Filter Envelope controlling how the 
+filter opens and closes and the Amplifier Envelope controlling how the 
+Amplifier controls the overall volume shape of the sounds you create.  
+Amplifier Envelope Controls 
+Attack:  0...10 —Sets the attack time of the envelope. The higher the 
+setting, the slower the attack time and the longer it takes for a sound to 
+reach its full volume. Pads typically have softer (longer) attacks. Percus -
+sive sounds have sharper (shorter) attacks.
+Decay:  0...10 —Sets the decay time of the envelope. After a sound 
+reaches its full volume at its attack stage, decay  controls how quickly the 
+sound transitions to the level set with the sustain  control. The higher the 
+setting, the longer the decay. Percussive sounds, such as synth bass, typi -
+cally have shorter decays.
+Sustain:  0...10 —Sets the sustain level of the envelope. The higher the 
+setting, the louder the sustained portion of the sound will be. The sound 
+will stay at this level for as long as a note is held on the keyboard.
+Release:  0...10 —Sets the release time of the envelope. This controls 
+how quickly a sound dies out after a note is released.
+The release  switch affects the behavior of the Release stage of the Filter and 
+Amplifier Envelopes. See “The Release Switch” on page 43 .
+
+
+30 Amplifier Envelope
+SequentialVelocity: Filt, Amp —Allows key velocity to influence volume. If on, the 
+harder you play, the louder sound will be. If off, key velocity will not 
+affect the volume. This control allows for more touch-sensitive sounds. 
+To hear the effect of the Amplifier Envelope:
+1. Recall the basic preset by holding down record  and pressing preset .
+2. Repeatedly strike a note on the keyboard as you turn the Amplifier 
+Envelope’s attack  knob clockwise. Notice how the attack becomes 
+slower and more gradual the further you turn the knob.
+3. Reset the attack  knob to zero.
+4. Next, repeatedly strike a note on the keyboard as you turn the Ampli -
+fier Envelope’s sustain  to zero. Notice how it changes the sound so that 
+the sound no longer sustains even if you hold down the key. The only 
+sound you hear is the decay portion of the sound.
+5. Now, with sustain  still set to zero, repeatedly strike a note on the 
+keyboard as you turn the Amplifier Envelope’s decay  knob clockwise 
+and counterclockwise. Notice how it changes the sound as the note 
+decays faster or slower after its initial attack stage.
+6. Reset the decay  parameter to 10
+7. Finally, with decay  set to 10 and sustain  still set to zero, repeatedly 
+strike a note on the keyboard as you turn the Amplifier Envelope’s 
+release  knob clockwise. Notice how the release becomes longer the 
+further you turn the knob. 
+8. Continue experimenting with various Amplifier Envelope settings while 
+you also adjust the Filter Envelope to hear how these two controls 
+interact. You will understand how powerful the envelopes are and how 
+essential they are to designing sounds.
+
+
+31
+Prophet-5 User’s Guide Low Frequency Oscillator
+Low Frequency Oscillator
+The LFO is a special-purpose oscillator that produces a frequency that is 
+typically below the range of human hearing. The LFO is used for peri -
+odic modulation such as vibrato (periodic pitch modulation) filter modu -
+lation, and pulse-width modulation. The LFO can be routed to any or all 
+of these destinations using the controls in the wheel -mod section.
+The LFO produces three waveshapes: sawtooth, triangle, and square. 
+Noise is also available as a modulation source in the wheel -mod section. 
+The Low Frequency Oscillator and Wheel-Mod sections
+Triangle wave is bipolar. That is, its waveshape is positive for half of its cycle 
+and negative for the other half. This makes it possible to generate a vibrato 
+that goes alternately sharp and flat in equal amounts on either side of a center 
+frequency. The square and sawtooth waves generate only positive values. 
+In the case of the square wave, this makes it possible to generate natural-
+sounding trills. 
+Triangle Square Sawtooth
+0
+LFO waveshapes    
+
+
+32 Wheel-Mod Controls
+SequentialLFO Controls
+Initial Amount: 0...10 —Sets the amount of LFO modulation routed to a 
+destination set in the wheel -mod section. Setting an amount here applies 
+the selected modulation continuously. If you set this parameter to zero 
+but still select a modulation destination in the wheel -mod section, modu -
+lation is only applied when you use the Mod wheel.
+Frequency:  0...10 —Sets the frequency of the selected LFO from a slow 
+.022Hz to a fast 500Hz. 
+Shape:  Sawtooth, Triangle, Square —This button sets the waveshape of 
+the selected LFO. Any of these waveshapes can be enabled simultaneously.
+Wheel-Mod Controls
+The Wheel-Mod controls assign the LFO and Noise modulation sources 
+to a variety of destinations. Use the initial  amount  control in the LFO 
+section to apply the selected modulation continuously, or if  initial  
+amount  is set to 0, use the Mod wheel to apply the modulation effect.
+Source Mix: LFO, Noise —Sets the ratio between two modulation 
+sources: LFO and Noise. When set fully counter-clockwise, the modula -
+tion source is LFO only. When set fully clockwise, the modulation source 
+is Noise only. Settings between these two extremes provide a variable 
+mix of the two sources.
+Freq A: Routes the LFO and/or Noise modulation source to Osc A 
+frequency.
+Freq B: Routes the LFO and/or Noise modulation source to Osc B 
+frequency.
+PW A: Routes the LFO and/or Noise modulation source to Osc A square 
+wave pulse width.
+PW B: Routes the LFO and/or Noise modulation source to Osc B square 
+wave pulse width.
+Filter: Routes the LFO and/or Noise modulation source to Filter cutoff 
+frequency.
+
+
+33
+Prophet-5 User’s Guide Wheel-Mod Controls
+Using LFO and Wheel-Mod
+There are many ways to make creative use of the LFO and Wheel-Mod:
+• To create vibrato, route the LFO’s triangle wave to freq A and freq B 
+in the wheel -mod section to create vibrato. Set the LFO frequency  to 
+7 and the initial  amount  to 3. Make sure wheel -mod source  mix is set 
+to fully counterclockwise to lfo. Using the Mod Wheel intensifies the 
+effect.
+• To create a chorusing effect, set osc a and osc b to sawtooth and set 
+their levels equally in the mixer . Then the LFO’s triangle wave to just 
+freq B with frequency  set to 2 and initial  amount  set to 3. Make sure 
+wheel -mod source  mix is set to fully counterclockwise to lfo. Using the 
+Mod Wheel intensifies the effect.
+• To create trills, route the LFO’s square wave to freq A and freq B in 
+the wheel -mod section. Set the frequency  to 6 and the initial  amount  to 
+5. Make sure wheel -mod source  mix is set to fully counterclockwise to 
+lfo. Using the Mod Wheel intensifies the effect.
+• To create an auto-wah effect, route the LFO’s triangle wave to filter  in 
+the wheel -mod section. Set the frequency  to 6 and the initial  amount  to 
+5. Then, in the Filter section, set cutoff  to 0 and resonance  to 5. Make 
+sure wheel -mod source  mix is set to fully counterclockwise to lfo. 
+Using the Mod Wheel intensifies the effect..
+• To create subtle harmonic movement, route the LFO’s triangle wave to 
+filter  in the wheel -mod section. Set the frequency  to 3 and the initial  
+amount  to 3. Then, in the Filter section, set cutoff  to 4 and resonance  
+to 5. Make sure wheel -mod source  mix is set to fully counterclockwise 
+to lfo. Using the Mod Wheel intensifies the effect.
+
+
+34 Poly Mod
+SequentialPoly Mod
+Although the basic sonic character of the Prophet-5 is determined by its 
+oscillators and filters, much of its power to make truly unique sounds 
+comes from creative use of Poly Mod, or polyphonic modulation . Modu -
+lation is the process of routing one parameter (used as a control voltage) 
+to another parameter in order to change the way the targeted parameter 
+behaves. 
+In the case of the Prophet-5 you can use Osc B or the Filter Envelope 
+Generator to modulate Oscillator A frequency, Oscillator A pulse width, 
+or Filter cutoff frequency. And because there are five voices, this means 
+that each voice applies modulation to the selected destination. 
+For example, if you set Oscillator B to lo freq mode, this essentially 
+creates five separate modulation LFOs since Osc B on each of the 
+Prophet-5’s five voices then functions as a low frequency oscillator while 
+in lo freq mode. If keyboard tracking is set to half or full, each of those 
+oscillators/LFOs tracks the keyboard and has a different frequency. It’s a 
+simple but powerful concept.
+The Poly Mod section
+Poly Mod modulation sources:
+• Filter Envelope
+• Oscillator B frequency
+Poly Mod modulation destinations: 
+• Oscillator A frequency
+• Oscillator A pulse width (square wave)
+• Filter cutoff frequency
+
+
+35
+Prophet-5 User’s Guide Poly Mod
+You can control how much the source affects the destination by dialing in 
+a specific modulation amount with the filter  env or osc b knobs.
+Use Poly Mod to create complex harmonic effects ranging from FM 
+(frequency modulation) to audio-rate filter modulation and beyond. Many 
+classic sounds on the original Prophet-5 were created through clever use 
+of Poly Mod.
+Poly Mod Parameters
+Filter Env: Selects the amount of modulation from the Filter Envelope 
+that is applied to a selected destination.
+Osc B: Selects the amount of modulation from Oscillator B that is 
+applied to a selected destination. 
+ When using osc b as a modulation source, the modulation character is 
+affected by the waveshape currently chosen for Oscillator B (triangle, sawtooth, or 
+square/pulse). Try setting Oscillator B to low frequency (using the lo freq switch) to 
+further increase modulation possibilities.
+Freq A:  Selects Oscillator A frequency as a modulation destination. 
+Choose osc b as a modulation source to produce FM (frequency modu -
+lation) effects with their characteristic complex harmonics and metallic 
+timbre. 
+PW A:  When Oscillator A is set to square wave, choosing this as a desti -
+nation modulates its pulse width. This will animate the timbre of Oscillator 
+A in interesting ways. 
+Filter:  Selects the Filter cutoff frequency as a modulation destination.
+
+
+36 Using the Vintage Knob
+SequentialUsing the Vintage Knob
+The new Prophet-5 is an authentically vintage-sounding instrument even 
+though it was designed and constructed with state-of-the-art technology 
+and components. Part of the reason for this is that it uses genuine analog 
+voltage-controlled oscillators, filters, and amplifiers that are as exact as 
+possible to the versions used in the original Prophet-5. 
+Another reason for the vintage sound of the new Prophet-5 is that we did 
+extensive research into exactly what made the original sound the way it 
+did — warm, organic, and alive. Not surprisingly we found that much of 
+this desirable character was due to slight fluctuations and differences in 
+the response times and frequencies of the individual filters, envelopes, 
+and amplifiers from voice to voice.
+To impart the same flavor to the new Prophet-5, we created a control, the 
+vintage  knob, that lets you dial in progressively more of this character as 
+you go from a very stable 4 (as in Prophet-5 Rev4 , which is how we refer 
+to the new Prophet-5) all the way to 1 (as in Prophet-5 Rev1 , which was 
+the rarest and most temperamental of all Prophet-5s).  
+Thus, turning the vintage  knob from 4 to 1 adds progressively more 
+randomness to the behavior of the individual VCOs, filters, envelopes, 
+and amplifiers. 
+Try it out!
+The Vintage knob
+
+
+37
+Prophet-5 User’s Guide Pitch and Mod Wheels
+Pitch and Mod Wheels
+The Prophet-5 has a spring-loaded Pitch wheel and a Mod wheel. You 
+can use these controls to enhance live performance by bending notes and 
+adding modulation in real time as you play. 
+PITCH MOD
+The Pitch and Modulation wheels
+Pitch Wheel
+The Pitch wheel allows for a broad range of effects from subtle vibrato, 
+to half or whole-step note bends, to full-on guitar whammy bar-style  
+bends. By default its range is set to a semitone (a half step) but you can 
+change this on a per-program basis to up to an octave.
+To use the Pitch wheel:
+1. Hold a note and move the Pitch wheel up or down. The farther you 
+move the wheel from center, the wider the pitch variation.
+2. For a vibrato effect, try rocking the Pitch wheel back and forth.
+To set the Pitch wheel bend range for a specific program:
+1. Press and hold the freq a button in the wheel -mod section.
+2. Use the group  select  (decrement) and bank  select  (increment) 
+switches to choose the desired range from 1- 12. A setting of 1 equals a 
+semitone. A setting of 12 equals an octave.
+
+
+38 Adding Aftertouch
+SequentialMod Wheel
+The Mod wheel controls the amount of modulation from the LFO and/or the 
+Noise source as set in the wheel -mod section. This allows you to perform 
+modulation in real time by moving the wheel as you play. It’s a great way to 
+add expressiveness to a sound or performance by using it to control vibrato, 
+filter effects, and more. 
+To choose a modulation destination for the Mod wheel:
+1. In the wheel -mod section, select the destination(s) for modulation from 
+the LFO/Noise source. The destination  switches allow you to activate 
+multiple destinations simultaneously.
+2. Using the source  mix knob, set the source of modulation applied by the 
+Mod wheel.
+3. For LFO modulation, set the shape  and frequency . 
+4. To apply modulation only when you use the Mod wheel, set the initial  
+amount  to 0.
+5. Hold down a note on the keyboard and turn the Mod wheel. 
+Adding Aftertouch
+Aftertouch is a performance feature that allows you to add modulation to 
+a sound by applying additional pressure to a key after the key is already 
+down. The greater the pressure applied, the more modulation is applied. 
+The Prophet-5 provides monophonic  (or “channel”) aftertouch, which 
+means that applying pressure to any key within a chord will apply modu -
+lation to all notes currently held.
+The aftertouch  switch  lets you choose to apply aftertouch to the Filter 
+cutoff and/or the LFO amount. 
+
+
+39
+Prophet-5 User’s Guide Glide Rate
+In the case of Filter aftertouch, pressing a key harder will open the filter 
+wider, increasing the brightness of the sound. In the case of LFO modula -
+tion, pressing a key harder will apply modulation to the currently enabled 
+destinations in the wheel -mod section.
+To enable aftertouch (pressure) as a source for modulation:
+1. Press the aftertouch  switch once to select Filter modulation.
+2. Press the aftertouch  switch twice to select LFO modulation.
+3. Press the aftertouch  switch three times to select both Filter modulation 
+and LFO modulation.
+4. Hold down a note on the keyboard, then press harder.  Modulation is 
+applied to the selected destination(s).
+ The Prophet-5 provides eight different aftertouch/pressure response settings. 
+To choose a different response curve, use the at response  parameter in the globals  
+parameters. See page 16  for more information.
+Glide Rate
+Glide causes the pitch of a note to glide up or down from the pitch of 
+the previously played note. On the Prophet-5, glide operates on a given 
+voice whenever that voice changes to a different note. It functions when the 
+Prophet-5 is in either polyphonic or Unison mode.
+To use Glide:
+1. Turn the glide  rate knob to approximately 4. 
+2. Play a series of notes up and down the keyboard while you continue to 
+turn the glide  rate knob to adjust the amount of glide. 
+
+
+40 Unison
+SequentialUnison
+When unison  is on, the Prophet-5 functions like a monophonic 
+synthesizer in that only 1 note can be played at a time. However, that one 
+note can be powered by as many as five voices, depending on how many 
+you choose to use. 
+With up to 10 oscillators powering a single note (2 oscillators per voice 
+x 5 voices), you can create some very dense, speaker-rattling sounds. 
+Unison gives you control over how many voices to stack, and also the 
+amount of detuning between the oscillators.
+UNISON
+To use Unison:
+1. Press and hold the unison  swit ch. 
+2. With the unison  switch held down, use the group  select  (decrement) 
+and bank  select  (increment) switches to choose the number of voices 
+to stack, then release the Unison switch.
+To detune the oscillators in Unison:
+1. Press and hold the unison  swit ch. 
+2. With the unison  switch held down, use the program  select  switches 
+to set the amount of detuning. A setting of 0 is minimum detuning. A 
+setting of 8 is maximum detuning.
+
+
+41
+Prophet-5 User’s Guide Unison
+If you want to create an ultra heavy synth bass, try using Unison!
+ By default, the Prophet-5 has last-note priority, meaning that when you play 
+more keys on the keyboard than are available as voices, the last notes played take 
+priority and will “steal” previous notes/voices. When using Unison mode, you can 
+change this to other key priority modes. See “Note Priority Modes” on page 45 .
+Using Chord Memory
+Unison has another useful feature: chord memory. Instead of assigning 
+voices to a single note, hold down a chord on the keyboard and press the 
+unison  switch. The Prophet-5 memorizes the notes of the chord. Single 
+notes played on the keyboard will then trigger all notes of the stored 
+chord, transposing them as you play up or down the keyboard. Try using 
+this feature to create powerful chord stabs. 
+If you save a program that uses chord memory, the chord is saved with 
+the program. “ CHO” will then appear as a choice if you step through 
+voice stacking options using the group  select  and bank  select  buttons 
+while holding down unison . 
+To use chord memory:
+1. Hold down a chord on the keyboard (5 notes maximum).
+2. Press the unison  switch. The chord voicing is memorized. Play a few 
+notes to listen to the result.
+3. If you save the program, the unison chord memory is saved with it.
+To clear chord memory:
+1. Turn off Unison. 
+2. Hold down a single note.
+3. Press the unison  button.
+4. Save the program again.
+Alternatively, with the unison  switch held down, use the group  select  
+(decrement) and bank  select  (increment) switches to choose a specific 
+number of voices to stack (instead of “ CHD” ).
+
+
+42 Master Tune
+SequentialMaster Tune
+The master  tune control allows you to manually tune the Prophet-5 
+to the A440 reference tone or to an external reference such as another 
+instrument. It has a tuning range of approximately a semitone (half step) 
+sharp or flat. This knob has a center detente, and when in the center posi -
+tion, the Prophet-5 should be at concert pitch.
+The Master Tune and A440 reference tone controls
+To manually tune the Prophet-5 to A440:
+1. Recall the basic preset by holding down record  and pressing preset .
+2. Hold down an “A” in the middle of the keyboard.
+3. Press the a440 switch. The Prophet-5 generates an A440 reference 
+tone. 
+4. Turn the master  tune knob until you match the pitch of the  A440 
+reference tone.
+5. When you’re done, press the a440 switch again to turn off the refer -
+ence tone.
+
+
+43
+Prophet-5 User’s Guide The Release Switch
+The Release Switch
+The release  switch affects the behavior of the Filter and Amplifier Enve -
+lopes. The original Prophet-5 had a different way of handling Release 
+from the more common method used today. If the release  switch is on, 
+the release  knob setting on the Filter and Amplifier envelopes is used. If 
+the release  switch is off, the Release on both envelopes is fast.
+If you then connect a footswitch, it acts somewhat like a piano: it’s 
+a quick release when the footswitch is not pressed, and it’s a longer 
+(programmed by the knob) release when the footswitch is held. Note that 
+the release  switch needs to be off for the footswitch to operate this way. 
+Since this is, after all, a Prophet-5, we wanted it to match the original 
+synth. These days, however, many musicians expect the footswitch to be 
+a “hold” function, which is of course different than the Prophet-5 release  
+switch behavior. So, we added a Global parameter that allows you to 
+select the original Prophet-5 method, or a more common hold function 
+with the footswitch.
+Use the release /sustain  parameter in globals  row two ( program  select  
+2) to choose between classic Prophet-5 Release handling ( rEL) or the 
+more contemporary Hold method ( HLd). 
+The Release switch
+
+
+44 The Tune Button
+SequentialThe Tune Button
+The tune button runs an auto-calibration procedure on the Prophet-5, 
+tuning its oscillators, filters, and other components. Use this calibration 
+procedure as needed over the first few days of use. The Prophet-5 learns 
+the range of temperatures at your location and will keep itself in tune 
+over this range. 
+Later, if you use the Prophet-5 in a different environment that is measur -
+ably warmer or cooler (on stage, in an air-conditioned studio, and so on) 
+run the calibration procedure again.
+Please be aware that it’s possible for the Prophet-5’s oscillators and filter 
+to be in tune with themselves but for the synthesizer to not be tuned to 
+concert pitch. Master tuning of the synth is controlled by the master  
+tune knob. See page 42  for details.
+To calibrate the oscillators and filters:
+1. Press the tune button.  
+2. The program select  button  LEDs begin flashing in sequence and the 
+numeric display indicates the tuning sequence while the Prophet-5 
+performs its auto-calibration procedure. Don’t turn off the power while 
+it’s doing this.
+3. When finished, the front panel controls return to normal and you can 
+play the Prophet-5.
+
+
+45
+Prophet-5 User’s Guide Key Priority Modes
+Key Priority Modes
+Key Priority determines what key has priority when Unison mode is on 
+and more than one key is pressed at the same time. When played poly -
+phonically, the Prophet-5 is set to last note priority so that any newly 
+played notes take priority and will “steal” voices when necessary .  
+Available key priority modes are:
+• Low note priority ( LO) gives priority to the lowest note played.
+• Low note retrigger ( LOr) causes the envelopes to be retriggered with 
+each keystroke.
+• Last note priority ( Las) gives priority to the last note played. 
+• Last note priority retrigger ( LAr gives priority to the last note played 
+and retriggers the envelopes with each keystroke.
+To set the Key Priority Mode:
+1. Press and hold the keyboard  swit ch in the oscillator  b section. 
+2. Use the group  select  (decrement) and bank  select  (increment) 
+switches to choose the desired note priority mode (low, last, low retrig -
+ger, last retrigger).
+About Voice Assignment
+There are a number of different aspects of voice assignment on the 
+Prophet-5. The method on the original was simple, and we implemented 
+it: when you hold more than five notes, it will steal one of the voices 
+to play the next note, and it will retrigger. Another aspect is that if you 
+repeatedly hit the same key, it will not cycle through voices; it will 
+retrigger the same voice. 
+In Unison mode, the original Prophet-5 would always play all five voices 
+(now you can stack 1-5 voices), it would always be low-note priority, 
+and it would always play legato; that is, it would not retrigger on a new 
+key unless all keys were released first.
+The additional Key Priority modes described above allow you to use 
+alternate trigger and voice assignment methods for Unison. These modes 
+do not affect polyphonic playing.  
+
+
+46 Chapter 3: Creating Sounds
+SequentialChapter 3: Creating Sounds
+The Prophet-5 can produce a broad spectrum of sounds. Though the 
+factory programs give you some idea of its scope, if you just play its presets, 
+you’re not using the Prophet-5 to its full potential. The real fun is in creating 
+sounds of your own. 
+This chapter provides some short sound programming tutorials. Though 
+there isn’t enough space here to cover how to use every Prophet-5 function, 
+the examples will help you get familiar with some basic concepts. 
+Synth Bass
+A synth bass is one of the easiest and most useful sounds you can make 
+on a synth. Many great synth bass sounds consist of a single oscillator, a 
+bit of filter resonance, the proper envelope, and that’s it. So start with the 
+Basic Program and go from there.  
+Short Version
+To create a classic synth bass:
+1. Recall the basic preset by holding down record  and pressing preset . 
+2. Set filter cutoff  to 3.
+3. Set filter resonance  to 3.
+4.  In the envelopes  section, set the Filter Envelope’s decay  to 6.
+5. In the envelopes  section, set the Filter Envelope’s sustain  to 2.
+6. In the envelopes  section, set the Filter Envelope’s env amount  to 10. 
+7. Play some low notes on the keyboard. Instant synth bass!
+8. Experiment with the Filter Envelope’s env amount  and decay  settings.
+9. Experiment with the Filter’s resonance  settings.
+
+
+47
+Prophet-5 User’s Guide Synth Bass
+Long Version
+Here’s a more detailed version that provides insight into the process. 
+You’ll start with the Basic Program, then learn how to choose an appro -
+priate oscillator waveshape, how to use the filter, how to use the enve -
+lopes, and how to use Unison to fatten things up.
+In the Basic Program, only Oscillator A is audible. Its waveshape is set 
+to sawtooth and its level is 10 in the mixer . (Oscillator B is set to 0 in the 
+Mixer and no wave shape is selected.)
+To start with the Basic Program:
+1. Recall the basic preset by holding down record  and pressing preset .
+Each of the waveforms have their own unique sound: 
+• The sawtooth waveform is a good starting point for sounds because it 
+has plenty of harmonics. This gives you a lot to work with in terms of a 
+raw sound that you can filter and modulate.
+• The pulse (square) wave is a good starting point, too, but sounds 
+different than the sawtooth, because of its different harmonic content. 
+The sawtooth has even-numbered harmonics and the square wave has 
+odd-numbered harmonics. (Perform a web search on this if you want to 
+learn more.) 
+• The triangle wave (Oscillator B only) has very few harmonics. It’s 
+useful used alone for its pure tone, or in combination with another 
+oscillator to reinforce the fundamental pitch of a sound and add weight. 
+Next, you’ll use the filter to shape the raw sound of the sawtooth wave.  
+To adjust the filter:
+1. Press and hold down a key and turn the filter’s cutoff  knob. Notice 
+how it cuts the high frequencies as you rotate counter-clockwise, 
+making the sound of the oscillator less bright. If you turn the cutoff  
+knob fully counterclockwise you’ll filter out all frequencies and hear 
+nothing.
+2. Return the cutoff  knob to 3 and the turn the Filter Envelope’s envelope  
+amount  knob to a value of 5.
+
+
+48 Synth Bass
+Sequential3. In the envelopes  section, set the Filter Envelope’s decay  to 6.
+4. In the envelopes  section, set the Filter Envelope’s sustain  to 2.
+5. Repeatedly play a note as you turn the resonance  knob to 6. Notice 
+how the sound changes as a band of frequencies near the cutoff is 
+amplified.
+6. Rotate the filter’s cutoff  knob again and you’ll hear a classic resonant 
+filter sweep. You’re going to use this to create your synth bass.
+7. Set the filter cutoff  to a value of 3.
+8. Set the filter resonance  to a value of 3. This is going to give the synth 
+bass its funky “zap.”
+9. Play a note and listen to the sound. At this point you won’t hear much 
+because you’ve mostly closed the filter. You’ll need to open the filter 
+wider using the Filter Envelope (so you don’t have to turn the cutoff  
+knob by hand).
+To adjust the filter envelope:
+1. In the Envelopes section, turn the Filter Envelope’s envelope  amount  
+knob to a value of 10. 
+2. Play a low note on the keyboard. Instant synth bass!
+3. If you want, set the frequency of Oscillator A and Oscillator B an 
+octave lower using the frequency  knob.
+Notice how the sound has changed. The Filter Envelope is controlling 
+filter cutoff by the amount you set with the amount  knob.
+4. Continue experimenting with the Filter Envelope’s amount  knob. 
+Notice how greater amount  settings amplify the effect of the envelope 
+on the filter.
+5. Repeatedly strike a note on the keyboard as you turn the Filter Enve -
+lope’s decay  knob clockwise and counterclockwise. Notice how it 
+changes the sound as the note decays faster or slower.
+Be aware that the Filter Envelope and Amplifier Envelope work in 
+conjunction, with the Filter Envelope controlling how the filter opens and 
+closes and the Amplifier Envelope controlling the overall volume shape. 
+To learn more about the Amplifier Envelope, see page 28 . 
+
+
+49
+Prophet-5 User’s Guide Synth Bass
+6. The Filter Envelope’s release  parameter acts in conjunction with the 
+Amplifier Envelope. In other words, you can’t hear a long release on 
+the filter envelope if the amplifier envelope is short! So to hear the filter 
+envelope’s release  parameter in action, first set the Amp Envelope’s 
+release  value to 7. 
+7. Now repeatedly strike a note on the keyboard as you turn the Filter 
+Envelope’s release  knob clockwise and counterclockwise. Notice how 
+the note fades out faster or slower as you change the release  value. 
+How to make the synth bass fatter:
+• Turn on the square wave in Oscillator A.
+• Turn up Oscillator B in the mixer, then turn on the sawtooth wave and 
+use the fine control to slightly detune oscillator B.
+• Turn on unison  then increase voice stacking by holding down the 
+unison  button and repeatedly pressing the bank  select  button until it 
+says 5.
+• Detune the stacked unison voices by holding down the unison  button 
+and press one of the program  select  buttons (maximum detuning is 8).
+Now you know how to create a simple synth bass program using the 
+most essential synthesizer components of the Prophet-5: the oscillators, 
+the filters, and the envelopes. Using just these three things you can create 
+an enormous variety of sounds. Keep experimenting with them and if 
+you like what you’ve created, save the programs in one of the user banks. 
+(See “Saving a Program” on page 9 .)
+
+
+50 Creating Synth Brass
+SequentialCreating Synth Brass
+Here’s another easy-to-construct sound: synth brass, with a classic “pitch 
+blip” effect on the attack. In this example you’ll learn how to use Poly 
+Mod to modulate the pitch of Oscillator A to simulate an aggressively 
+blown horn effect.
+To create synth brass:
+1. Recall the basic preset by holding down record  and pressing preset . 
+Oscillator A is set to sawtooth by default. 
+2. Turn up Oscillator B in the mixer, then turn on its sawtooth wave and 
+set the fine control to 2 to detune it slightly.
+3. In the filter  section, set cutoff  to 1, resonance  to 3, and filter  amount  
+to 8.
+4. Press the keyboard  switch twice to set keyboard filter tracking to full.
+5. In the filter  envelope  section, set the attack  to 4, decay  to 6, sustain  to 
+4, and release  to 0. 
+6. Enable touch sensitivity by pressing and enabling the velocity  button 
+once.
+7. Play a few chords. Basic synth brass!
+8. If you want, set the frequency of Oscillator A and Oscillator B an 
+octave lower using the frequency  knob.
+To create the “pitch blip”:
+1. In the Poly Mod section, turn on freq a. This will route the modulation 
+to the frequency of Oscillator A.
+2. As you repeatedly play a chord, gradually turn up the filt env knob. 
+This sets the amount of modulation from the Filter Envelope to the 
+frequency of Oscillator A. The exact shape of the Filter Envelope 
+determines the rise and fall of the frequency. This create the slight pitch 
+variation at the beginning of the sound (the “pitch blip”). 
+3. Set the filt env to somewhere between 0 and 1.
+4. In the filter  envelope  section, experiment with different values for the 
+decay  parameter. The controls how quickly the pitch falls. 
+5. Play some notes in the upper range of the keyboard. Classic synth 
+brass!
+
+
+51
+Prophet-5 User’s Guide Creating a Hard-Sync Lead
+Turning Synth Brass into a String Pad
+It’s a simple matter to turn the previous synth brass sound into a string 
+pad by simply adjusting its envelope and filter settings.
+To turn the synth brass into a string pad:
+1. Remove the “pitch blip” by turning off freq a in the Poly Mod section.
+2. Use the keyboard  switch to set keyboard filter tracking to half.
+3. In the filter  section, set the cutoff  to 7 and resonance  to 2.
+4. In the filter  envelope  section, set the env amount  to 0.
+5. Set Filter Envelope attack  to 5, decay  to 6, sustain  to 7, and release  to 
+7.
+6. Set Amplifier Envelope attack  to 5, decay  to 5, sustain  to 10, and 
+release  to 6.
+7. Use the the fine control in Oscillator B to adjust the amount of detun -
+ing/chorusing.
+8. Play some chords. You’ve now got a good basic string pad.
+Creating a Hard-Sync Lead
+Here’s another classic sound: a hard-sync lead. A famous example of this 
+is “Let’s Go” by the Cars, performed on a Prophet-5. In this example 
+you’ll learn how to hard-sync the oscillators, and pitch-modulate one of 
+them with Poly Mod.
+To create a hard-sync lead:
+1. Recall the basic preset by holding down record  and pressing preset . 
+Oscillator A is set to sawtooth by default. 
+2. On Oscillator A, enable the sync button. (See page 20  for an expla -
+nation of hard sync.) 
+3. Set Oscillator A frequency  to 4. This will allow for a wide range of 
+pitch modulation in step.
+4. In the poly mod section, enable freq a. This selects Oscillator A as the 
+destination.
+
+
+52 Creating a Hard-Sync Lead
+Sequential5. In the poly mod section, set filt env to 7. This sets the amount of modu -
+lation applied to Oscillator A.
+6. In the filter  section, set the cutoff  to 8 and resonance  to 2.
+7. Set the env amount  to 3.
+8. In the filter  envelope  section, set attack  to 4, decay  to 7, sustain  to 4, 
+and release  to 5. This will set the “shape” of the modulation.
+9. Play some notes. Classic hard-sync lead!
+10.  Experiment with the Filter Envelope’s Attack, Decay, Sustain, and 
+Release settings to better understand how these affect the shape of pitch 
+modulation routed to Oscillator 1. 
+11. Also experiment with Oscillator A’s freq setting.
+A Final Word
+The examples provided are pretty basic, but they give you some idea of 
+the power of synthesis. Imagine what you can create by experimenting 
+more with the oscillators, filter, envelopes, LFOs, and Poly Mod.
+It’s often useful to start with a simple sound and make it progressively 
+more complex, saving edited versions as you go so that you can retrace 
+your steps and branch off at different points in the sound design process 
+if you want. Enjoy exploring the Prophet-5!
+
+
+53
+Prophet-5 User’s Guide Chapter 4: Using CVs and Gates
+Chapter 4: Using CVs and Gates
+This chapter explains how to connect the Prophet-5’s Control V oltage inputs 
+and outputs and Gate in and out to external devices such as a modular 
+synthesizer.
+Using Prophet-5’s CV Out
+The Prophet-5 can interface with a modular synthesizer and other devices 
+with control voltage ins and outs through its CV input and output . In the 
+example below, the Prophet-5 keyboard is used to play the oscillator of 
+a modular synth. Note that CV output tracks the last note played on the 
+Prophet-5.
+To use the Prophet-5’s CV Outs to control the oscillator of a modular 
+synth:
+1. Using a ¼ inch patch cable, connect the Prophet-5’s CV Out to the 
+appropriate CV In on the modular synth’s oscillator module. (The 
+modular synth’s input should support a 1-volt-per-octave signal.)
+2. Play the Prophet-5 keyboard. The modular synth’s oscillator should 
+respond to the notes. (You may need to tune the modular synth’s oscil -
+lators to match the Prophet-5’s oscillators.)
+Adjusting the Prophet-5’s CV Output Scaling:
+The Prophet-5 is calibrated at the factory so that low C on the keyboard 
+produces 0v at the CV Out and high C produces 5v. Depending on the 
+device you wish to control using the Prophet-5’s CV Out, you may need 
+to make slight adjustments to these voltages in order for the target device 
+to track pitch accurately across the full range of the Prophet-5 keyboard.
+Adjusting CV Output scaling:
+1. Connect the Prophet-5’s CV Out to the CV In of an external oscillator 
+or synthesizer using a standard ¼ inch TS patch cable.
+2. Connect the Prophet-5’s gate out to the Gate In of the same device 
+using a standard ¼ inch TS patch cable.
+3. Enter CV Calibration Mode by holding down the globals  switch and 
+pressing program  select  button 5.
+
+
+54 Chapter 4: Using CVs and Gates
+Sequential4. program  select  button 1 LED lights up. This indicates that the CV Out 
+Low Point is being adjusted.
+5. Press and hold any key on the Prophet-5 to send a gate to the exter -
+nal device, so that the external device can be heard. The Prophet-5’s 
+keyboard does not affect the CV Out voltage when in CV Calibration 
+Mode.
+6. Use the group  select  (decrement) and bank  select  (increment) 
+switches to make negative or positive adjustments to the CV Out Low 
+Point, bringing the external device’s pitch to “C”. The range is from -99 
+to 99, adjusting the CV Out Low Point by roughly +/- 90 mV .
+7. Press 2 to begin adjusting the CV Out High Point.
+8. Repeat steps 5-6. The target pitch for the CV Out High Point is “C” five 
+octaves above the Low Point pitch.
+9. Press program  select  button 8 to exit CV Calibration Mode .
+Adjusting the Prophet-5’s CV Input Scaling:
+The Prophet-5 is calibrated at the factory so that 0v received at the rear-
+panel cv in jack will produce the same pitch as the lowest C note on the 
+instrument’s keyboard, and 5v will produce the highest C note. Depend -
+ing on the device you wish to use to control one voice of the Prophet-5 
+from the CV Input, you may need to make slight adjustments to these 
+voltage points in order for your controlling device to cause the Prophet-5 
+to produce the correct pitch. Some devices may not produce perfect V olt/
+Oct voltage scaling, but the Prophet-5 can accommodate.
+Adjusting CV Input scaling:
+1. Connect the CV Out of the controlling device to the Prophet-5’s rear-
+panel cv in jack using a standard ¼ inch TS patch cable.
+2. Connect the Gate Out of the controlling device to the Prophet-5’s gate 
+in using a standard ¼ inch TS patch cable.
+3. Enter CV Calibration Mode by holding down the globals  switch and 
+pressing program  select  button 5.
+4. program  select  button 1 LED lights up. Press program  select  button 3 
+to navigate to the CV In Low Point adjustment.
+5. Send a Gate signal from the controlling device so that the Prophet-5 
+can be heard. 
+
+
+55
+Prophet-5 User’s Guide Chapter 4: Using CVs and Gates
+6. Send a “C” from the controlling device, corresponding in pitch to the 
+low C note on the Prophet-5’s keyboard.
+7. Use the group  select  (decrement) and bank  select  (increment) 
+switches to make negative or positive adjustments to the CV In Low 
+Point, bringing the Prophet-5’s pitch to “C”. The Prophet-5’s CV Input 
+is quantized to semitones, so the pitch will jump abruptly as you make 
+the adjustment, rather than change gradually.
+8. Press program  select  button 4 to begin adjusting the CV In High Point.
+9. Repeat steps 5-7. The target pitch for the CV Out High Point is “C” 
+five octaves above the Low Point pitch.
+10.  Press program  select  button 8 to exit CV Calibration Mode.
+Using Prophet-5’s Gate In and Gate Out
+The Prophet-5 can interface with a gear that accepts gate in or gate out 
+signals for envelope triggering. 
+Note that Prophet-5 Gate Out signals are output from the Prophet-5 
+keyboard each time a key is pressed. Note also that when a jack is 
+inserted into the Prophet-5’s rear-panel gate in jack, voice 5 is no longer 
+available to play from the keyboard and will instead be triggered by the 
+external gate signal.
+The Prophet-5’s gate in is tolerant of voltages up to 15v, but any positive 
+voltage above 1.7v will gate its envelopes.
+To use the Prophet-5’s Gate Out:
+1. Using a ¼ inch patch cable, connect the Prophet-5’s Gate Out to the 
+appropriate Gate In on the external device 
+2. Play the Prophet-5 keyboard. The external device should respond to the 
+Prophet-5 envelope triggers each time you strike a key.
+To use the Prophet-5’s Gate In:
+1. Using a ¼ inch patch cable, connect the Prophet-5’s Gate In to the 
+appropriate Gate Out on the external device. 
+2. Play the external device. The Prophet-5 should respond to the Gate 
+signal of the external device. As noted above, voice 5 is no longer 
+available to play from the keyboard and will instead be triggered by the 
+external gate signal.
+
+
+56 Chapter 4: Using CVs and Gates
+Sequential
+
+
+57
+Prophet-5 User’s Guide Appendix A: Troubleshooting and Support
+Appendix A: Troubleshooting 
+and Support
+Troubleshooting
+If you’re experiencing problems or unexpected behavior from your 
+Prophet-5, here are a few typical scenarios and their solutions:
+If the Prophet-5 isn’t producing sound: .
+1. Recall the basic preset by holding down record  and pressing preset .
+2. If the problem is still there, check the following:
+• V olume - make sure it is set to an appropriate value
+• Rear-panel output jacks - make your audio cables are connected to audio  out. 
+• In the globals  section, make sure that local  ctrl is set to on.
+If some of the programs sound different than usual:
+• In the globals  section, check scale /alt tuning  and make sure it’s set to 
+NOL. Also, check the Mod wheel position. The Mod wheel can do more 
+than just add vibrato and maybe be affecting filter cutoff.
+If there is a ground hum in the audio output:
+• USB can cause ground loops, so try to resolve any grounding issues 
+between the computer (if connected) and the Prophet-5. Or use MIDI, 
+which is opto-isolated.
+If the Prophet-5 is behaving erratically:
+• This is almost always caused by a MIDI feedback loop. Make sure 
+that any MIDI Thru functionality is turned off on the MIDI interface/
+hardware or in the MIDI software application. Disconnect all Prophet-5 
+MIDI connections (MIDI and USB cables) and see if the problem 
+persists. You can also monitor the MIDI traffic with MIDI Monitor  
+(Mac OS) or MIDI-OX  (Windows) to see if the Prophet-5 is being 
+overrun with duplicate messages.
+
+
+58 Appendix A: Troubleshooting and Support
+SequentialIf the Prophet-5 doesn’t seem to respond to its controls:
+• Make sure local  ctrl is on in the globals  section.
+If MIDI System Exclusive data is not transmitted/received:
+• Make sure that the midi sysex  cable  setting in the globals  section is set 
+to usb or midi depending on which you are using to transmit or receive 
+MIDI messages.
+If the Prophet-5 plays out of tune:
+• Check the transpose  parameter in the globals  menu to make sure it is 
+set to 0.
+• Check the master  tune knob to make sure it is set to 0.
+• Set the vintage  knob to 4.
+• Check the alt tuning  parameter in the globals  menu to make sure it is 
+set to normal ( NOL ).
+• You may need to recalibrate the oscillators. See “Calibrating the VCOs 
+and Filters” on page 5 .
+If the pitch or Mod wheel doesn’t go to full range:
+• Recalibrate the Pitch and Mod wheels. See “Calibrating the Pitch and 
+Mod Wheels” on page 61 .
+If the filter sounds strange or out of tune:
+• You may need to recalibrate the filters. See “Calibrating the Oscillators 
+and Filters” on page 5 .
+• Set the vintage  knob to 4.
+
+
+59
+Prophet-5 User’s Guide Appendix A: Troubleshooting and Support
+Resetting the Global Parameters
+If you’re trying to track down a problem, it’s often a good idea to reset 
+the Global parameters to their defaults. This is a quick way to make sure 
+that the Prophet-5 returns to its factory settings.
+This will not erase any User programs.
+To reset all Global parameters to their default settings:
+1. Hold down the record  button.
+2. Press the globals  button. Global parameters are reset. 
+3. You can now can play the Prophet-5 again.
+Contacting Technical Support
+If you are still having a problem with the Prophet-5, contact Technical 
+Support at support@sequential.com . Please include the purchase date of 
+your Prophet-5, its serial number, and the operating system version.
+If you haven’t already reset the Global parameters and run the calibration 
+routines (see above), you should do it before contacting Technical Support. This is 
+probably the first thing you will be asked to do.
+To check your OS version:
+1. Press and hold the globals  button.
+2. Press program  select  button 1. The main OS version appears in the 
+display.
+3. With the globals  still held down, press program  select  button 2. The 
+panel OS version appears in the display.
+4. Release the globals  button to exit.
+
+
+60 Appendix A: Troubleshooting and Support
+SequentialWarranty Repair
+Sequential warrants that the Prophet-5 will be free from defects in 
+materials and/or workmanship for 1 year from the date of purchase. 
+Please register your product online at www.sequential.com  to establish 
+the date of purchase. (This is not a requirement for warranty service, but 
+it will help expedite the process.)
+Please contact support@sequential.com  to determine the best course 
+of action for getting your Prophet-5 repaired. For your own protection, 
+as well as ours, please do not return any product to Sequential without 
+a return authorization (RA) number. To issue an RA number, Technical 
+Support needs:
+• Your name
+• Your return address
+• Your email address
+• A phone number where you can be reached
+• Your Prophet-5 serial number
+• The date of purchase and where purchased
+If you need to return your instrument for repair, you are responsible for 
+getting it to Sequential. We highly recommend insuring it and packing in 
+the original packaging. Damage resulting from shipping a product with 
+insufficient packaging is not covered by warranty.
+
+
+61
+Prophet-5 User’s Guide Appendix B: Calibrating the Prophet-5
+Appendix B: Calibrating the Prophet-5
+The first time you use the Prophet-5, please run its built-in calibration 
+procedure. The Prophet-5 learns the range of temperatures at your loca -
+tion and will keep itself in tune over this range. 
+Later, if you use the Prophet-5 in a different environment that is measur -
+ably warmer or cooler (on stage, in an air-conditioned studio, and so on) 
+run the calibration procedure again.
+Calibrating the VCOs and Filters
+To calibrate the oscillators and filters:
+1. Press the tune button.  
+2. The program select  button  LEDs begin flashing in sequence and the 
+numeric display indicates the tuning sequence while the Prophet-5 
+performs its auto-calibration procedure. Don’t turn off the power while 
+it’s doing this.
+When finished, the front panel controls return to normal and you can play 
+the Prophet-5. 
+Calibrating the Pitch and Mod Wheels  
+To calibrate the Pitch and Mod Wheels:
+1. Set Mod wheel to its minimum setting.  
+2. Hold the Pitch wheel at its minimum setting.  
+3. While still holding the Pitch wheel down, press and hold the globals  
+button and press program  select  button 6. The low points of both 
+wheels are calibrated.
+4. Release the Pitch wheel so that it returns to its center position. hold the 
+globals  button and press program  select  button 7. The center point of 
+the Pitch Wheel is calibrated.
+5. Set the Mod wheel to its maximum setting. Hold the Pitch wheel at its 
+maximum setting.  While still holding the Pitch wheel at its maximum 
+position, press and hold the globals  button and press program  select  
+button 8. The high points of both wheels are calibrated. You can now 
+can play the Prophet-5 again.
+
+
+62 Appendix C: Exporting and Importing Programs/Banks
+SequentialResetting the Global Parameters
+If you’re trying to track down a problem, it’s sometimes a good idea to 
+reset the Global parameters to their defaults. This is a quick way to make 
+sure that the Prophet-5 returns to its factory settings.
+This will not erase any User programs.
+To reset all Global parameters to their default settings:
+1. Hold down the record  button.
+2. Press the globals  button. Global parameters are reset.
+3. You can now can play the Prophet-5 again.
+Appendix C: Exporting and Im -
+porting Programs/Banks
+You can use the pgm dump  command in the globals  section  to transmit the 
+current program, the current bank, the current group, all user banks, or 
+all banks (both user and factory) in SysEx format via the selected MIDI 
+port. 
+This allows you to save your programs so that you can share them or 
+archive them. Dumped programs will load back into the same bank and 
+program location in memory when received by the Prophet-5 via MIDI. 
+Make sure that your MIDI Editor or Librarian application of choice is open 
+and ready for data transfer and that you have made the necessary MIDI/USB 
+connections between the Prophet-5 and your computer.
+To export a Program, Bank, Group, or all Banks as a SysEx file over 
+MIDI:
+1. Press the globals  button  once (this enables the upper set of parameters) 
+then press program  selector  6 to select the midi sysex  command.  
+2. Use the group  select  and bank  select  buttons to select the appropriate 
+MIDI port — MIDI ( MID) or USB (usb).
+
+
+63
+Prophet-5 User’s Guide Appendix C: Exporting and Importing Programs/Banks
+3. Press globals  a second time (this enables the lower set of parameters) 
+then press program  selector  7 to select the pgm dump  command. The 
+record  button begins flashing.
+4. Use the group  select  and bank  select  buttons to select the desired 
+option — program (PRO), bank (ban), group (GRP), user banks ( USR), 
+all (ALL).
+5. Press record . The program or bank is exported to your MIDI application.
+Programs will load back into the same Group, Bank, and Program locations 
+from which they were originally exported. 
+Importing Programs and Banks
+You can use a MIDI librarian application such as such as SysEx Librar -
+ian for Macintosh, or MIDI-OX for Windows to transmit exported 
+program or banks back into your Prophet-5. You will need a computer 
+and an appropriate software application. 
+To import Programs or Banks as a SysEx file over MIDI:
+1. Connect your Prophet-5 to a computer using a USB cable (or MIDI 
+cable, if you are using a dedicated MIDI interface). 
+2. Press the globals  button on your Prophet-5 and press  program  select 
+button 6 (MIDI SysEx).
+3. Use the group  select  and bank  select  buttons to choose either usb 
+or midi, depending on which port you are using to connect to your 
+computer.
+4. Press the globals  button twice to exit the Global parameters.
+5. Open your MIDI librarian software and configure it to send SysEx 
+messages to your Prophet-5.
+6. In the MIDI librarian, open the programs and/or banks you want to send. 
+7. Transmit the programs. The Prophet-5 should load them. They will 
+replace any existing programs in those same memory locations on the 
+synth. 
+Programs will load back into the same Group, Bank, and Program locations 
+from which they were originally exported.
+
+
+64 Appendix D: Alternative Tunings
+SequentialAppendix D: Alternative Tunings
+By default, the Prophet-5 is set to standard, chromatic western tuning. 
+Additionally, it supports up to 16 additional alternative tunings, which 
+you can access using the alt tuning  parameter in the globals  section.   
+These 16 alternative tunings range from Equal temperament to Indo -
+nesian Gamelan tunings. If you want, you can replace these with other 
+tunings that you can find on the Internet. These must be in SysEx format. 
+You can download them into the Prophet-5 using SysEx Librarian for 
+Mac or MIDI-OX for Windows.
+Here are descriptions of the alternative tunings.
+1. 12-Tone Equal Temperament (non-erasable)
+The default Western tuning, based on the twelfth root of two.  
+2. Harmonic Series
+MIDI notes 36-95 reflect harmonics 2 through 60 based on the funda -
+mental of A = 27.5 Hz. The low C on a standard 5 octave keyboard acts 
+as the root note (55Hz), and the harmonics play upwards from there. The 
+remaining keys above and below the 5 octave range are filled with the 
+same intervals as Carlos’ Harmonic 12 Tone that follows.
+3. Carlos Harmonic Twelve Tone
+Wendy Carlos’ twelve note scale based on octave-repeating harmonics. 
+A = 1/1 (440 Hz). 1/1 17/16 9/8 19/16 5/4 21/16 11/8 3/2 13/8 27/16 7/4 
+15/8
+4. Meantone Temperament
+An early tempered tuning, with better thirds than 12ET. Sounds best in 
+the key of C. Use this to add an authentic touch to performances of early 
+Baroque music. C=1/1 (260 Hz)
+5. 1/4 Tone Equal Temperament
+24 notes per octave, equally spaced 24root2 intervals. Mexican composer 
+Julian Carillo used this for custom-built pianos in the early 20th century.
+
+
+65
+Prophet-5 User’s Guide Appendix D: Alternative Tunings
+6. 19 Tone Equal Temperament
+19 notes per octave (19root2) offering better thirds than 12 ET, a better 
+overall compromise if you can figure out the keyboard patterns.
+7. 31 Tone Equal Temperament
+Many people consider 31root2 to offer the best compromise towards just 
+intonation in an equal temperament, but it can get very tricky to keep 
+track of the intervals.
+8. Pythagorean C
+One of the earliest tuning systems known from history, the Pythagorean 
+scale is constructed from an upward series of pure fifths (3/2) transposed 
+down into a single octave. The tuning works well for monophonic melo -
+dies against fifth drones, but has a very narrow palate of good chords 
+to choose from. C=1/1 (261.625 Hz) 1/1 256/243 9/8 32/27 81/64 4/3 
+729/512 3/2 128/81 27/16 16/9 243/128
+9. Just Intonation in A with 7-Limit Tritone at D#
+A rather vanilla 5-limit small interval JI, except for a single 7/5 tritone 
+at D#, which offers some nice possibilities for rotating around bluesy 
+sevenths. A=1/1 (440 Hz) 1/1 16/15 9/8 6/5 5/4 7/5 3/2 8/5 5/3 9/5 15/8
+10. 3-5 Lattice in A
+A pure 3 and 5-limit tuning which resolves to very symmetrical derived 
+relationships between notes. A=1/1 (440 Hz) 1/1 16/15 10/9 6/5 5/4 4/3 
+64/45 3/2 8/5 5/3 16/9 15/8
+11. 3-7 Lattice in A
+A pure 3 and 7-limit tuning which resolves to very symmetrical derived 
+relationships between notes. Some of the intervals are very close 
+together, offering several choices for the same nominal chords. A=1/1 
+(440 Hz) 1/1 9/8 8/7 7/6 9/7 21/16 4/3 3/2 32/21 12/7 7/4 63/32
+12. Other Music 7-Limit Black Keys in C
+Created by the group Other Music for their homemade gamelan, this 
+offers a wide range of interesting chords and modes. C=1/1 (261.625 Hz) 
+1/1 15/14 9/8 7/6 5/4 4/3 7/5 3/2 14/9 5/3 7/4 15/8
+
+
+66 Appendix D: Alternative Tunings
+Sequential13. Dan Schmidt Pelog/Slendro
+Created for the Berkeley Gamelan group, this tuning fits an Indonesian-
+style heptatonic Pelog on the white keys and pentatonic Slendro on the 
+black keys, with B and Bb acting as 1/1 for their respective modes. Note 
+that some of the notes will have the same frequency. By tuning the 1/1 to 
+60 Hz, Dan found a creative way to incorporate the inevitable line hum 
+into his scale. Bb, B = 1/1 (60 Hz) 1/1 1/1 9/8 7/6 5/4 4/3 11/8 3/2 3/2 
+7/4 7/4 15/8
+14. Yamaha Just Major C
+When Yamaha decided to put preset microtunings into their FM synth 
+product line, they selected this and the following tuning as representative 
+just intonations. As such, they became the de-facto introduction to JI for 
+many people. Just Major gives preferential treatment to major thirds on 
+the sharps, and a good fourth relative to the second. C= 1/1 (261.625) 1/1 
+16/15 9/8 6/5 5/4 4/3 45/32 3/2 8/5 5/3 16/9 15/8
+15. Yamaha Just Minor C
+Similar to Yamaha’s preset Just Major, the Just Minor gives preferential 
+treatment to minor thirds on the sharps, and has a good fifth relative to 
+the second. C= 1/1 (261.625) 1/1 25/24 10/9 6/5 5/4 4/3 45/32 3/2 8/5 
+5/3 16/9 15/8
+16. Harry Partch 11-Limit 43 Note Just Intonation
+One of the pioneers of modern microtonal composition, Partch built 
+a unique orchestra with this tuning during the first half of the 20th 
+century, to perform his own compositions. The large number of intervals 
+in this very dense scale offers a full vocabulary of expressive chords 
+and complex key changes. The narrow spacing also allows fixed-
+pitched instruments like marimbas and organs to perform glissando-like 
+passages. G = 1/1 (392 Hz, MIDI note 67)
+1/1 81/80 33/32 21/20 16/15 12/11 11/10 10/9 9/8 8/7 7/6 32/27 6/5 11/9 
+5/4 14/11 9/7 21/16 4/3 27/20 11/8 7/5 10/7 16/11 40/27 3/2 32/21 14/9 
+11/7 8/5 18/11 5/3 27/16 12/7 7/4 16/9 9/5 20/11 11/6 15/8 40/21 64/33 
+160/81 
+
+
+67
+Prophet-5 User’s Guide Appendix D: Alternative Tunings
+
+
+
+68 Appendix D: Alternative Tunings
+Sequential
+
+
+Sequential LLC
+1527 Stockton Street, 3rd Floor
+San Francisco, CA  94133
+USA
+©2020 Sequential LLC
+www.sequential.com
+DSI-10520

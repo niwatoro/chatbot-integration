@@ -1,0 +1,2296 @@
+
+
+
+PRO TOOLS CARBON|
+2 INST 1 3 2 14 NETEXT
+MIC LINE INST 1234S U RINPT LINK IN A
+Z Ø
+48V OUT C DIMBLR 152637 84
+PRO TOOLS  | CARBON Systems Guide
+
+
+Legal Notices
+© 2022 Avid Technology, Inc., (“Avid”), all rights  reserved. This guide may not be dupli cated in whole or in part with out the w ritten cons ent of Avid.
+For a current an d complete list of Avid trad emarks visit: www.avid.com/legal/trademarks-and-other-notices .
+Bonjour, the Bonjour logo, an d the Bonjou r symbol ar e trad emarks of Ap ple Computer, Inc .
+Thunderbolt and the Thunderbolt logo are trade mark s of In tel Corporatio n in the U.S. and/or oth er countries.
+This product may be protected by  one or more U.S. and n on-U.S. p atents. De tails are available at www.avid.com/patents .
+Product features, specifications, system requirements , and availability are subject to change without not ice.
+This product incorp orates JetPLL™ clocking technologies, used unde r license fro m Son opsis. JetPLL™ designs  are covered by Sonopsis copyright and/or multiple 
+patents. The JetPLL™ word and logo are trademark s of Sonopsis. More information can be found at the JetPLL.info webs ite: http://JetPLL.info.
+Guide Part Number 9329-66416-00 REV A 10/22
+
+
+Pro Tools | Carbon Systems Guide iiiSafety Instructions
+Read and Keep these Instructions
+Product Safety Warning
+Important Safety Instructions
+1Read these instructions.
+2Keep these instructions.
+3Heed all warnings.
+4Follow all instructions.
+5Do not use this equipment near water.
+6Clean only with dry cloth.
+7Do not block any ventilation openings. Install in accordance with the manufacturer’s instructions.
+8Do not install near any heat sources such as radiators, heat registers, stoves, or other equipment (includi ng amplifiers) that pro- duce 
+heat.
+9Protect power cords from being walked on or pinched particular ly at plugs, convenience  receptacles, and th e point where they ex it 
+from the equipment.
+10Only use attachments/accessories specified by the manufacturer.
+11For products that are not rack-mountable: Use only with a cart, stand, tripod, bracket , or table specified by the manufacturer,  or sold 
+with the equipment. When a cart is used, use caution when moving the cart/equipment combination to avoid injury from tip-over.
+12Unplug this equipment during lightning storms  or when unused for long periods of time.
+13Refer all servicing to qualified service pers onnel. Servicing is re- quired when the eq uipment has been damaged in any way, suc h as 
+power-supply cord or plug is damaged, liquid  has been spilled or objects have fallen into the eq uipment, the equipment has been  ex-
+posed to rain or moisture, does not op erate normally, or has been dropped.
+14For products that are a Mains powered device:
+The equipment shall not be exposed to dripping or splashing and no  objects filled with liquids (s uch as vases) sh all be placed on the 
+equipment.
+WARNING!  To reduce the risk of fire or electric shock, do not expose this equipment to rain or moisture.
+ATTENTION!  Pour réduire les risques d'incendie ou d'électrocution, n'exposez pas cet équipement à la pluie ou à l'humidité.
+ 
+
+
+
+Pro Tools | Carbon Systems Guide ivDo not defeat the safety purpose of the po larized or grounding-type plu g. A polarized plug has two bl ades with one wider than t he other. 
+A grounding type plug has two blades and a third grounding prong.  The wide blade or the third prong are provided for your safet y. If 
+the provided plug does not fit into your outlet, consul t an electrician for replacement of the obsolete outlet.
+15For products containing a lithium battery:
+WARNING!  Danger of explosion if battery is incorrectly replaced. Replace only wi th the same or equivalent type.
+ATTENTION!  Risque d'explosion si  la batterie n'est pas remplacée correctement. Remplacez uniquement par un type identique 
+ou équivalent. Jetez les piles usagées conformément aux instructions.
+16For products with a power switch: It shou ld remain accessible after installation.
+17The equipment shall be used at a maximum ambient temperature of 40' C.
+18This unit is provided with a power supply cord set suitable fo r 120V AC input only (for U.S.A. and Canada). For other than
+U.S.A. and Canada, a qualified person must provide for use with this unit, an appropri ate, approved power supply cord set which  is in 
+compliance with the end use country requirements and has a minimum cross-sectional area of 1.0mm2.
+19For products with more than one power cord:
+WARNING!  This unit has more than one power supply cord. Discon- nect two power s upply cords before servicing to avoid 
+electrical shock.
+ATTENTION!  Cet appareil comporte plus d’un cord on d’alimenta- tion. Afin de prévenir les chocs électriques, débrancher les 
+deux cor- dons d’alimentation avant de faire le dépannage.
+20For products with an op erator-accessible fuse:
+CAUTION:  For continued protection against risk of fire, re place only with same ty pe and rating of fuse.
+ATTENTION:  Pour ne pas compromettre la  protection contre les risques d’incendie, re mplacer par un fusibl e de même type et 
+de même caractéristiques nominales.
+Rack-Mount Safety Instructions
+1Elevated Operating Ambient— If installed in a closed or multi-unit rack assembly, the operating ambient temperature of the rack  en-
+vironment might be greater than ro om ambient. There- fore, consid er installing the equi pment in an environm ent compatible with the 
+maximum ambient temperature (Tma) specified by the manufacturer.
+2Reduced Air Flow— Installation of the equipment in a rack should  be such that the amount of ai r flow required fo r safe operatio n of 
+the equipment is not compromised. Make allowa nces for cooling air to be available to the fr ont panel surface a nd no restriction s at 
+the rear.
+3Mechanical Loading— Mounting of  the equipment in the rack should be such that a hazardous condition is not  achieved due to un-
+even mechanical loading.
+4Circuit Overloading— Consideration should be  given to the connection of the equipment to the supply circuit and the effect that  over-
+loading of the circuits might have on over-current protection and supply wiring. Appropriate cons ideration of equipment namepla te 
+ratings should be used when  addressing this concern.
+5Reliable Earthing— Reliable Earthi ng of rack-mounted equipment should be maintaine d. Particular at tention should be given to su p-
+ply connections other than direct connections to the branch circ uit (for example, use of power strips).
+LED Safety Notices
+Avid hardware might contain LED or Laser devices for communication use. These devices are compliant with the requirements for 
+Class 1 LED and Laser Products and are safe  in the intended use. In no rmal operation the output of th ese laser devices does not  exceed 
+the exposure limit of the eye and cannot cause harm. 
+ 
+ 
+
+
+
+Pro Tools | Carbon Systems Guide vEnvironmental Compliance
+Proposition 65 Warning
+Warning This product can expose you to chemicals including Pb and Pb compounds, which is known to the State of California 
+to cause cancer and birth defects or other re productive harm. For mo re information go to www.P65Warnings.ca.gov . 
+Perchlorate Notice
+This product may contain a lithium coin ba ttery. The State of California requires the following disclosure statement: “Perchlor ate Ma-
+terial—special handl ing may apply, see www.dtsc.ca.gov/hazardou s waste/perchlorate .”
+Recycling Notice
+Disposal of Waste Equipment by Users in the European Union
+This symbol on the product or its packaging indicates that this product mu st not be disposed of with other waste. Instead, it i s your re-
+sponsibility to dispose of your waste equipment by handing it ov er to a designated collection point for the recycling of waste electrical 
+and electronic equipment. The separate collection and recycling of your waste equipment at the time  of disposal will help conse rve nat-
+ural resources and ensure that it is recy cled in a manner that protects human health  and the environment. For more information about 
+where you can drop off your waste equipment for recycling, please contact your local city recycling office or the dealer from w hom you 
+purchased the product.
+EMC (Electromagnetic Compliance)
+Avid declares that this product co mplies with the following standards:
+• FCC Part 15 Class A• ICES-003 Class A
+• EN 55032 Class A
+• AS/NZS CISPR 32 Class A• CISPR32 Class A• EN 61000-3-2
+• EN 61000-3-3
+• EN 55035
+FCC Notice: Class A Equipment
+This equipment has been tested and found to  comply with the limits for a Class A digita l device, pursuant to Part 15 of the FCC  rules. 
+These limits are designed to provide reasona ble protection against harmful interference when the equipment is operated in a com mercial 
+environment. This equipmen t generates, uses, and ca n radiate radio frequency energy and, if not installed and used in accordanc e with 
+the instructions, may cause harmful interfere nce to radio communications. Operation of this equipment in a residential area is likely to 
+cause harmful interference,  in which case the user will be required to  correct the interferenc e at personal expense.  
+
+
+
+Pro Tools | Carbon Systems Guide viCables
+Connections to Avid hardware must  be made with shielded cables with metallic RFI/EMI connector hoods in  order to maintain com-
+pliance with FCC Ru les and Regulations.
+Any modifications to the unit, unless expressly approved by Avid, could void the user's authority to operate the equipment.
+Canadian ICES-003 Class A Notice
+This Class A digital apparatus complies with Canadian ICES-003.
+Cet appareil numérique de la classe A es t conforme à la norm e NMB-003 du Canada.
+Australian Compliance
+Korean EMC Compliance
+Safety Compliance
+This equipment has been tested to comply with USA, Canadian, EU  and International safe ty certification standards: UL 60065:2015 , 
+CAN/CSA C22.2 No. 60065:16, IEC/EN 60065:2014 (8th Edit ion), UL 62368-1:2014, CAN/CSA 62368-1-14 and IEC/EN 
+62368-1:2014 (2nd Edition).
+Avid Technology Inc., has been aut horized to apply the appropriate NR TL mark on its compliant equipment.
+Power Safety Input Rating
+Regulatory Model Number (RMN) 9100 -74077: AC~100-240V, 50-60Hz, 1.0A
+United Kingdom Compliance
+(EMC, Safety, and RoHS)
+Avid Tech. EU LTD
+20 Station RoadGerrards CrossEngland SL9 8EL
+CE Compliance
+(EMC, Safety and RoHS)
+Avid is authorized to apply the CE (Conformite Europenne) mark  on this compliant equipment ther eby declaring conformity to EMC 
+Directive 2014/30/EU, Low Voltag e Directive 2014/35/EU and RoHS  Recast Directive 2011/65/EU.
+
+
+
+Pro Tools | Carbon Systems Guide viiIntroduction  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  1
+Pro Tools | Carbon . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . . . . . .  1
+Pro Tools | Carbon Pre . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . . .  2
+Pro Tools | Carbon Expanded Systems  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  3
+System Requirements and Compatibility Information  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  3
+Conventions Used in Pro Tools Documentation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  4
+Resources . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . . . .  4
+Installation and Setup . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . .  6
+What’s in the Box? . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . . . . . .  6
+Rack Mounting Pro Tools | Carbon and Pro Tools | Carbon Pre Units  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  6
+Connecting Cables . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . . . . . .  7
+Register your Pro Tools | Carbon or Carbon Pre  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  8
+Download Documentation and Software . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  9
+Starting Up or Shutting Down Your System . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  10
+Avid Carbon Central  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  11
+Launch Avid Carbon Central . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . .  11
+Configuring Avid Carbon Central  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  1 2
+Clocking  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  14
+AVB Configuration . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . . . . .  15
+Device Information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . . . . .  16
+Firmware Update  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  17
+Avid Carbon Central in  the macOS Menu Bar . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  17
+Pro Tools | Carbon Front Panel Operation  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  19
+Pro Tools | Carbon Front Panel . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   19
+Configuring Inputs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . . . . .  22
+Device Reset . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . .  23
+Custom Brightness  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  23
+Pro Tools | Carbon Back Panel Connections . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  24
+Pro Tools | Carbon Back Panel  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  24
+Digital I/O Connections  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  24
+Analog I/O Connections . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . .  25
+Footswitch  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  25
+Pro Tools | Carbon Pre Front Panel Operation  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  26
+Pro Tools | Carbon Pre Front Panel . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  26
+Configuring Inputs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . . . . .  28
+Device Reset . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . .  29Contents
+
+
+Pro Tools | Carbon Systems Guide viiiPro Tools | Carbon Pre Back Panel Connections  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  30
+Pro Tools | Carbon Pre Back Panel  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  30
+Digital I/O Connections . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . .  30
+Analog I/O Connections . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . .  31
+Configuring Pro Tools . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . . . . . . .  32
+Launch Pro Tools . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . . . . . .  32
+Playback Engine . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . . . . . . .  33
+Hardware Setup  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  34
+I/O Setup  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  40
+Analog Monitoring with Digital Metering . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  42
+DSP Mode for Low-Latency Monitoring  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  43
+Enabling DSP Mode  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  44
+Enabling DSP Mode Safe  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  45
+Indicators for DSP Plug-ins, Inserts, Sends, and Outputs  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  45
+System Usage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . .  48
+DSP Mode Preferences . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . .  48
+Workflow Example: Recording in DSP Mode for Low-Latency Monitoring  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  49
+Tips for Using DSP Mode . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . .  53
+Pro Tools Mic Preamps Control  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  54
+Mic Preamps View . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . . . . . .  54
+Mic Preamps View Controls . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . .  55
+Pro Tools | Carbon Pre Mic Preamps Setup  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  56
+Pro Tools | Carbon Pre Standalone Modes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  58
+ADAT Mode . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . . . . . . . . . . .  58
+AD->DA Mode (8-channel Mic Preamp)  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  59
+Standalone AVB Mode  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  60
+Appendix A. Specifications . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . . . . .  61
+Audio Specifications for Pro Tools | Carbon . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  61
+Audio Specifications for Pro Tools | Carbon Pre  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  64
+Synchronization and Network Specifications . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  66
+Mechanical Specifications  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  66
+Environmental Specifications  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  67
+Appendix B. Core Audio Devices . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . .  68
+AVB Connections and Settings  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  68
+Generic Core Audio I/O . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . .  71
+Reserved for Pro Tools . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . .  72
+AVB Device Configuration  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  72
+AVB Channel to Physical I/O Mappings for the Pro Tools | Carbon: I/O Device  . . . . . . . . . . . . . . . . . . . . . . . . . .  75
+AVB Channel to Physical I/ O Mappings for the Pro Tools | Carbon Pre: I/O Device . . . . . . . . . . . . . . . . . . . . . . .  77
+Pro Tools | Carbon Pre Signal Routing  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  78
+
+
+Pro Tools | Carbon Systems Guide ixAppendix C. Pin Out Diagrams . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . . .  84
+Ethernet, RJ45 Connector, Gigabit  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  84
+DB25 Pin Out Connections Channels 1–8 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  84
+Appendix D. Network Port Usage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . .  85
+Required Access for Normal Operation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  85
+Access for Customer Support  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  85
+Network Security  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  85
+Appendix E. Running Carbon in Carbon Pre Mode  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  86
+
+
+ Introduction 1Introduction
+Welcome to Pro Tools | Carbon™ by Avid®. Pro Tools | Carbon systems include Pro To ols | Carbon, Pro Tools | Carbon Pre, and 
+Pro Tools | Carbon Expanded systems. You can us e Pro Tools | Carbon by itself with Pro Tools or other third-party Core Audio–com-
+patible audio softwa re. Pro Tools | Carbon Pre can be used  as an audio interface,  or as a standalone 8- channel mic pre or ADAT AD/DA 
+converter. You can also add up to two Pro Tools | Carbon Pre unit s to a Pro Tools | Carbon unit in a Pro Tools | Carbon Expande d system 
+(configured using Avid Carbon Central software).
+Pro Tools | Carbon
+Pro Tools | Carbon is a versatile multi-ch annel audio interface for use with Pro Tools® Studio and Pro Tools Ultimate™ software or 
+other Core Audio–compatible soft ware. It provides ex ceptional AD/DA audio conversion with 8 mic/line inputs (c ombo XLR/TRS or 
+DB25), 2 instrument inputs (TS), 8 line ou tputs (DB25), 2 dedicated outputs for stereo  monitoring (TRS), 4 independent headphon e out-
+puts, an integrated  talkback mic, ADAT™ I/O, Word Clock, AVB, and dedicated HDX DSP for low-latency mo nitoring with AAX DSP 
+plug-ins.
+Pro Tools | Carbon Features
+Pro Tools | Carbon provides:
+• Up to 192 kHz
+• 32-bit AD/DA conversion• Low latency tracking workfl ows with on-board HDX DSP
+• 8 analog preamp inputs with
+• Variable Z (impedance) on INST inputs 1–2 (front panel)• Variable Z (impedance) on MIC inputs 5–8 (back panel)
+• 8 line inputs (DB25 or TRS 1/4-inch) with
+• True preamp bypass option
+• 18 channels digital-to-analog conversion
+• 8 line outputs (DB25)• Dedicated stereo (L–R) monitor outputs (TRS 1/4-inch)• 4 stereo headphone outputs
+• Multichannel ADAT I/O: 
+• 16 channels ADAT at 44.1/48 kHz• 8 channels ADAT at 88.2/96 kHz• 4 channels ADAT at 176.4/192 kHz
+• Stereo Optical S/PDIF I/O at  44.1/48 kHz and 88.2/96 kHz
+• 8 channel I/O metering
+• Stereo monitor output metering
+
+
+
+ Introduction 2• Front panel control over monitor sets, h eadphone outputs, input channe l settings, input and output metering, and talkback mic
+• Integrated talkback mic
+• Footswitch input (to toggle talkback on and off; footswitch not included)
+• Gigabit A VB-capable Ethernet  (100’ maximum cable length)
+Included Software, Plug-ins, and Sound Libraries
+With your purchase and registration of Pro Tools | Carbon you ar e entitled to a Pro Tools subscr iption with support, free effec ts and in-
+strument plug-ins, and sound libraries.
+Pro Tools | Carbon Pre
+Pro Tools | Carbon Pre is a versatile multi-channel audio interface for use wi th Pro Tools Studio and Pro Tools Ultimate™ software or 
+other Core Audio–compatible soft ware. It provides ex ceptional AD/DA audio conversion with 8 mic/line inputs (c ombo XLR/TRS or 
+DB25), 2 instrument inputs (TS), 8 line outputs (DB25), ADAT I/ O, Word Clock, and AVB. You can use up to two Carbon Pre units 
+in a Pro Tools | Carbon Expanded system for a dditional I/O. 
+In a Pro Tools | Carbon Expanded system, each  Pro Tools | Carbon Pre provides an additional 8 channels of audio I/O, and when u sed 
+with Pro Tools can each take a dvantage of the DSP in your Pro Tools | Carbon. Pro Tools | Carbon Pre can also function as a standalone 
+8-channel analog microphone preamp  or as a standalone ADAT AD/DA converter. A dditionally, you can use Pro Tools | Carbon Pre
+as an AVB interface with thrid-party AV B Core Audio–compatib le audio software.
+Pro Tools | Carbon Pre Configurations
+Pro Tools | Carbon Pre can be used in the following system configurations:
+• To provide additional I/O in a Pro To ols | Carb on Expanded system (up to two Carb on Pre units)
+•As a standalone AD/DA converter (ADAT mode)
+•As a standalone 8-channel microphone preamp (ADAT mode and AD→DA mode)
+•As an AVB audio in terface with Pro Too ls or any other Co re Audio–co mpatible DAW
+Pro Tools | Carbon Pre Features
+Pro Tools | Carbon Pre provides:• Sample rates up to 192 kHz• 32-bit AD/DA conversion
+• 8 analog preamp inputs with
+• Variable Z (impedance) on INST inputs 1–2 (front panel)
+• Variable Z (impedance) on MIC inputs 5–8 (back panel)For complete, detailed information about what  you get with Pro Tools | Carbon, visit www.avid.com/carbon-support .
+
+
+
+ Introduction 3• 8 line inputs (DB25 or TRS 1/4-inch) with true preamp bypass capability
+• 8 line outputs (DB25)• Multichannel ADAT I/O: 
+• 16 channels ADAT at 44.1/48 kHz
+• 8 channels ADAT at 88.2/96 kHz• 4 channels ADAT at 176.4/192 kHz
+• Stereo Optical S/PDIF in put (auto-detected) at 44.1/48 kHz and 88.2/96 kHz
+• Word Clock I/O
+• 8 channel I/O metering• Front panel control over input channel settings, and input and output metering
+• Gigabit A VB-capable Ethernet  (100’ maximum cable length
+)
+Pro Tools | Carbon Expanded Systems
+You can expand your Pro Tools | Carbon sy stem by adding up to two Pro Tools | Carbon Pre units for additional I/O. Each 
+Pro Tools | Carbon Pre provides an additional 8-channels of audio I/O at all sample rates, and when used with Pro Tools they can t ake 
+advantage of the HDX DSP in your Pro Tools | Carbon unit. Avid Car bon Central software is required to setup you Carbon Expanded  
+system (see Avid Carbon Central ).
+System Requirements and Compatibility Information
+Pro Tools | Carbon is compatible with Pro Tools and Pro Tools | Ultimate 2020.11 or later. Pro Tools | Carbon Pre is compatible w ith 
+Pro Tools Studio and Pro Tools Ultimate 2022.10 or later in a Pro Too ls | Carbon Expanded system or as a standalone AVB Core Audio  
+interface with any tier of Pro Tools 2022.10 or later. Pro Tools is not required when us ing Carbon Pre as a standalone 8-channel  micro-
+phone preamp or standalone ADAT AD/DA converter. Carbon  Pre can also be used as an audio interface with othe r Core Audio–com-
+patible DAWs.
+For detailed Pro Tools | Carb on system requirements, visit www.avid.com/c arbon-support .
+For complete Pro Tools system requirements and a list of qualifie d computers, operating systems,  hard drives, peripherals, and 
+third-party de vices, visit www.avid.com/compatibility .
+Avid can only assure compatibility and provide support for hardware and software it has tested and approved.
+For a complete list of optimizations for your Pro Tools computer, visit: Pro Tools Computer Optimizations .ADAT I/O is not available in Pro Tools with Pro Tools | Carbon Pre when it is part of a Pr o Tools | Carbon Expanded system.
+However, ADAT I/O remains available on the Pro Tools | Carbon primary device in  a Pro Tools | Carbon Expanded system.
+If your computer only has Thunderbolt™ ports, an Avid-qualified AV B-capable Thunderbolt to Ethe rnet adapter is required.
+In the unlikely event that you experience audio drop-outs with yo ur Pro Tools | Carbon system as  an AVB-audio interface, try di sabling 
+Wi-Fi on the Mac and reduce the Mac temperature by in creasing airflow.
+
+
+ Introduction 4Conventions Used in Pro Tools Documentation
+Pro Tools documentation uses the followin g conventions to indicate menu choices,  keyboard commands, and mouse commands:
+:
+The names of Commands , Options , and Settings  that appear on-screen are in a different font.
+The names of physical controls on Pro Tools | Carbon are in displayed  in bold text .
+Hyper-links and cross-refe rence links are displayed in blue text .
+The following symbols are used to highlight important information:
+Resources
+The Avid website ( www.avid.com ) is your best online source fo r information to help you get the most out of your Avid system. 
+Account Activation and Product Registration
+Activate your product to access downloads in your Avid account (or quickly create an account if yo u do not have one). Register your 
+purchase online, download software, update s, documentation, and other resources.
+www.avid.com/account
+Support and Downloads
+Contact Avid Customer Success (t echnical support), download software updates and the latest online manuals, browse the Compatib il-
+ity documents for system re quirements, search the online Knowle dge Base or join the worldwide Av id user community on the User C on-
+ference.
+www.avid.com/lea rn-and-support
+Training and Education
+Study on your own using courses available online, find out how you can learn in a classroom setting at an Avid-certified traini ng center, 
+or view video tutorials and webinars.
+www.avid.com/learningConvention Action
+File > Save Choose Save from the File menu
+Command+N Hold down the Command key and press the N keyCommand-click Hold down the Command key and click the mouse button
+Right-click Click with the right mouse button
+User Tips are helpful hints for getti ng the most from your Pro Tools system.
+Important Notices include informat ion that could affect your Pro Tools session data or the pe rformance of your Pro Tools system.
+Shortcuts show you useful keyboard or mouse shortcuts.
+Cross References point to re lated sections in this guide and other Avid documentation.
+
+
+ Introduction 5Video Tutorials
+The Get Started Fast with Pro Tools  series of online videos provide tutorials to help  if you are new to Pro Tools. Videos for the expe-
+rienced user that introduce new features found in th e latest versions of Pro Tools are also available.
+www.avidblogs.com/get-start ed-fast-with-pro-tools
+View Pro Tools Tech Tips  on YouTube for the latest tips and tricks with Pro Tools.
+For Pro Tools | Carbon–specific tutorials, visit www.avid.com/carbon-support .
+Products and Developers
+Learn about Avid products, download demo software, or learn a bout our Development Pa rtners and their plug- ins, applications, an d 
+hardware.
+www.avid.com/products
+Avid Store
+Visit the Avid store for plug-ins and control surfaces to extend the capabilities of your Pro Tools | Carbon system.
+shop.avid.com
+For more information about specific AAX Native/DSP plug-ins fo r use with Pro Tools | Carbon and Carbon Expanded systems in 
+DSP Mode, visit www.avid.com/products/pro-t ools-carbon/included-plugins .
+
+
+ Installation and Setup 6Installation and Setup
+Installing and setting up a Pro Tools | Carbon, Pro Tools | Carb on Pre, or Pro Tools | Carbon E xpanded system all involve simila r steps:
+1Unpack the Pro Tools | Carbon or Pro Tools | Carbon Pre units from the box: see What’s in the Box?
+2Rack mount your Pro Tools | Carbon and/or Pro Tools | Carbon Pre unit(s) (optional).
+3Connect cables: see Connecting Cables .
+4Register your Pro Tools | Carbon and/or  Pro Tools | Carbon Pre unit(s): see Register your Pro Tools | Carbon or Carbon Pre .
+5Download and install Avid Carbon Central,  PDF documentation, an d other software: see Download Documentation and Software.
+6Launch and configure Avid Carbon Central software: see Avid Carbon Central .
+7Launch and configure Pro Tools (included with Pr o Tools | Carbon, or purc hased separately): see Configuring Pro Tools .
+What’s in the Box?
+Before you get started installing Pro Tools | Carbon or Ca rbon Pre, unpack the box, which contains the following:
+• Pro Tools | Carbon or Pro Tools | Carbon Pre audio interface
+• Power cable
+• Ethernet cable (CAT 6)
+•
+4 rack mount screws with washers
+• 4 adhesive rubber pads
+• Registration card with redemption  code, QR code, and serial number
+• Warranty Claims Information card
+• Avid Health and Safety Guide
+Keep the Registration card  on hand to register your Pro Tools | Carbon or Pro Tools | Carbon Pre, and access software, sound li braries 
+(Pro Tools | Carbon only), and docu mentation and software downloads.
+Set the cables aside until you are ready to  start making cable connecti ons. Remove Pro Tools | Carb on or Pro Tools | Carbon Pre from 
+the box and packaging, and place it on a hard, dry surface.
+Rack Mounting Pro Tools | Carbon and Pro Tools | Carbon Pre Units
+If you install Pro Tools | Carbon and/or Pro Tools | Carbon Pre un its into a 19-inch rack, you can use the included rack mount screws 
+and washers. Pro Tools | Carbon and Pro Tools | Carbon Pre units, as  with all Avid audio interfaces, need room at the front and  back of 
+the unit to maintain proper air flow for cooling. Do not block th e front or back of the unit, or disconnect the internal fan. I t is also rec-
+ommended that you rack Carbon and Carbon Pre devices with spac e between them to avoid overheating. If the unit is rack mounted in 
+a case, remove the case lids or  doors before operating the system . Failure to do so can result in the unit overheating, which c an perma-
+nently damage se nsitive components.
+If you decide to not install Pro Tools | Carbon or Pro Tools | Carbon Pre in a rack, you can affix the included adhesive rubber  pads to 
+the bottom of the unit to protect whatever surface you decide to se t it on (for example, if you decide to use it as a desktop u nit).
+
+
+ Installation and Setup 7Connecting Cables
+Once you have installed Pro Tools | Carbon and/or Pro Tools | Carbon in a rack (optional), you are ready to start connecting ca bles. The 
+cable connections you make will depend on how you plan to configure your Ca rbon system: as an audio interface with Pro Tools or  an-
+other DAW, as part of a Pro Tools | Carbon Expanded sy stem, or when using Pro Tools | Carbon  Pre as a standalone 8-channel micr o-
+phone preamp or as an ADAT AD/DA converter.
+Connect Power
+Connect the included power cable to  Pro Tools | Carbon or Pro Tools | Carbon Pre. Then connect the cable to a grounded AC power  out-
+let. It is recommended that you use a gr ounded power switch or  power conditioner.
+Connect Ethernet
+Make the following connect ions with the included CAT6 Ethernet cable(s).
+Pro Tools | Carbon
+• Connect Pro Tools | Carbon Ethernet Port 1 directly to your computer using the included  Ethernet cable.
+Pro Tools | Carbon Pre
+• If you are using a single Pro Tools | Carbon Pre instead of a Pro Tools | Carbon, connect Ethernet Port 1 directly to your comp uter us-
+ing the included Ethernet cable.
+Pro Tools | Carbon Expanded Systems
+• Connect Pro Tools | Carbon Ethernet Port 1 directly to your computer using the included Ethernet cable.
+• Connect Pro Tools | Carbon Pre Ethernet Port 1 to Ethernet Port 2 on the main Carbon unit.
+• If you have a second Pro Tools | Carbon Pre, connect its Ethe rnet Port 1 to Ethernet Port 2 of the first Carbon Pre.
+Thunderbolt Adapters
+If your computer only has Thunderbolt ports, use an AVB-c apable Thunderbolt to Ethernet adapter, such as the Sonnet Thunderbolt 
+AVB Adapter  or adapters from Apple.
+Thunderbolt 2 Use an AVB-capable Thunderbolt 2-to-Gigabit Ethernet adapter, such as the Apple Thunderbolt to Gigabit Ethernet 
+Adapter.
+Thunderbolt 3 (USB-C) Use an AVB-capable Thunderbolt 3-to-G igabit Ethernet adapter, such as the Apple Thunderbolt 3 (USB-C) to 
+Thunderbolt 2 Adapter connected to the Apple Thunderbolt  to Gigabit Ethernet Adapter.Use high-quality, properly shielded cables for all external  connections in order to meet EM C requirements and in order to obtai n the 
+highest performance of Pro Tools | Carbon and Pro Tools | Carbon Pre units.
+To orient yourself with Pro Tool s | Carbon front panel connections, see Pro Tools | Carbon Front Panel . 
+For information about bac k panel connections, see Pro Tools | Carbon Back Panel Connections.
+To orient yourself with Pro Tools | Carbon Pre front pane l connections, see Pro Tools | Carbon Pre Front Panel . 
+For information about bac k panel connections, see Pro Tools | Carbon Pre Back Panel Connections.
+For longer cable runs you can use CAT6  Ethernet cables up to 100 feet.
+A direct Network Interface connect ion between Carbon and your com puter is required. Network equi pment such as routers, hubs, an d 
+switches are not supported.
+In AVB mode, Pro Tools treats Carbon Pre as a generic AVB I/O and c annot determine converter la tency or channel labeling.
+Not all Thunderbolt to Ethernet adapters are AVB-capable. For the la test compatibi lity information and syst em requirements, vis it 
+www.avid.com/carbon-support .
+
+
+ Installation and Setup 8Connect Audio
+Make sure that your sound system  is powered off. Make the appropriate analog an d digital audio cable connections for your syste m. In 
+addition to the digital and analog inputs and outputs on the back panel, there are tw o quarter-inch jacks fo r instrument input on the front 
+panel. The front panel of Pro T ools | Carbon also provides four 1/4-inch headphone jacks. 
+If you are using Pro Tools | Carbon Pr e as a standalone mic pre or as a standalone ADAT AD/DA  converter, see Pro Tools | Carbon Pre 
+Standalone Modes  for example configurations.
+Connect Clock Sync
+If you are installing Pro Tools | Carbon or Pro Tools | Carbon Pr e in a system with multiple au dio interfaces a nd/or a synchron ization 
+peripheral, make the appropriate Word Clock connections using shielded BNC cables (not  included) or connections for clocking ov er 
+ADAT using optical cabl es (not included). 
+With Pro Tools | Carbon Expanded  systems, Pro Tools | Carbon Pre unit(s) receiv e clocking from the AVB network and do not requi re 
+additional synchronizat ion using Word Clock or ADAT connections. 
+When Pro Tools | Carbon Pre is used in sta ndalone ADAT mode, the Carbon Pre and all ot her interfaces should be synchronized usin g 
+either Word Clock or ADAT.
+Connect a Footswitch
+(Pro Tools | Carbon Only)
+You can connect an optional footsw itch (not included) to the back of Pro Tools | Carbon (1/4-inch jack) to toggle talkback on a nd off. 
+Both momentary/latching and normally open/n ormally closed footswitches are supported.
+Register your Pro Tools | Carbon or Carbon Pre
+Pro Tools | Carbon and Pro Tools | Carbon Pre units include a unique Regist ration card with a redemption code and a QR code tha t lets 
+you register the unit. Registeri ng lets you access Pro Tools softwa re and bundled plug-ins (Pro Tools | Carbon only), Avid Carb on Cen-
+tral software, and PDF documentation th rough your online Avid Master Account.When using Pro Tools | Carbon with EUCON peripherals (such as  S1), use a dedicated Network Interface with your Mac for 
+Pro Tools | Carbon. For more information, see the EUCON Networking Guidelines.pdf .
+Registration card
+
+
+
+ Installation and Setup 9To register and access Pro Tools | Carbon and Carbon Pre–related downloads through your Avid Master Account:
+1Locate the Registration card.
+2Do one of the following:
+• With your mobile device, scan th e QR code on the Registration card. Follow the on-screen instructions and then continue with t he
+next step.
+•V i s i t  https://www.avid.com/register  and continue with the next step.
+3Log in to your Avid Master Account. If you do not already have an Avid Master Account,  create a new one and log in.
+4Enter the redemption code on the Registrati on card and click Register . If you scanned the QR code, you r redemption code is entered 
+automatically.
+5Select your iLok.com  account and click Use This Account , or create a new iLok account by fo llowing the on-screen instructions (for 
+Pro Tools | Carbon only).
+You are directed to the My Products  page for your Avid Master Account.
+Download Documentation and Software
+Once you have registered Pro Tools | Carbon and/or Pro Tools | Carbon Pre, you can download PDF documentation, Avid Carbon Cen-
+tral software, and any additional softwa re and other assets to which you are entitled from your Avid Master Account.
+Download and Review PDF Documentation
+Download and review PDF document ation for Pro Tools | Carbon and Pro Tools software  from your Avid Master Account. Be sure to 
+consult any Read Me documentati on for the latest known issues.
+Download and Install Avid Carbon Central Software
+You can get Avid Carbon Central soft ware automatically from Avid Link or from your online MyAvid account.
+To download Avid Carbon Central software from your online MyAvid account:
+1From the Mac where you will be installing Avid Carbon Central, log in to your Avid  Master Account (if you are not already).
+2Under My Products , locate and click your product in the Products list.
+3Click the View Software Download Links & Product Details  link to show download links for all included software installers and 
+PDF documentation.
+4Download the Avid Carbon Central installer.
+5Locate and launch the downloaded installer.
+6Follow the on-screen instructions to complete the installation.
+Download and Install Pro Tools Software
+(Included with Pro Tools | Ca rbon or Sold Separately)
+You can get Pro Tools software auto matically from Avid Li nk or from your online MyAvid account.
+To download Pro Tools software from your online MyAvid account:
+1From the computer where you will be installing Pro Tools, lo g in to your Avid Master Account (if you are not already).
+2Under My Products , locate and click Pro Tools | Carbon in the Products list.If you purchased Pro Tools | Carbon and are an existing customer w ho already owns an eligible Pro Tools product, you may choose  
+between getting an additional Pro Tools license or extendi ng the duration of the term  of your current product.
+It is also possible to connect a single Pr o Tools | Carbon or Pro Tools | Carbon Pre device as an AVB audi o interface to you co mputer 
+without additional software . For more information about connectin g without Avid Ca rbon Central, see Appendix B, “Core Audio 
+Devices” .
+
+
+ Installation and Setup 103Click the View Software Download Links & Product Details  link to show download links for all software installers and PDF doc-
+umentation included with Pro Tools | Carbon.
+4Download the Pro Tools installer.
+5Locate and launch the downloaded installer.
+6Follow the on-screen instructions to complete the installation.
+7Download and install plug-ins and sound libra ries bundled with Pro Tools | Carbon from your Avid Master Account (you can also d o 
+this using the Avid Link desktop application that is installed with Pro Tools).
+Starting Up or Shutting Down Your System
+To ensure that the components of your Pro T ools system communicate properly with each other, it is advised that you power them on 
+in the following order.
+Start up your Pro Tools system in this order:
+1Make sure all your equipment (i ncluding your computer) is off.
+2Mute your Pro Tools | Ca rbon monitor speakers.
+3Lower the volume of all output devices in your system. 
+4Turn on any external hard drives.
+5Turn on any control surfaces (such as S1).
+6Turn on any MIDI devices or  synchronization peripherals.
+7Power on Pro Tools | Carbon and any Pro To ols | Carbon Pre devices in your system. Wait  at least fifteen seconds for your syste m 
+hardware to initialize.
+8Turn on your computer. Note that Avid Carbon Centra l auto-launches on login to your computer by default.
+9Launch Pro Tools or any third-pa rty audio or MIDI  applications.
+10Unmute your Pro Tools | Carbon monitor speakers.
+Shut down your Pro Tools system in this order:
+1Quit Pro Tools and any other running appl ications. To quit Pro Tools, choose Pro Tools > Quit .
+2Mute your Pro Tools | Ca rbon monitor speakers.
+3Turn off or lower the volume of all output devices in your system.
+4Turn off your computer.
+5Turn off Pro Tools | Carbon and any Pro Tools | Carbon Pre devi ces in your system (p ress and hold the power button for 2 second s).
+6Turn off any MIDI devices or  synchronization peripherals.
+7Turn off any control surfaces (such as S1).
+8Turn off any external hard drives.The front panel display on Pro Tools | Carbon may contain some inc onsistencies, such as incorrec t colors or fields not illumina ting, 
+until the device firmware has been updated by  Pro Tools or Avid Carbon Central. See Launch Pro Tools  and Avid Carbon Central .
+
+
+ Avid Carbon Central 11Avid Carbon Central
+Avid Carbon Central software le ts you set up your Pro Tools | Carbon or Pro Tool s | Carbon Expanded system for use with Pro 
+Tools and other Core Audio–compatible audi o applications. Avid Carbon Central is required to set up a Pro Tools | Carbon Ex-
+panded system.
+Launch Avid Carbon Central
+Use Avid Carbon Central software to config ure connected Pro Tools | Carbon and Carbon Pre devices in your system for use with 
+Pro Tools or other Core Au dio–compatible software.
+To launch Avid Carbon Central:
+1Ensure that Pro Tools | Carbon and/or any Pro Tools | Carbon Pres are powered on and correctly connected using CAT5e or better 
+Ethernet cables. 
+2Download and install Avid Carbon Central softwa re from your Avid Master Account or Avid Link.
+Avid Carbon Central application icon
+Avid Carbon Central software: Pro Tools | Carbon (A | Pr imary) and one Pro Tools | Carbon Pre (B | Expander) connected
+The installer configures Avid Carbon Central to automatically  launch at user log-in. While Av id Carbon Central is running, it m ay 
+be accessed through the menu bar.
+
+
+
+ Avid Carbon Central 12Configuring Avid Carbon Central
+Avid Carbon Central lets you select Primary (Pro Tools | Carbon ) and Expander (Pro Tools | Carbon Pre) units that you can then 
+configure for use with Pro Tools or other Core Audio–compatible audio applications.
+To enter Configuration mode:
+Click the Configure  button.If you have already been using Pro Tools | Carbon without Avid Carbon Central,  you must deselect Pro Tools | Carbon in the Audi o 
+MIDI Setup (AMS) Network Device Browser. Wh ile you can still use AMS with a single Pr o Tools | Carbon or Pro Tools | Carbon Pre  
+unit, AMS will not allow y ou to set up a Pro Tools | Carbon Expanded system. Fo r information on setting up  a single Pro Tools |  Carbon 
+or Pro Tools | Carbon Pre unit in AMS wi thout using Avid Ca rbon Central, see Core Audio Devices .
+If you are using an endpoint prot ection security application, such  as CrowdStrike, y our system administrator must report the Av id 
+Carbon Central app with your security software as a know n safe application.
+When Avid Carbon Central is launched for the first  time, it opens Configur ation mode by default.
+Avid Carbon Central software in Configuration mode
+
+
+
+ Avid Carbon Central 13To select a Primary Carbon device:
+1Enter Configuration mode.
+2Click the A | Primary menu and select the ID for your Pro Tools | Carbon device.
+To select an Expander Carbon Pre device:
+1Enter Configuration mode.
+2Click the B | Expander menu and select the ID for your first Pro To ols | Carbon Pre device if you have one. 
+3Click the C | Expander menu and select the ID for your second Pro To ols | Carbon Pre device if you have one.
+To identify the selected Interface:
+Click the device menu for the interface you want to identify and choose Identify .
+The AVID  badge on the correspo nding device flashes.
+To remove a Pro Tools | Carbon or Pro Tools | Carbon Pre from Avid Carbon Central:
+Click the device menu for the inte rface you want to re move from Avid Carbon  Central and select none .
+To exit Configuration mode and save your changes:
+Click the Apply  button.
+To exit Configuration mode without saving your changes:
+Click the Cancel  button.Avid Carbon Central software, selecting A | Primary Carbon device
+Avid Carbon Central software, selecting B | Expander Carbon Pre device
+
+
+
+ Avid Carbon Central 14Clocking
+With Pro Tools | Carbon Expanded systems, Pro Tools | Carbon Pre devices receive high quality AVB network clock from the pri-
+mary Pro Tools | Carbon device, a nd no additional clock settings are required. The Primary Pro Tools | Carbon device in a Pro To ols 
+| Carbon Expanded system, or a single Pro Tools | Carbon Pre devi ce if used as a stand-alone AVB  interface can be  clocked to th e 
+internal or from an ex ternal clock source (Word Clock or ADAT). To record or monitor si gnals from an external  digital source, u se 
+Avid Carbon Central to select the correct clock source. In most other cases, leave the primary Pro Tools | Carbon device set to  its 
+Internal  clock. Then, configure external  devices to follow the intern al clock of Pro Tools | Carbon.
+To change the clock source:
+1Click the Configure  button.
+2Click the device menu for th e Primary Carbon device.
+3Select the desired clock s ource from the Clocking menu.
+Avid Carbon Central software, selecting the clock source
+When using a single Carbon device yo u can also set clock source in AMS. For more information, see Core Audio Devices.
+
+
+
+ Avid Carbon Central 15AVB Configuration
+Choose the appropriate AVB configuration for your I/O needs. It is  important to note that these co nfigurations i ndicate the inp ut 
+and output channels av ailable to the Playback Engine in Pro Tools, not the physical I/O capacity of your Carbon system (for mor e 
+information, see System Usage ).
+To select the AVB configuratio n in Avid Carbon Central:
+1Enter Configuration  mode.
+2Click the A | Primary menu and select the desired option for the AVB Configuration  submenu.
+Pro Tools | Carbon provides multiple AVB configurations as follows:
+• 28x56 (44.1–96 kHz)
+• 56x56 (44.1–96 kHz)• 56x84 (44.1–96 kHz)• 28x42 (44.1-192 kHz)• 28x56 / 14x14 (44.1-192 kHz)• 42x56 / 14x14 (44.1-192 kHz)Avid Carbon Central software, selecting the AVB Configuration
+By default, Pro Tools | Car bon Expanded supports up to 96 kHz. To use Pro Tools | Carbon Expanded at 192 kHz you must
+select an AVB Configuration that supports 192 kHz.
+When using a single Carbon device you can al so set the AVB confi guration in AMS, see AVB Device Configuration .
+
+
+
+ Avid Carbon Central 16Device Information
+Avid Carbon Central provides information for ea ch device to the right of its interface image.
+.
+ID Displays the device ID for the connected interface.
+Firmware Displays the version of the firmware.
+Status Shows the status of the connected device.
+Core Audio I/O Lets you enable or disable th e connected devi ce for use with Core Audio–compatib le audio software. Select this op-
+tion to use the connected device with other Core Audio–compatible  audio software. You may want to uncheck this option to save 
+system CPU resources if you do no t need to use the device with other Core Audio applic ations. This setting does not affect the abil-
+ity of Pro Tools to use the device.Avid Carbon Central software, device information for A | Primary and B | Expanded
+Avid Carbon Central cannot connect to a device that is acquired by AMS in the Ne twork Device Browser and shows the status 
+“Acquired in AMS” for devices that need to be de-acquired from Ne twork Device Browser.
+
+
+
+ Avid Carbon Central 17Firmware Update
+If any Carbon or Carbon Pre device in your system requires a fi rmware update, Avid Carbon Cent ral notifies you and prompts you 
+to update the device. 
+To update the firmware of any Carbon or Carbon Pre device in your system:
+1Click the Update Firmware  button.
+2Once the firmware upda te has completed, click OK to reboot all updated devices.
+Avid Carbon Central in the macOS Menu Bar
+Avid Carbon Central also appears in the macO S Menu bar and provides the following commands:
+Show/Hide Click the CC icon in the macOS Menu bar and choose Show  or Hide  to show or hide Avid Carbon Central.
+Start/Stop Click the CC icon in the macOS Menu bar and choose Stop  or Start  to stop or start running Pro Tools | Carbon Ex-
+panded, respectively. While stopped, Pro Tools | Carbon Expanded ma y also be started using the Reset button in the Avid Carbon 
+Central window
+About Click the CC icon in the macOS Menu bar and choo se About to get information about th e installed version of Avid Carbon 
+Central.
+Quit Click the CC icon in the macOS Menu bar and choose Quit to stop running Avid Carbon Central and quit the application.Avid Carbon Central software showing a Carbon Pre requiring a firmware update
+Avid Carbon Central application icon in the macOS Menu bar
+
+
+
+ Avid Carbon Central 18Avid Carbon Central software running Pro Tools | Carbon Expanded
+
+
+
+ Pro Tools | Carbon Front Panel Operation 19Pro Tools | Carbon Front Panel Operation
+The front panel of Pro Tools | Carbon provides indicators and controls for input settin gs and monitori ng functions.
+Pro Tools | Carbon Front Panel
+The front panel of Pro Tools | Carbon provides various jacks, cont rols, and indicators. To the le ft of the segmented I/O Meters  are con-
+trols and indicators for inputs, as well as 2 instrument input ja cks. To the right of the I/O Me ters are controls and indicator s for moni-
+toring outputs, as well as 4 headphone jacks.
+1INST  inputs 1 and 2 (mono 1/4-inch unbalanced) — Connect instruments, such as  guitars or keyboards. The INPUT  setting automat-
+ically switches to INST  when a 1/4-inch cable is connected to the INST  input jack. You can still switch the inputs to MIC or LINE  
+(back panel inputs 1 and 2) whil e an instrument is plugged into either of the front panel INST  inputs.
+2Talkback Mic — The built-in talkback mic is lo cated within a small hole to the right of the INST  inputs. In Pro Tools, you can route 
+the Talkback signal to any output using an Auxiliary Input trac k. To use the talkback mic with third-party audio software, use the AVB 
+channel for the talkback mic (for A VB channel mappings, see Core Audio Devices ).
+3NET indicator — Indicates the status of the A V B connection to host computer (Avid Car bon Central or Networ k Device Browser). 
+It lights white when the device  is connected using A VB and recognized by your computer.
+4EXT indicator — Indicates status of the external  clock. It lights green when either ADAT or  Word Clock is the selected clock source  
+and the clock is valid. It flashes green when either ADAT or Word Clock is the selected clock source and clock is not valid (in ternal 
+clocking is used instead).
+5Power button — The power button lights amber when connected to power, but not powered on. It lights white when powered on. It 
+is unlit when power is disconnect ed. Press and hold the button for two seconds to power off the unit.
+6Input Level Strip and Input Source  — Displays the input source ( MIC, LINE , or INST ) for the selected input channel. The Input Level 
+Strip displays the amount of gain (preamp)  applied to the selected in put channel. The Input Level Strip LEDs light green when t he 
+selected input channel is set to MIC, yellow when the selected  input channel is set to LINE, and amber when the selected input chan-
+nel is set to INST . When an input channel is set to LINE  and the preamp is bypassed, the Input Level Strip fully lights. Increase the 
+gain for the selected input channel by turning the encoder dial (7) cloc kwise—the LEDs light from left to right.
+7Input Encoder — Turn to adjust input gain for the selected input channel. Press the encoder to cycle through and select input c hannels 
+for encoder control focus. The Channel Number indicator for the se lected channel lights green over  the I/O Meters (14). You can  also 
+press and hold the encoder while turning it clockwise or counter-clockwise to select channels. Linked channels are selected as a stereo 
+input pair when cycling through channels.Pro Tools | Carbon front panel
+For more information on configuring inputs, see Configuring Inputs .
+When Output metering is enabled, the inpu t section is disabled and the relevant butt ons are unlit except for the Talkback butto n. 
+Pressing any button or input enc oder in the input section switches back to Input  metering and re-activat es the input section.
+1 534
+7 14 1517
+20 24 25910 18 2322 21 4 6
+8131112 16  19a 19b
+19c2
+
+
+ Pro Tools | Carbon Front Panel Operation 208Talkback  button — A single press latches Talkback on (unmute the Talk back mic input). Press the butt on again to unlatch and turn 
+Talkback off (mute the Talkback mic input). Press and hold the Talkback  button to engage Talkback temporarily and release to dis-
+engage. The button fl ashes red when Talkback is engaged. DIM (24) is engaged while the talkback  mic is active. You can also use a 
+Footswitch to engage and disengage Talkback (see Footswitch ).
+9Z button — Press to cycle through the available impedance  settings (Variable Z) fo r the selected input (the Z button changes color 
+to indicate the impedance setti ng for the input):
+•MIC inputs 5–8 on the back panel.
+•INST  inputs 1–2 on the front panel
+10INPT  (Input) button — Cycles between the avai lable inputs for the selected channel: MIC, LINE , INST . Use the Input encoder button 
+(7) to select the desired input channel. The select ed input channel lights ab ove the I/O Meters (14).
+11LINK  button — Links odd (left) and even (right ) channel input pairs for ster eo linking. When linked, preamp controls affect both 
+channels identically. The even channel in herits the settings of the odd channel settings when linked. When enabled, the LINK  button 
+lights green.
+12Ø button — Toggles the polarity of the se lected input channel. The button lights amber when the polarity is inverted.
+1348V— Press to enable or disable phantom power for the selected MIC input. Phantom power can only be enabled when there is an 
+XLR connection for the selected input. When phanto m power is enabled for the selected input, the 48V button lights red. If there is 
+an XLR connection for the selected input an d phantom power is disa bled, the button lights white. Th e button is unlit when there  is 
+no XLR connection, or if there is an XLR connection but th e input is set to INST  or LINE  and phantom powe r is disabled.
+For linked channels, phantom power behaves as follows:
+• If both linked channels have XLR connections, phantom power works the same as with one channel.
+• If only the first linked channel has an XLR connection, the 48V button lights white but pressi ng the button has no effect.
+• If only the second linked channel has an XLR connection, the 48V button does not light.
+• If either XLR connection is broken while phantom power is enabled on linked channels, phantom power is disabled for that chann el.
+• If the connection to the second linked channel is broken, the 48V button lights red and phantom power is disabled for the second 
+channel.
+• If the connection to the first linked channel is broken, the 48V button does not light and phantom power rema ins on for the second 
+channel.Variable impedances for Mic channel inputs 5–8
+Impedance Color
+5k Ohm White (default)
+50k Ohm Cyan1k Ohm Fuchsia
+Variable impedances for Instrument channel inputs 1–2
+Impedance Color
+1M Ohm White (default)
+230k Ohm Cyan90k Ohm Blue
+70k Ohm Violet
+32k Ohm Fuchsia
+Use Variable Z on INST inputs when connecti ng guitar or bass with passive pickups. Va riable Z alters the fre quency response by 
+loading the pickups in the same manner as pl ugging in to different real amps or effects.
+Unlike other input channel paramet ers, phantom power is not restored when the de vice is powered off and back on. This protects 
+connected microphones and equi pment which may be configur ed differently when the device is powered back on.
+
+
+ Pro Tools | Carbon Front Panel Operation 2114I/O Meters — 9-segment LED meters display pe ak metering with peak hold (3 seconds) fo r input or output channels. Above each me-
+ter are Channel Number indicators  for each I/O channel. Channel Number indicators for the select ed channel (or channel pairs wh en 
+stereo linked) light green. Non-selected channels light white.
+15OUT  button — Press to select analog output metering.
+16Meter  button — Can be used to re set the device settings (see Default Device Settings ). 
+17IN button — Press to select  analog input metering.
+18Stereo Monitor Meter — This 9-segment LED stereo meter displays peak metering with peak hold for the output level of the select ed 
+monitor or headphone output. Mete r levels are pre-fader (showing the signal level before the monitor output control).
+19A, B, and C buttons — These three buttons are assigned to control th e Main (MON L–R), Alt 1 (LINE 1–2), and Alt 2 (LINE 3–4) 
+monitor sets respectively. The buttons light white if the corres ponding monitor set is available (e nabled in the Pro Tools Hardw are 
+Setup). The A button lights green when selected, the B button yellow, and the C button amber. If a monitor set is not enabled in the 
+Pro Tools Hardware Setup, the corre sponding button is unlit and the monitor set cannot be sele cted. Press the corresponding butt on 
+to select the desired monitor set and mute the other sets.
+20Output Encoder — Turning the knob increases or decreases the signal level for the curre ntly selected monito r or headphone outpu t. 
+Press the Output Encoder to change control to the next available monito r set or headphone output. Press and hold the Output Enc oder 
+while rotating to cycle control through the av ailable monitor sets or headphone outputs.
+21Output Level Strip and Moni tor Indicators — The Output Level Strip shows the ou tput level applied by the Output Encoder (20) fo r 
+the selected monitor set or headphone output. The numbers below the Input Level Strip indicate wh ich monitor set or headphone o ut-
+put is selected for control.
+22Monitor  (Speaker icon) button — Press the Monitor button to select a monitor set for front panel control. While a monitor set is se-
+lected, press the Output Encoder (20) to cycle through enabled mo nitor sets (monitor sets are en abled in the Pro Tools Hardware  
+Setup, see Monitors ), or press and hold the encoder while turning it to change  the selection. Turn the Out put Encoder to increase or 
+decrease the output level for the selected mo nitor set. Press the Monitor button while a monitor set is  selected to mute or unm ute the 
+monitor output. The output section indicators turn red when the monitor output is muted. The Monitor button (22) is color coded  to 
+indicate the currently selected monitor set:
+23Headphone  button — Press the Headphone  button to select a headphone output for front panel contro l. When a headphone output 
+is selected, press the Output Encoder (20) to cycle through th e connected headphone outputs, or  press and hold the encoder whil e 
+turning it to change the selection. Turn the Output Encoder to increase or decrease the output gain for the selected headphone output. 
+Headphone outputs can only be selected when  headphones are actually plugged into th e corresponding headphone jack. If no head-
+phones are currently plugged in, the HP 1 ou tput is selected. Pro Tools routing to hea dphone outputs is configured in the Hardwa re 
+Setup (see Headphone Sources ). The Headphone button (23) is color coded to indicate the currently selected headphone set:For information on enabling m onitor sets in the Pro Tools Hardware Setup, see Monitors .
+Selected Monitor Set Color
+Main (A) Green
+Alt 1 (B) YellowAtt 2 (C) AmberMonitor output muted Red
+Selected Headphone Output Color
+HP 1 CyanHP 2 BlueHP 3 VioletHP 4 Fuchsia
+
+
+ Pro Tools | Carbon Front Panel Operation 2224DIM button — Press to dim (attenuate) the signa l level of the selected monitor set by the amount (in dB) configured in the Pro Too ls 
+Hardware Setup (see Main Page ). The default Dim value is –15 dB. When enabled, the button lights amber. When disabled, the button 
+lights white. DIM does not apply to Headphone outputs. 
+25Headphone outputs 1–4 (stereo 1/4-inch).
+Configuring Inputs
+You can select the input (microphone, line, or instrument) and co nfigure the input settings for channels 1–8 (front panel instr ument in-
+puts or back panel mic/line inputs) on the front panel of Carbon.
+To select the input source for any analog input channel:
+1Press the Input Encoder (7) to cycle though and se lect any of input channels 1–8 as the source.
+2Press the INPT  button (10) to select MIC (back panel), LINE  (back panel), or INST  (front panel, input channe ls 1–2 only) for the se-
+lected channel.
+To adjust the input gain for any analog input channel:
+1Press the Input Encoder (7) to cycle though input channels 1–8 and select the desired channel you want to adjust.
+2Turn the encoder (7) to boost or attenuate the input gain for the selected channel.
+To link (or unlink) input channels:
+1Press the Input Encoder (7) to cycle though input channels 1–8 an d select one of the channels you want in the linked pair. Inpu t chan-
+nels can only be linked in adja cent odd and even pairs (1 and 2, 3 and 4, 5 and 6, or 7 and 8). 
+2Press the LINK  button (9) so that it is lit (linked)  or so that it is unlit (unlinked).
+The selected input channel and its neighbor are linked. For exampl e, if you selected input cha nnel 3, channels 3 and 4 are link ed; or if 
+you selected input channel 8, channels 7 and 8 are linked.
+To select the impedance for Instrument input channels 1–2:
+1Press the Input Encoder (7) to cycle t hough and select input channel 1 or 2.
+2Ensure that the selected input channel is set to INST .
+3Press the Z button (11) to cycle through and select th e desired impedance for the selected channel.
+To select the impedance for the selected MIC input channel (channels 5–8 only):
+1Press the Input Encoder (7) to cycle thoug h and select an input channel (5–8 only).
+2Ensure that the selected input channel is set to MIC.
+3Press the Z button (11) to cycle through and select th e desired impedance for the selected channel.
+To switch polarity for the selected input channel (1–8):
+1Press the Input Encoder (7) to cycle though and select an input channel.
+2Press the Ø button (12) to toggle polarity for the selected channel.Input configurations can also be made from Pro Tools software with Mic Pre view in the Mix or Edit windows. For more informatio n, 
+see Pro Tools Mic Preamps Control .
+Rotate the Input Encoder while it is depressed to  quickly scroll to th e desired input channel.
+INST is only available if a 1/4-inch cable is connected to the correspondi ng INST input jack on the front panel.
+It is not possible to adjust input gai n for LINE inputs if the preamp gain is bypassed for that input (see Line Input Gain ).
+You cannot link inputs across units in  a Pro Tools | Carbon Expanded system.
+It is expected to have hi gher input gain levels wi th higher impedance settings.
+
+
+ Pro Tools | Carbon Front Panel Operation 23To enable phantom power for the selected input channel:
+1Press the Input Encoder (7) to cycle though and select an input channel.
+2Ensure that the selected input channel is set to MIC and that an XLR cable is plugged into the physical input.
+3Press the 48V button (13) to toggle pha ntom power on and off for the selected channel.
+Device Reset
+If you encounter a problem with Pro Tools | Carbon and Avid cust omer support advises that you reset the device, you can reset t o the 
+default device settings  or revert to the default firmware image.
+Default Device Settings
+If necessary, you can restore the defa ult system settings (such as prea mp gain, monitor gain, and so on).
+To restore the default system settings for Pro Tools | Carbon:
+1Lower the volume on all output devices and mute your speakers.
+2Power off the unit.
+3Press and hold the Meter  button for 5 seconds while powering on the unit.
+4Release the Meter  button.
+5All buttons illuminate green for approximately 10 seconds.
+The device settings are now reset.
+Default Firmware Image
+To reset Pro Tools | Carbon to its default firmware image:
+1Lower the volume on all output devices and mute your speakers.
+2Power off the unit.
+3Press and hold the Dim button for 10 seconds while powering on the unit.
+4Release the Dim button.
+5All buttons illuminate green for approximately 10 seconds.
+6The unit shuts down for approximatel y 10 seconds and then reboots.
+7All buttons illuminate green for approximately 10 seconds.
+The default firmware is now loaded on the unit. Launch Pro Tools or Avid Carbon Cent ral to update the firmware to the matching ver-
+sion.
+Custom Brightness
+You can adjust the brightness of the Carbon  front panel, which is useful if you want  to match the brightness of your other stud io gear.
+To adjust the brightness of the Carbon front panel:
+Press and hold the meter button and release after four seconds to cycle through four different front panel brightness modes for  Car-
+bon.
+
+
+ Pro Tools | Carbon Back Panel Connections 24Pro Tools | Carbon Back Panel Connections
+Pro Tools | Carbon Back Panel
+1IEC power connector.
+2ADAT Out 1 and 2.
+3ADAT In 1 and 2.
+4Word Clock In and Out (BNC).
+5Footswitch — the footswitch  can be used for toggling  talkback on and off (see Footswitch ).
+6Ethernet 1 and 2 (A VB) — Two RJ45 Et hernet ports for control and A VB.
+7Main Monitor Out L and R (TRS balanced 1/4-inch).
+8Line In 1–8 (DB25).
+9Line Out 1–8 (DB25).
+10Mic/Line Inputs 1–8 (com bined XLR/TRS 1/4-inch).
+Digital I/O Connections
+Optical ADAT
+Pro Tools | Carbon prov ides two pairs of optical ADAT in  and out ports for a total of 16 ch annels of ADAT I/O at 44.1/48 kHz, 
+8 channels at 88.2/96 kHz, and 4 ch annels at 176.4/192 kHz. Audio channels are split across both ADAT ports at all sample rates.Pro Tools | Carbon back panel
+Alternately, in the Pro Tools Hardware Setup, you can set either or bot h pairs of the optical ADAT  in and out ports to send 
+and receive stereo optical S/ PDIF instead of ADAT signal. For more information, see Optical I/O Page .
+ADAT channels by port at different sample rates
+Sample Rate ADAT Port 1 In ADAT Port 2 In ADAT Port 1 Out ADAT Port 2 Out
+44.1/48 kHz 1–8 1–8 1–8 1–8
+88.2/96 kHz 1–4 1–4 1–4 1–4
+176.4/192 kHz 1–2 1–2 1–2 1–2
+5 3 4 16
+89
+10 2 7
+
+
+
+ Pro Tools | Carbon Back Panel Connections 25Analog I/O Connections
+Monitor L–R Outputs
+The Monitor L–R outputs on the back panel ar e independent of Line Out 1–8 (DB25). Use 1/4-inch TRS (balance d) or 1/4-inch TS 
+(unbalanced) cables to connect these line  level outputs to loudspeakers for stereo monitoring. These outputs can be configured to 
+operate at +4 dBu or –10 dBV, and have  a maximum operating level of +24 dBu. 
+Mic/Line Inputs XLR/TRS Combo Jacks 1–8
+Both the XLR/TRS combo jacks and DB25 inputs can be used for simu ltaneous connection of mic and line cables to the same input 
+channel. This allows mic and line inputs to be switched without cabl e re-patching. 1/4-inch connect ions to the combo jacks alwa ys 
+use the Line input, while XLR connections al ways use the Mic input. If a 1/4-inch connection is made to a combo jack, that con-
+nection takes precedence over the DB25 connection for that channel input.
+The preamp gain on Line inputs 1–8 can be bypassed on a channel-by-channel basis in the Pro Tools Hardware Setup (see Line I/O 
+Page ).
+Analog I/O 25-pin D-sub Connectors
+Pro Tools | Carbon uses 25-pin D-sub connect ors on the back panel for both analog line input (channels 1–8) and analog line outp ut 
+(channels 1–8).
+The DB25 line inputs 1–8 are normalled to th e TRS combo jacks. If a DB25 line input is  active and a 1/4-inch cable is plugged i nto 
+the combo jack for the same input channel, the DB25 input is  disconnected and the combo jack input is used instead.
+The DB25 outputs can be configured to operate at +4 dBu or –10 dBV, and have a maximum operating level of +24 dBu (see Line 
+I/O Page ). 
+Footswitch
+A latching or momentary footswitch can be connected to the back of Pro Tools | Carbon and can be us ed to engage or disengage 
+Talkback. Both momentary/latching and norm ally open/normally closed footswitches ar e supported. Footswitch polarity is auto-
+matically detected when Pro Tools | Carbon is powered on.Optical S/PDIF channels by port at different sample rates
+Sample Rate ADAT In: Port 1 ADAT In: Port 2 ADAT Out: Port 1 ADAT Out: Port 2 Total Channels
+44.1/48 kHz 1–2 1–2 1–2 1–2 4 In, 4 Out
+88.2/96 kHz 1–2 1–2 1–2 1–2 4 In, 4 Out
+8-channel Analog In 8-channel Analog Out
+
+
+ Pro Tools | Carbon Pre Front Panel Operation 26Pro Tools | Carbon Pre Front Panel Operation
+Pro Tools | Carbon Pre Front Panel
+The front panel of Pro Tools | Carbon Pre provides various jacks,  controls, and indicators. To th e left of the segmented I/O Me ters are 
+controls and indicators for inputs, as well as 2 instrument input  jacks. To the right of the I/ O Meters are controls and indica tors for clock 
+and sample rate settings. The front panel also provides acce ss to a hardware reset button (paper clip not included).
+1INST  inputs 1 and 2 (mono 1/4-inch unbalanced) — Connect instruments, such as  guitars or keyboards. The INPUT  setting automat-
+ically switches to INST  when a 1/4-inch cable is connected to the INST  input jack. You can still switch the inputs to MIC or LINE  
+(back panel inputs 1 and 2) whil e an instrument is plugged into either of the front panel INST  inputs.
+2NET indicator — Indicates the status of the A VB or network connection to host computer. It  lights white when the device is connecte d 
+using A VB and recognized by your computer (A vid Carbon Central or Network Device Browser), it lights purple when the preamps 
+are being controlled by Pro Tools. It also lights white if ther e is both an A VB connection and the device preamps are being con trolled 
+by Pro Tools.
+3Power button — The power button lights amber when connected to power, but not powered on. It lights white when powered on. It 
+is unlit when power is disconnect ed. Press and hold the button for two seconds to power off the unit.
+4Input Level Strip and Input Source  — Displays the input source ( MIC, LINE , or INST ) for the selected input channel. The Input Level 
+Strip displays the amount of gain (preamp)  applied to the selected in put channel. The Input Level Strip LEDs light green when t he 
+selected input channel is set to MIC, yellow when the selected  input channel is set to LINE, and amber when the selected input chan-
+nel is set to INST . When an input channel is set to LINE  and the preamp is bypassed, the Input Level Strip fully lights. Increase the 
+gain for the selected input channel by turning the encoder dial (7) cloc kwise—the LEDs light from left to right.
+5Input Encoder — Turn to adjust input gain for the selected input channel. Press the encoder to cycle through and select input c hannels 
+for encoder control focus. The Channel Number indicator for the se lected channel lights green over  the I/O Meters (12). You can  also 
+press and hold the encoder while turning it clockwise or counter-clockwise to select channels. Linked channels are selected as a stereo 
+input pair when cycling through channels.
+6• (“user”) button — Press to enable or disa ble line input gain for the selected channe l (or channels if linked). The button ligh ts white 
+when line input gain is enab led (default) and yellow when line input gain is bypassed.Pro Tools | Carbon Pre front panel
+For more information on configuring inputs, see Configuring Inputs .
+When Output metering is enabled, the input  section is disabled and the relevant bu ttons are unlit. Pressing any button or input  
+encoder in the input section switches back to Input metering and re-activ ates the input section.
+1 34
+5 12 1378 2 4
+611910 15 16
+314
+17
+
+
+ Pro Tools | Carbon Pre Front Panel Operation 277Z button — Press to cycle through the available impedance  settings (Variable Z) for the selected input (the Z button changes color 
+to indicate the impedance setti ng for the input):
+•MIC inputs 5–8 on the back panel.
+•INST  inputs 1–2 on the front panel
+8INPT  (Input) button — Cycles between the avai lable inputs for the selected channel: MIC, LINE , INST . Use the Input encoder button 
+(5)
+to select the desired input channel. The select ed input channel lights ab ove the I/O Meters (12).
+9LINK  button — Links odd (left) and even (right ) channel input pairs for ster eo linking. When linked, preamp controls affect both 
+channels identically. The even channel in herits the settings of the odd channel settings when linked. When enabled, the LINK  button 
+lights green.
+10Ø button — Toggles the polarity of the se lected input channel. The button lights amber when the polarity is inverted.
+1148V— Press to enable or disable phantom power for the selected MIC input. Phantom power can only be enabled when there is an 
+XLR connection for the selected input. When phanto m power is enabled for the selected input, the 48V button lights red. If there is 
+an XLR connection for the selected input an d phantom power is disa bled, the button lights white. Th e button is unlit when there  is 
+no XLR connection, or if there is an XLR connection but th e input is set to INST  or LINE  and phantom powe r is disabled.
+For linked channels, phantom power behaves as follows:
+• If both linked channels have XLR connections, phantom power works the same as with one channel.
+• If only the first linked channel has an XLR connection, the 48V button lights white but pressing the button has no effect.
+• If only the second linked channel has an XLR connection, the 48V button does not light.
+• If either XLR connection is broken while phantom power is enabled on linked channels, phantom power is disabled for that chann el.
+• If the connection to the second linked channel is broken, the 48V button lights red and phantom power is disabled for the second
+channel.
+• If the connection to the first linked channel is broken, the 48V button does not light and phantom power rema ins on for the seco nd
+ch
+annel.
+12I/O Meters — 9-segment LED meters display pe ak metering with peak hold (3 seconds) fo r input or output channels. Above each me-
+ter are Channel Number indicators  for each I/O channel. Channel Number indicators for the select ed channel (or channel pairs wh en 
+stereo linked) light green. Non-selected channels light white.Variable impedances for Mic channel inputs 5–8
+Impedance Color
+5k Ohm White (default)
+50k Ohm Cyan
+1k Ohm Fuchsia
+Variable impedances for Instrument channel inputs 1–2
+Impedance Color
+1M Ohm White (default)
+230k Ohm Cyan
+90k Ohm Blue
+70k Ohm Violet
+32k Ohm Fuchsia
+Use Variable Z on INST inputs when connecti ng guitar or bass with passive pickups. Va riable Z alters the fre quency response by 
+loading the pickups in the same manner as plugging in to different real amps or effects.
+Unlike other input channel paramet ers, phantom power is not restored when the de vice is powered off and back on. This protects
+connected microphones and equi pment which may be configur ed differently when the device is powered back on.
+
+
+ Pro Tools | Carbon Pre Front Panel Operation 2813OUT  button — Press to select analog output metering. When AD/ DA mode is enabled, IN and OUT  buttons are both illuminated.
+14CLK  (Clock) button — In stand-alone mode, press the CLK  button to select the desired clock source: INT (Internal), NET  (host com-
+puter/DAW), WC (Word Clock), or ADAT 1  (input).
+15IN button — Press to select anal og input metering. When AD/DA mode is enabled, IN and OUT buttons are both illuminated.
+16SR (Sample Rate) button — In stand-alone mode, press the SR button to select the desired samp le rate. When clock source is WC 
+or NET , the sample rate is detected and selected automatically. When the clock source is set to ADAT 1 , Pro Tools | Carbon Pre can 
+only detect whether the incoming sa mple rate is either 44.1/88.2/1 76.4 or 48/96/192 kHz. Mismatch ed sample rates are ignored. F or 
+example, when the clock source is set to ADAT 1 , sample rates of 48/96/192 kHz cannot be  selected if 44.1/88.2/176.4 kHz is de-
+tected.
+17Reset button — The unit can be reset to it s factory image by using a paperclip to pr ess the Reset button in the pinhole on the front 
+panel when powering on the unit (see Device Reset ).
+Configuring Inputs
+You can select the input (microphone, line, or instrument) and co nfigure the input settings for channels 1–8 (front panel instr ument in-
+puts or back panel mic/line inputs) on the front panel of Carbon Pre.
+To select the input source for any analog input channel:
+1Press the Input Encoder (5) to cycle though and se lect any of input channels 1–8 as the source.
+2Press the INPT  button (8) to select MIC (back panel), LINE  (back panel), or INST  (front panel, input chan nels 1–2 only) for the se-
+lected channel.
+To adjust the input gain for any analog input channel:
+1Press the Input Encoder (5) to cycle though input channels 1–8 and select the desired channel you want to adjust.
+2Turn the encoder (5) to boost or attenuate the input gain for the selected channel.
+To link (or unlink) input channels:
+1Press the Input Encoder (5) to cycle though input channels 1–8 an d select one of the channels you want in the linked pair. Inpu t chan-
+nels can only be linked in adja cent odd and even pairs (1 and 2, 3 and 4, 5 and 6, or 7 and 8). 
+2Press the LINK  button (9) so that it is lit (linked)  or so that it is unlit (unlinked).
+The selected input channel and its neighbor are linked. For exampl e, if you selected input cha nnel 3, channels 3 and 4 are link ed; or if 
+you selected input channel 8, channels 7 and 8 are linked.
+To select the impedance for Instrument input channels 1–2:
+1Press the Input Encoder (5) to cycle t hough and select input channel 1 or 2.
+2Ensure that the selected input channel is set to INST .
+3Press the Z button (7) to cycle through and select the desired impedance for the selected channel.Input configurations can also be made from Pro Tools software with Mic Pre view in the Mix or Edit windows. For more informatio n, 
+see Mic Preamps View Controls .
+Rotate the Input Encoder while it is depressed to  quickly scroll to th e desired input channel.
+INST is only available if a 1/4-inch cable is connected to the correspondi ng INST input jack on the front panel.
+It is not possible to adjust input gai n for LINE inputs if the preamp gain is bypassed for that input (see Line Input Gain ).
+It is expected to have hi gher input gain levels wi th higher impedance settings.
+
+
+ Pro Tools | Carbon Pre Front Panel Operation 29To select the impedance for the selected MIC input channel (channels 5–8 only):
+1Press the Input Encoder (5) to cycle thoug h and select an input channel (5–8 only).
+2Ensure that the selected input channel is set to MIC.
+3Press the Z button (7) to cycle through and select the desired impedance for the selected channel.
+To switch polarity for the selected input channel (1–8):
+1Press the Input Encoder (5) to cycle though and select an input channel.
+2Press the Ø button (10) to toggle polarity for the selected channel.
+To enable phantom power for the selected input channel:
+1Press the Input Encoder (5) to cycle though and select an input channel.
+2Ensure that the selected input channel is set to MIC and that an XLR cable is plugged into the physical input.
+3Press the 48V button (11) to toggle phantom power on and off for the selected channel.
+Device Reset
+If you encounter a problem with Pro Tools | Carbon Pre and Avid customer support advises that y ou reset the device, you can res et to 
+the default device settings or reve rt to the default firmware image.
+Default Device Settings
+If necessary, you can restore the defa ult system settings (such as prea mp gain, monitor gain, and so on).
+To restore the default system settings for Pro Tools | Carbon Pre:
+1Lower the volume on all output devices and mute your speakers.
+2Power off the unit.
+3Press and hold the CLK  button for 5 seconds while powering on the unit.
+4Release the CLK  button.
+5All buttons illuminate green for approximately 10 seconds.
+The device settings are now reset.
+Default Firmware Image
+To reset Pro Tools | Carbon Pre to its default firmware image:
+1Lower the volume on all output devices and mute your speakers.
+2Power off the unit.
+3Use a paper clip (or similar) to press and hold the Reset button (17) on the front panel of the unit.
+4Power on the unit.
+5Release the Reset button (17) and plac e the paper clip in a safe place.
+The default firmware is now loaded on the unit. Launch Pr o Tools to update the firmwa re to the ma tching version.
+
+
+ Pro Tools | Carbon Pre Back Panel Connections 30Pro Tools | Carbon Pre Back Panel Connections
+Pro Tools | Carbon Pre Back Panel
+1IEC power connector.
+2ADAT Out 1 and 2.
+3ADAT In 1 and 2.
+4Word Clock In and Out (BNC).
+5Ethernet 1 and 2 (A VB) — Two RJ45 Et hernet ports for control and A VB.
+6Line Out 1–8 (DB25).
+7Line In 1–8 (DB25).
+8Mic/Line Inputs 1–8 (com bined XLR/TRS 1/4-inch).
+Digital I/O Connections
+Optical ADAT
+Pro Tools | Carbon Pre provides two pairs of  optical ADAT in and out port s for a total of 16 channels  of ADAT I/O at 44.1/48 kHz , 
+8 channels at 88.2/96 kHz, and 4 ch annels at 176.4/192 kHz. Audio channels are split across both ADAT ports at all sample rates.Pro Tools | Carbon Pre back panel
+ADAT channels by port at different sample rates
+Sample Rate ADAT Port 1 In ADAT Port 2 In ADAT Port 1 Out ADAT Port 2 Out
+44.1/48 kHz 1–8 1–8 1–8 1–8
+88.2/96 kHz 1–4 1–4 1–4 1–4
+176.4/192 kHz 1–2 1–2 1–2 1–2
+3 4 15
+76
+8 2
+
+
+
+ Pro Tools | Carbon Pre Back Panel Connections 31Optical S/PDIF Input
+Carbon Pre supports optical S/PDIF input. Each ADAT IN port will automatically detect whether the incoming optical signal is in  
+S/PDIF or ADAT format.
+Analog I/O Connections
+Mic/Line Inputs XLR/TRS Combo Jacks 1–8
+Both the XLR/TRS combo jacks and DB25 inputs can be used for simu ltaneous connection of mic and line cables to the same input 
+channel. This allows mic and line inputs to be switched without cabl e re-patching. 1/4-inch connect ions to the combo jacks alwa ys 
+use the Line input, while XLR connections al ways use the Mic input. If a 1/4-inch connection is made to a combo jack, that con-
+nection takes precedence over the DB25 connection for that channel input.
+Analog I/O 25-pin D-sub Connectors
+Pro Tools | Carbon Pre uses 25-pin D-sub connectors on the back panel for both analog line inpu t (channels 1–8) and analog line 
+output (channels 1–8).
+The DB25 line inputs 1–8 are normalled to th e TRS combo jacks. If a DB25 line input is  active and a 1/4-inch cable is plugged i nto 
+the combo jack for the same input channel, the DB25 input is  disconnected and the combo jack input is used instead.
+The DB25 outputs operate at +4 dBu, and ha ve a maximum operating level of +24 dBu. Optical S/PDIF channels by port at different sample rates
+Sample Rate ADAT In: Port 1 ADAT In: Port 2 Total Channels
+44.1/48 kHz 1–2 1–2 4 In
+88.2/96 kHz 1–2 1–2 4 In
+8-channel Analog In 8-channel Analog Out
+
+
+ Configuring Pro Tools 32Configuring Pro Tools
+Once you have made the necessary cable c onnections for your studio and have configured Avid Carbon  Central software, launch 
+and configure Pro Tools:
+1Launch Pro Tools. If the Dashboard appears, click Cancel  to proceed without opening or creating a session.
+2Configure the Playback Engine the Playback Engine  (see Playback Engine ).
+3Configure Pro Tools | Carbon in the Hardware Setup (see Hardware Setup ).
+4Configure I/O Setup (see I/O Setup ).
+Launch Pro Tools
+Pro Tools software is included with Pro Tools | Carbon. You can purchase a Pro Tools subscription from Avid separately if neede d. 
+After you have installed Pro Tools software , bundled plug-ins, and sound libraries, an d have correctly configured Avid Carbon 
+Central software, launch Pro Tools. When la unching Pro Tools for the first time, you are prompted to Activate your Pro Tools soft -
+ware license and licenses for any newly inst alled plug-ins. Follow the on -screen instructions to acti vate your iLok licenses. Y ou 
+may also be prompted to update the fi rmware for any connec ted Pro Tools | Carbon and Carbon  Pre devices in your system.
+To launch Pro Tools:
+1Double-click the Pro Tools icon in the Applications folder or single-click the icon in the Dock.
+2When prompted to Activate your Pro Tools software  license, follow the on-screen instructions.
+3If you are prompted to update Pro Tools | Carbon Firm ware, do so by following the on-screen instructions.
+iLok Authorization
+Once you have registered Pro Tools | Carbon and downloaded an d installed software from your Avid  Master Account, use iLok Li-
+cense Manager to authorize iLok Cloud or your physical USB iL ok (purchased separately) with y our entitlements. When launching 
+Pro Tools for the first time, you are prompted to Activate your software license using your  registered iLok account.
+Firmware Update
+Required firmware updates are in cluded with Pro Tools software. When you first launch a new version of Pro Tools you may be 
+prompted to update the firmware for any co nnected Pro Tools | Carbon and Carbon Pre de vices in your system. If prompted, follow 
+the on-screen instructions to update Pr o Tools | Carbon and Carbon Pre firmware.Pro Tools Studio or Pro Tools Ultimate is required to us e DSP mode with Pro Tools | Carbon and Pro Tools | Carbon Ex-
+panded systems. Otherwise, Pro Tools | Carbon and Pro Tools | Carbon Pre can be used as Core Audio devices just like with 
+other Core Audio–compatible audio applicat ions. You can use Ethe rnet for Pro Tools Mic Pre cont rol with Pro Tools | Carbon 
+and Pro Tools | Carbon Pre regardless.
+Pro Tools application icon
+
+
+
+ Configuring Pro Tools 33Playback Engine
+To select the Pro Tools | Carbon device appropriate to your system configuration as the Playback Engine for Pro Tools:
+1Launch Pro Tools if it is not already running.
+2Choose Setup > Playback Engine .
+3Select one of the following as the as the Playback Engine according to your system configuration:
+• Pro Tools | Carbon Expanded
+• Pro Tools | Carbon• Pro Tools | Carbon Pre: I/O
+4Configure the rest of the Playb ack Engine dial og as desired.Playback Engine dialog: Pro Tools | Carbon Expanded selected
+If you are using Avid Carbon Central, th e Playback Engine appears as Pro Tools | Carbon Expanded even if you have only
+a single Pro Tools | Carb on device connected.
+If you are using Carbon Pre as an ADAT  converter or standalone mic preamp, select the appropriate Playback Engine for 
+your system configurat ion. For example, select HDX if you are using Carbon Pre wi th a HD I/O connected to HDX.
+For most installations, the default setti ngs are recommended. You can optimize performance later by  returning to the Playback 
+Engine dialog.
+
+
+
+ Configuring Pro Tools 345Click OK.
+Hardware Setup
+When Pro Tools | Carbon is connected to your Pro Tools system, the Hardware Setup provides thre e pages specifically for setting  
+up Pro Tools | Carbon and Pro Tools | Carbon  Expanded systems. There are no specific controls for Pro Tools | Carbon Pre in Har d-
+ware Setup.
+To configure Pro Tools | Carbon in the Hardware Setup dialog:
+1Launch Pro Tools if it is not already running.
+2Choose Setup > Hardware .
+3Configure the settings for Pro Tools | Carb on, which are described in detail below.
+4Click OK when you are done to close the Hardware Setup  dialog.To open the Playback Engine dialog when laun ching Pro Tools, press and hold the N key. 
+Hardware Setup, Pro Tools | Carbon 
+When a monitor set is enabled, the audio signal from the respec tive physical outputs is attenuat ed. When a monitor set is not 
+enabled, the audio signal from the re spective physical outputs is not  attenuated. This is indicate d in the Hardware Setup by a 
+“!” to the right of the monitor set icon. Do not connect speakers to physical outputs where a monitor set is  not enabled. Doing  
+so will result in a very loud, unattenuated  output level.
+
+
+
+ Configuring Pro Tools 35Peripherals
+The Peripherals list displays th e connected Pro Tools | Carbon unit. Note that onl y the Pro Tools | Carbon primary device is sh own 
+in the Peripherals list for Pro Tools | Carbon Expanded systems.
+Clock Source
+Click Audio MIDI Setup  to see the clock source settings for Pro Tools | Carbon.
+Sample Rate
+Displays the current Sample Rate  for Pro Tools | Carbon.
+Retain Mic Pre Settings
+To retain the current Mic Pre settings for Pro Tools | Ca rbon when switching between different sessions, enable the Retain Mic Pre 
+Settings  option.
+Firmware
+Displays the Firmware  version for the Pro Tools | Carbon. The letter suffix in dicates which version of th e main board is installed 
+in the chassis. Different board versions ma y have slightly different specifications.
+Main Page
+Click the Main  tab in the Hardware Setu p to view the Main page.
+Hardware Setup, Pro Tools | Carbon Main page
+
+
+
+ Configuring Pro Tools 36Monitors
+The Monitors  section lets you enable or disa ble the following Monitor options:
+Main (MON L–R) When enabled, the Main monitor set can be selected fo r monitoring on the front pa nel of Pro Tools | Carbon. 
+The Main monitor uses the Monito r L–R outputs on the back panel.
+Alt 1 (LINE 1–2) When enabled, the Alt 1 monitor set ca n be selected for monitoring on th e front panel of Pro Tools | Carbon. 
+Alt 1 uses channels 1 and 2 of the DB25 line outputs on the back panel.
+Alt 2 (LINE 3–4) When enabled, the Alt 2 monitor set ca n be selected for monitoring on th e front panel of Pro Tools | Carbon. 
+Alt 2 uses channels 3 and 4 of the DB25 line outputs on the back panel.
+Headphone Sources
+The Headphone Sources  section lets you select the s ource for each of the four headph one outputs on the front panel of 
+Pro Tools | Carbon.
+MON L–R When this option is selected, the corresponding headphone output mirrors the signal of th e currently selected Monitor 
+set. If no Monitor set is enabled, the he adphone output mirrors the signal of the MON L–R outputs on the back panel.
+HP 1–4 When a source is set to a headphone output (HP 1–4), any Pr o Tools track (or other Core A udio software au dio channel) 
+that is routed to that Headphone output  passes audio to that Headphone output.
+Function Switch Assignments
+The Function Switch Assignments  section shows whether or not the control assign ments for the front panel buttons are enabled. 
+If a control assignment is not available, such  as if Alt 2 (3–4) is disabled, the butt on on the front panel is unlit and the co rresponding 
+icon in the Hardware Setup is grayed out.
+Talkback Mic Gain
+Adjust the knob or type a value (in dB) to set the talkback mic gain for when Talkback is engage d. Talkback mic gain can be set  
+to the following fixed values: 0, 6, 12, 18, 24, 30, or 36 dB. It defaults to 30 dB.
+Dim Amount
+Adjust the knob or type a value (in dB ) to set the Dim level for when the DIM button is pressed on the fro nt panel or wh en Talkback 
+is engaged.With Pro Tools | Carbon, you can mirror the main stereo anal og monitoring output with optical  S/PDIF output for external 
+digital metering (such as with a Logitek Ultra VU Bargraph Meter). For more information, see Analog Monitoring with 
+Digital Metering .
+This is useful when you want the listener to hear the same audio material as the ma in mix in both Pro Tools and Core Audio outp ut.
+This is useful when you want the listener to hear diff erent audio material from the main mix in Pro Tools and Core Audio output , 
+such as for a unique cue mix.
+
+
+ Configuring Pro Tools 37Line I/O Page
+Click the Line I/O tab in the Hardware Setup to view the Line I/O  page. You can set whet her each of the Line input channels bypass 
+input gain control. You can also set the reference level (+4 dBu or –10 dBV) for each of the analog outputs.
+Line Input Gain
+Select On to apply input gain control to the corresponding Li ne input (either XLR/TRS or DB25 inputs). Select Bypass  to bypass 
+the input preamp for the correspo nding Line input ch annel. Enable Bypass  when connecting an extern al preamp or line-level 
+source, and the most transparent signal path is desired. For any linked input pairs, the Line In Gain  setting is linked. You can also 
+bypass (or unbypass) Line input gain from Mic Prea mps view on tracks in the Mix or Edit windows. 
+Line Output Reference Level
+Select either +4 dBu  or –10 dBV  as the reference level for each analog output: MON L–R  (TRS outputs) and LINE 1–8  (DB25 out-
+puts). When connecting balanced audio gear, use +4 dBu.  When connecting unbalance d audio gear, use –10 dBV.
+Optical I/O Page
+Click the Optical I/O tab in the Hardware Setup to view the Optical I/O  page.Hardware Setup, Line I/O page
+For Pro Tools | Carbon Pre, press the “user”  (dot) button on the front panel to enable or disable line input gain for the se-
+lected channel (see Pro Tools | Carbon Pre Front Panel ).
+Pro Tools | Carbon Pre line outputs are always  configured for +4 dBu reference level.
+Hardware Setup, Optical I/O page
+
+
+
+ Configuring Pro Tools 38Optical In Format (Detected)
+Pro Tools | Carbon and Pro Tools | Carbon Pr e automatically detect the di gital format of the incoming  signal on optical ports 1  and 
+2 (labeled ADAT In 1 and 2 on th e back panel). The detected fo rmat is displayed for each port: ADAT , S/PDIF , or N/A.
+Optical Out Format
+Pro Tools | Carbon provides two pairs of  optical in and out ports (labeled ADAT  Out 1 and 2 on the back panel). The Optical I/O  
+page of the Hardware Setup lets  you set the digital format of each output port to either ADAT  or Optical S/PDIF . When set to 
+ADAT , each port provides up to 8 ch annels of digital audi o depending on the sample  rate. When set to Optical S/PDIF, each port 
+provides 2 channels of digital audio up to 96 kHz.
+Sample Rate
+The Sample Rate  indicator displays the current sample rate of the session for reference. The interface sample rate is determined 
+by Pro Tools or Core Audio. When Pro Tools is  running, the sample rate is set by Pro To ols. When Pro Tools is closed, the sampl e 
+rate for Pro Tools | Carbon can be set in AMS. Pro Tools and th ird-party Core Audio applications cannot us e different sample ra tes 
+for Pro Tools | Carbon at the same time. The defaul t sample rate for Pro Tool s | Carbon is 48 kHz.
+Clock Source in Audio MIDI Setup
+You can set the Clock Source  for Pro Tools | Carbon, Pro Tools | Carbon Pre, or Pro Tools | Carbon Expande d systems in  the Audio 
+window of AMS, which can be accesse d from the Hardware Setup dialog. The Clock Source  defaults to the internal clock. If other 
+digital devices are connected to Pro Tools | Carbon that can be set to fo llow the internal clock of Pro Tools | Carbon, you can  leave 
+Pro Tools | Carbon set to the default Internal option. However, if  you need Pro Tools | Carbon to follow an external clock sour ce, 
+such as a connected s ynchronization pe ripheral that generates Word Clock or a digital device that  sends clock over ADAT optical , 
+you will need to set Pro Tools | Carbon to follow that clock source.ADAT channel routing by port at different sample rates
+Sample Rate ADAT In: Port 1 ADAT In: Port 2 ADAT Out: Port 1 ADAT Out: Port 2 Total Channels
+44.1/48 kHz 1–8 1–8 1–8 1–8 16 In, 16 Out
+88.2/96 kHz 1–4 1–4 1–4 1–4 8 In, 8 Out176.4/192 kHz 1–2 1–2 1–2 1–2 4 In, 4 Out
+Optical S/PDIF channel routing by port at different sample rates
+Sample Rate ADAT In: Port 1 ADAT In: Port 2 ADAT Out: Port 1 ADAT Out: Port 2 Total Channels
+44.1/48 kHz 1–2 1–2 1–2 1–2 4 In, 4 Out
+88.2/96 kHz 1–2 1–2 1–2 1–2 4 In, 4 Out
+The default ADAT 1 and 2 channel names in I/ O Setup do not change when S/PDIF is selected. For exampl e, select ADAT 1–2 
+In/Out on Pro Tools tracks for routing Optical S/PDIF audio. Ho wever, channel names can be ed ited in I/O Setup to display 
+“Optical S/PDIF 1–2” wh en the S/PDIF format is selected, if desired.
+Do not attempt to change the device sample rate using AMS or  a third-party Core Audio applic ation while Pro Tools is running.
+You can also set the Clock Source  in Avid Carbon Central (see Clocking ), which is recommende d for Pro Tools | Carbon 
+Expanded systems.
+
+
+ Configuring Pro Tools 39To select the appropriate Clock Source for Pro Tools | Carbon:
+1Do one of the following:
+• In macOS, launch Audio MIDI Setup.
+• In Pro Tools, choose Setup > Hardware  and click Audio MIDI Setup .
+2Choose Window > Show Audio Devices .
+3Select Pro Tools | Carbon: Reserved for Pro Tools  in the Audio Device list.
+4From the Clock Source selector, select the clock source that Pro Tools | Carbon should follow:
+• Internal (default)• Word Cloc
+k
+•
+ADAT 1
+• ADAT 2
+Each possible internal and external Clock So urce is listed once for each AVB input stream in the current Pro Tools | Carbon AVB  
+configuration (such as In 1–28  or Reserved 1–28 ). There is no functional difference betw een the listed option s for each individual 
+internal or external Clock Source.
+Ensure that Internal  is selected if you are not clocking to an external source . If you need to clock to an external source, ensure that 
+the proper cable connections are robust and that the external clock source is providing clock data at the appropriate sample rate, 
+then select the Clock Source that  matches your system configuration.Selecting the Clock Source for Pro Tools | Carbon in AMS
+
+
+
+ Configuring Pro Tools 40I/O Setup
+Configure the Pro Tools I/O Setup for input and output routing for Pro Tools | Carbon.
+Input Setup
+Pro Tools | Carbon pr ovides Mic, Line, Instrument, ADAT, an d Talkback mic in puts. Pro Tools | Carbon Pr e provides Mic, Line, 
+and Instrument inputs when used in a Pr o Tools | Carbon Expanded system. When used as a dedicated AVB interface ADAT I/O 
+is also available.At higher sample rates, the number of av ailable ADAT Inputs and Outputs are reduced fo r each port. At 88.2/96 kHz, only ADAT 
+channels 1–4 are available, and at 176.4/192 kHz, only ADAT channe ls 1–2 are available. Unavai lable ADAT channels are in-
+dicated in italic text in the Input, Outp ut, Bus, and Insert pages of the I/O Setup.
+I/O Setup, Input page with Carbon Expanded system
+
+
+
+ Configuring Pro Tools 41Output Setup
+In addition to line  and ADAT outputs, Pro Tool s | Carbon has a dedicated Ma in stereo monito r output, two addi tional Alternate 
+stereo monitor output paths (line outputs 1– 4), and four dedicated Headphone outputs. Pro Tools | Carbon Pre provides line outp uts 
+when used in a Pro Tools | Carbon Expanded system. When used as a dedicated AVB interface the ADAT I/O is also available.
+Main and Alt Monitor Paths
+The Main monitor output path and the two Alt monitor paths can be enabled or disabled in the Hard ware Setup. When enabled, each  
+appears color coded in the Output page  of the I/O Setup. Each stereo monito r path has a fixed output assignment:
+Main The Main monitor path is al ways assigned to the 1/4-inch  TRS stereo monitor outputs.
+Alt 1 The Alt 1 monitor path is always assigned to the DB25 line outputs 1–2.
+Alt 2 The Alt 2 monitor path is always assigned to the DB25 line outputs 3–4.
+Headphone Outputs
+Each Headphone output can be assigned to either mirror the Main moni tor path or use its own dedicated path. 
+AFL/PFL Path and Pro Tools | Carbon
+The AFL/PFL Path  is used only for AFL and PFL Solo Modes. If you do no t intend to use Pro Tools AFL and PFL Solo Mode fea-
+tures, disable the AFL/PFL Path  to make more system reso urces available for other audio routing and processing tasks.I/O Setup, Output page with Carbon Expanded system
+
+
+
+ Configuring Pro Tools 42Analog Monitoring wi th Digital Metering
+With Pro Tools | Carbon, you can mirror the main stereo analog mo nitoring output to the optical S/ PDIF output for hardware me-
+tering with an external digital metering device.
+To configure Pro Tools | Carbon for analog monitoring with an external digital metering device:
+1In Hardware Setup ( Setup > Hardware ), set one of the ADAT ports to Optical S/PDIF. 
+2Click OK to close the Hardware Setup.
+3Connect that ADAT port to your  external metering device.
+4On the Bus page of the I/O Setup ( Setup > I/O > Bus ), do the following:
+• Hold the Control key (Mac) or Start key (Windows).
+• Click on the assigned monitor output ( MON L-R ) in the Mapping to Output  column.
+•S e l e c t  ADAT 1: 1-2  or ADAT 2: 1-2  (depending on which ADAT port is set to S/ PDIF and is connected to your metering de-
+vice) to multi-assign the monitor path output s.
+Once 
+assigned, Pro Tools audio output is  routed to both pairs of outputs.
+5Click OK to close the I/O Setup.Hardware Setup, Optical Out Format set to S/PDIF for both ports
+I/O Setup Bus page, setting MON L-R bus to both MON L-R and ADAT 1: 1-2 outputs
+This Pro Tools | Carbon routing configuration only works with Pr o Tools software. It is not s upported with other Core Audio 
+applications using Pro Tools | Carbon.
+
+
+
+ DSP Mode for Low-Latency Monitoring 43DSP Mode for Low-Latency Monitoring
+DSP Mode ensures that low-latency monitoring is maintained durin g recording with Pro Tools | Carbon. You can enable or disable 
+DSP Mode on a track-by-track basis. DSP Mo de can be enabled for Audio, Auxiliary Inpu t, Instrument, Routing Folder, and Master 
+Fader tracks. For tracks with DSP Mode enabled, all plug-ins on the track switch from Native to DSP (if a DSP version is availa ble), 
+and all track inputs and outputs, including sends, run on the HDX DSP mixer in Pro Tools | Carbon itself. To ensure the lowest pos-
+sible latency for monitoring, DSP and Nati ve plug-ins cannot be active on the same tr ack while DSP Mode is enabled. Any Na-
+tive-only plug-ins are automatically bypassed in DSP Mode.
+While Pro Tools | Carbon Pre does not have any on-board DSP of its own, it can take advantage of the DSP in the primary 
+Pro Tools | Carbon unit when using Carbon Pre in a Pro Tools | Carbon Expanded system. 
+The following DSP Mode states are possible, as indicated by the DSP Mode icon:
+Native Mode (DSP Mode Disabled) When DSP Mode is disabled on a track it is in  Native Mode and the DSP Mode button is gray. 
+All plug-ins on the track are Native only.
+DSP Mode Enabled When DSP Mode is enabled on a track, the DSP Mode but ton turns bright green. Al l Native plug-ins with DSP 
+versions switch to DSP while Native only  plug-ins are bypassed. The entire signal path  for the track runs on the DSP mixer in 
+Pro Tools | Carbon.
+DSP Mode Auto Enabled If any track is part of the signal chai n of another track that is set to DSP Mode, it is automatically set to 
+DSP Mode. When DSP Mode is auto matically enabled on a track, the DSP Mode button turns dim green.
+DSP Mode Safe When DSP Mode Safe is enabled on a track, DSP Mode will not be automatically enabled on that track. You can also use DSP Mode on audio tracks t hat are not record-armed or  input-enabled if you want to offload Native processing 
+on the host CPU to HDX DSP processi ng on Pro Tools | Carbon when mixing.
+DSP Mode button states
+DSP Mode Auto enabledDSP Mode Safe enabledNative ModeDSP Mode enabled
+
+
+ DSP Mode for Low-Latency Monitoring 44Enabling DSP Mode
+Enable DSP Mode on tracks for low-latency monitoring duri ng recording or input monitoring. With DSP Mode enabled:
+Protecting low latency is the highest priority.
+The track and its entire sign al chain run on the HDX DS P in Pro Tools | Carbon.
+Any plug-ins on the track that are not available in DSP format are bypassed.
+HEAT is not supported on audio tracks in DSP Mode. In the Mi x window, HEAT is bypassed for all audio tracks in DSP Mode.
+To enable DSP Mode on a track, do one of the following:
+In the Mix or Edit window, click the DSP Mode bu tton on the track so that it lights bright green.
+In the Mix or Edit window, right-click th e DSP Mode button on the track and select DSP Mode .
+Right-click the Track name in the Track List , or in the Edit or Mix window, and select DSP Mode . The DSP Mode button is no t
+show
+n when the Track Height  is set to Small , Mini, or Micro  in the Edit window. In this case, use this method to enable (or dis-
+able) DSP Mode, or do so in the Mix window.Track DSP Mode button enabled: in the Edit window (left) and in the Mix window (right)
+Right-click a track name to enabl e DSP Mode in the Edit window
+
+
+
+ DSP Mode for Low-Latency Monitoring 45Enabling DSP Mode Safe
+Use DSP Mode Safe  to prevent DSP Mode  from being automatically enabled on a track. This is useful if you want to route any 
+audio from a DSP Mode–enabled track with an y plug-ins that are only available in Native  format. For example, you might want to 
+send audio from a DSP Mode–enabled audio track to a DSP Mode Sa fe–enabled Auxiliary Input track for processing with a reverb 
+plug-in that is only available as a Native plug-in. DSP Safe Mode can also be useful if you just need to avoid using DSP for pl ug-ins 
+on a track for any reason.
+To enable DSP Mode Safe on a track, do one of the following:
+Right-click the Track name in the Track List, or in the Edit or Mi x window, and select DSP Mode Safe .
+In the Mix or Edit window, right-click th e DSP Mode button on the track and select DSP Mode Safe .
+In the Mix or Edit window, Command-c lick the DSP Mode button on the track.
+Indicators for DSP Plug-ins, Inserts, Sends, and Outputs
+DSP-Compatible Badge for Plug-ins
+For plug-ins that are available in both Native and DSP fo rmats, the DSP-Compatible Badge appe ars to the right of plug-in name 
+in the Plug-in Insert selector. Plug-ins without this badge are on ly available in Native format a nd, if inserted on a track, ar e auto-
+matically bypassed when DSP M ode is enabled on that track.Enabling DSP Mode Safe on a track in the Mix window
+Tracks in DSP Mode provide ultra-low-la tency monitoring, whereas tracks in Nati ve Mode introduce latency when monitoring 
+live inputs. Consequently, live audio monitored both through tracks in DSP Mode  and tracks in Native Mode (including DSP 
+Mode Safe-enabled tracks) may not be aligned.
+DSP-Compatible Badge
+
+
+
+ DSP Mode for Low-Latency Monitoring 46DSP Mode Insert Indicator
+Plug-in Insert selectors ch ange color to indicate whether DSP plug-ins are inse rted on a track that is DSP Mode enabled or DSP 
+Mode auto-enabled, or if a plug-in has been ma de inactive due to insuff icient DSP resources. 
+Plug-in Format Indicator in Plug-in Windows
+The Plug-in Format indicator is color coded to indicate whether DSP plug-ins are insert ed on a track that is DSP Mode–enabled o r 
+DSP Mode–auto enabled, or if a plug-in ha s been made inactive due to insufficien t DSP resources. Simil arly, with Dynamics 
+plug-ins, the Key Input sele ctor turns dark orange to indicate th at there are insufficient DSP resources.DSP Mode Insert indicator color coding
+DSP Mode Color
+Enabled Green
+Auto-enabled Dark GreenInactive due to insufficient resources Dark Orange
+Insert DSP Mode indicators
+DSP Mode enabled
+DSP Mode automatically enabled
+Insert Selector dotDSP Mode enabled
+DSP Mode enabledDSP Mode auto-enabled
+DSP Mode enabled,
+plug-in inactive due to
+insufficient resources
+
+
+
+ DSP Mode for Low-Latency Monitoring 47Send Selector DSP Mode Indicator
+When a Send is made inactive due to insufficient DSP resources, th e Send selector appears dark or ange and any text is italicize d.
+Output View Selector DSP Mode Indicator
+When a track output is made inac tive due to insufficient DSP resources, the Out put View selector appears dark orange and any te xt 
+is italicized.DSP Mode, DSP plug-in inactive due to insufficient DSP resources
+DSP Mode, Key Input inactive due to insufficient DSP resources
+DSP Mode-enabled, send inactive due to insufficient resources
+DSP Mode-enabled, track output inactive due to insufficient resources
+
+
+
+ DSP Mode for Low-Latency Monitoring 48System Usage
+The System Usage window in Pro Tools provides a Pro Tools | Ca rbon pane that lets you moni tor the number of available AVB 
+Input and Output channels in use, and how much DSP is being used by plug-ins and the mixer.
+Input Channels Shows the number of AVB channels dedicated to au dio streams from Pro Tool s | Carbon to Pro Tools.
+Output Channels Shows the number of AVB channels dedicated to au dio streams from Pro Tool s to Pro Tools | Carbon.
+DSP Meters Show how much of the 8 HDX DSPs on Pro Tools | Carbon are being used  by the mixer an d DSP plug-ins.
+DSP Mode Preferences
+The Enable DSP Mode when Tracks with Hardware Inputs are Record-Armed Input-Enabled  preference automatically sets au-
+dio tracks to DSP Mode when they are reco rd-armed or input-enabled. This ensures low-latency monitoring using DSP Mode for 
+all live signal paths. This option is enabled by default.
+The Disable DSP Mode when Disabling Record/Input  preference automatically disables DSP Mode when disengaging Record 
+Arm and TrackInput Monitor on a track. This option is disabled by default.
+To enable (or disable) DSP Mode preferences:
+1Choose Setup > Preferences > Operation .
+2In the Record  section, select (or deselect) the Enable DSP Mode when Tracks with Hardware Inputs are Record-Armed/
+Input-Enabled  option.
+3In the Record  section, select (or deselect) the Disable DSP Mode when Disabling Record/Input  option.
+4Click OK.System Usage window, Pro Tools | Carbon pane
+Pro Tools reserves certain channels for internal communica tion. As a result, the nu mber of Output Channels shown in the System 
+Usage window is always tw o fewer than the number of  channels shown in AMS.
+A larger or smaller AVB configuration can be selected in  Avid Carbon Central (see AVB Configuration ) or AMS (see AVB Device 
+Configuration) to suit your input and ou tput channel requirements.
+Any track that is automatically DSP Mode -enabled due to this preference remains DSP Mode-enabled until it is manually set to 
+Native Mode or if the Disable DSP Mode when Disabling Re cord/Input option is enabled.
+
+
+
+ DSP Mode for Low-Latency Monitoring 49Workflow Example: Recording in DSP Mode for Low-Latency Monitoring
+The following workflow example uses DSP Mode for recording a singer with DSP plug-in processing and low-latency monitoring.
+This example session is made up of the follow ing tracks (see the graphic on the next page):
+• 3 mono audio tracks for vocals, guitar, and bass. Each track has EQ and dynamics plug-ins, and the vocal track also ha s a
+slap-back delay
+.
+• 2 stereo audio tracks, one for electric piano and another for drum loops. Each track has EQ and dynamics plug-ins.
+• 1 stereo Auxiliary Input track for reverb processing.
+• 2 Master Fader tracks, one for control room monitoring and the other for the singer’s headphone s. Each has a limiter on it.
+• 1 mono Auxiliary Input track for the built-in talkback mic.
+The following diagram shows the physical studio connections for this workflow example. While this workflow example only re-
+views recording vocals in DSP Mode with a dedicated headphone mi x, you can just as easily ha ve independent headphone mixes 
+for the rest of the band.
+Physical studio connections
+
+
+
+ DSP Mode for Low-Latency Monitoring 50Adjust the Mix for Recording
+Start playback to set the levels and panning of the instruments to get the mix you want  in the control room monitors. Set the s end 
+levels from each track to balance the headpho ne mix. Input-enable the vocal track and use the talkback mic to communicate with 
+the singer and adjust the headphone mix to the singer’s liking. Once the singer is happy with the headphone mix, you are ready to 
+record some vocals.
+Session with the band already recorded 
+
+
+
+ DSP Mode for Low-Latency Monitoring 51Record with Low-Latency Monitoring
+Enable DSP Mode on the vocal track. Notice that all tracks that are part of the signal chain for the vocal track have DSP Mode en-
+abled automatically: the reverb Auxiliary Input track and both Master Fader tracks. All plug-ins on these tracks switch from Na tive 
+to DSP format (any Native only plug-ins on any of these trac ks are automatically bypassed).
+Record-arm the vocal track, and when the sing er is ready, start recording.  The singer will hear themse lves in the mix with virt ually 
+no latency.
+Recording vocals in DSP M ode for low-latency monitoring
+
+
+
+ DSP Mode for Low-Latency Monitoring 52Use DSP Mode Safe to Record with Native Reverb
+Let’s assume that you have a Native-only re verb plug-in that you really like. You ca n still record vocals with virtually no lat ency 
+in their monitor mix while still using your favorite Native-only reverb plug-in to process all of the audio tracks. Enable DSP Mode 
+Safe on the reverb track and set the wet/dr y mix on the reverb plug-in to 100% wet.  Enable DSP Mode on the vocal track—DSP 
+Mode is enabled for all tracks in the signa l chain of the vocal track except for the reverb track. Record-arm the vocal track a nd when 
+the singer is ready, start recording. There wi ll be latency on the reverb track, but give n the nature of reverb processing it w on’t re-
+ally be noticeable. The important thing is that the talent  won’t hear any latency in th e mix with their performance.
+Session configured for recording vocals, but with Auxiliary Input track in DSP Mode Safe for Native reverb processing
+For complete information about recording and mixing in Pro Tool s, refer to the Pro Tools Reference Guide, which can be 
+accessed from the Help menu in Pro Tools.
+
+
+
+ DSP Mode for Low-Latency Monitoring 53Tips for Using DSP Mode
+To ensure optimal workflows in DSP Mode:
+Use input and output gain controls on Na tive-only plug-in inserts to make up for any undesirable changes in signal level when
+switching between Native Mode and DSP Mode.
+Since DSP Mode does not reduce latency for tracks that are not part of a live  signal path, avoid enabling DSP Mode on tracks
+that are not part of the signal chain for recording and input monitoring. However, not e that DSP Mode can be used to offload
+plug-in processing from the CPU when mixing without consequence.
+To avoid unnecessarily enabling DSP Mode automatically on track s that are fed by other channe ls of a multi-channel bus, us e
+dedicated mo
+no bus paths instead of mono sub-paths of stereo busses when routing mono audio signals with tracks in DSP 
+Mode. You will need to specifically create mono bus paths in I/O Setup since the default bus paths will always be stereo wi th
+mono
+ sub-paths.
+Avoid routing unrelated sign als to the channels of a multichannel bus. For ex ample, avoid routing a gui tar signal to the left c han-
+nel and a bass signal to the right channel of the same stereo bus.
+
+
+ Pro Tools Mic Preamps Control 54Pro Tools Mic Preamps Control
+Pro Tools lets you control Pro Tools | Carbon and Pro Tools | Carbon Pre mic preamps from mono and stereo tracks in Pro Tools 
+sessions using Mic Preamps view. Mic Preamps control are not available with grea ter-than-stereo tracks (such as LCR or 5.1).
+Mic Preamps View
+To show (or hide) Mic Preamps view in the Mix window, do one of the following:
+Select (or deselect) View > Mix Window Views > Mic Preamps .
+Click the Mix Window View select or, and select (or deselect) Mic Preamps .
+To show (or hide) Mic Preamps view in the Edit window, do one of the following:
+Select (or deselect) View > Edit Window Views > Mic Preamps .
+Click the Edit Window View sele ctor, and select (or deselect) Mic Preamps .Mic Preamps view, Mix window
+Mic Preamps view, Edit window
+
+
+
+ Pro Tools Mic Preamps Control 55Mic Preamps View Controls
+Mic Preamps view provides the same set of controls in both the Mix and Edit windows.
+Header (Mix Window Only)
+This indicates which MIC PRE channel on Pr o Tools | Carbon is being controlled. This co rresponds to the selected input channel 
+for the track.
+Preamp Slot and Channel Number (Mix Window Only)
+This displays the Mic Preamp  slot and channel number.
+Input Type Selector
+Select an available Input Type fo r the preamp on that channel: Mic, Line, or Inst. If there is no instrument  cable plugged into the 
+physical input, the Inst option is unavailable.
+Preamp Window Button
+Indicates the currently selected Input Type ( Mic, Line, or Inst). Click to open a floating Mi c Preamp window for the channel.Mic Preamp view controls
+To retain the current Mic Pre settings fo r Pro Tools | Carbon when switching betwee n different sessions , enable the Retain 
+Mic Pre Settings option in the Ha rdware Setup (Setup > Hardware).
+Mic Preamp windows: Mic, Inst, and Line (left to right)
+Click the red Target button in the upper ri ght corner of the window to toggle focus on or off. When unfocused, additional Pre-
+amp windows can be opened.
+Header
+Preamp Window button Input Type selector
+Stereo Link button
+Polarity button
+48V selectorVariable Z selector
+Gain controlPreamp slot and channel number 
+
+
+
+ Pro Tools Mic Preamps Control 56Stereo Link Button
+Indicates the current link state for pairs of  channels. Click to link or unlink the corresponding stereo pair of channels (1–2,  3–4, 
+5–6, 7–8). For stereo tracks, each channel ca n be independently controlled when unlinked. 
+Preamp controls for a stereo track can be linked or unlinked. When unlinked, a Link button and Channel button appear. Click the  
+Channel button (such as 1 or 2) to toggle  control between odd and even channels. Clic k the Link button to link channels and dis play 
+the Stereo Link button (for example, Link 1– 2). The even channel inherits  the settings from the odd channel when linked. Click the 
+Stereo Link button again to disable stereo link and show the Link and Channel buttons.
+Variable Z Button
+Indicates the current impedance se tting. Click to select from the available impe dance options for the selected Input Type. Vari able 
+Z is only available for co nnected variable Z inputs.
+Polarity Button
+Indicates the current polarity setting. Click the button to toggle polarity.
+Gain Indicator and Mini Fader
+The Gain indicator features a mini fader to adjust gain to the input signal. The gain  range for each input (Mic, Line, and Inst rument) 
+is +3–60 dB, adjustable in 1 dB increments.
+Bypass Line Input Gain
+When input type is set to Line, you can right-click on the Gain indicator and select (or deselect) Bypass Line Input Gain . When 
+bypassed, the gain value text is dimly lit and italicized. This setting is mirrored in the Line I/O  page of the Hard ware Setup dialog 
+(Setup > Hardware) .
+48V Selector (Mic Only)
+Click the 48V button and select 48V or Off from the pop-up menu to enable or disabl e phantom power. The 48V button lights when 
+phantom power is enabled. +48 is not available when  a mic is not plugged into the corresponding input.
+Pro Tools | Carbon Pre Mic Preamps Setup
+When using Pro Tools | Carbon or Pro Tools | Carbon Expanded, no special setup is required for Mic Preamp control. However, 
+additional setup is required for Mic Preamp  control when using Pro Tools | Carbon Pr e as a standalone AV B device, Mic Preamp, 
+or ADAT AD/DA converter.
+To setup Pro Tools to control Pro Tools | Carbon Pre Mic Preamps over Ethernet:
+1Ensure that the Pro Tools | Carbon Pre device is connected to your computer using Ethernet.
+2Choose Setup > Peripherals .
+3Click the Mic Preamps  tab.
+4Select the Carbon Pre device in the Type column (do this for each Carbon Pre in y our system). The corresponding Receive From 
+and Send To options ar e set automatically to Ethernet .
+
+
+ Pro Tools Mic Preamps Control 575Click OK.
+6Choose Setup > I/O .
+7Click the Mic Preamps  tab.
+8Click in the first channel on the grid for the corresponding Pro Tools | Carbon Pre unit. Repeat this step for a second Carbon Pre 
+if there is one in the system.
+9Click OK.
+Pro Tools is now configured to control the preamps on your Pro Tools | Carbon Pre.Peripherals, Mic Preamps tab
+Peripherals, Mic Preamps tab
+Any Pro Tools | PRE™ or Pro Tools | Carbon Pre assignments to analog inputs 1–8 override Carbon preamp control on that 
+channel. For example, if you map Pro Tools | PRE channels to anal og inputs 1–4 then Pro Tools | PR E control appears for tracks 
+with those inputs, and Carbon preamp contro ls appear only for tracks with inputs 5–8.
+
+
+
+ Pro Tools | Carbon Pre Standalone Modes 58Pro Tools | Carbon Pre Standalone Modes
+Pro Tools | Carbon Pre can be used as a standalone 8-channel ADAT AD/ DA converter, as a standa lone 8-channe l microphone 
+preamp, or as a standalone Core Audio AVB audio interface. 
+ADAT Mode
+ADAT mode is automatically enabled when your Carbon Pre is not in AVB mode or AD→DA mode. In ADAT mo de th e 
+analog inputs are routed to the ADAT outputs and the ADAT inp uts are routed to the analog outputs. This lets y ou use your 
+Carbon Pre as a standalon e 8-channel AD/DA converter.
+To use Carbon Pre as a standalone AD/DA converter:
+1 Connect TOSLINK from the AD AT o utput(s) of the Carbon Pre to  ADAT inp ut(s) o f your audio  interface.
+2 Verify that the Carbo n Pre is in ADAT mode (the AD->DA light is not illumina ted), see Pro Tools | Carbon Pre Fr ont Panel 
+Operation .
+3 Configure the Carbon Pre clocking to match th e clock source of your  audio interface—synchronize one device to th e othe r using 
+Word Clock or ADAT.For signal routi ng diagrams, see Pro Tools | Carbon Pre Signal Routing .
+While Pro Tools | Carbon Pre is  synchronized to the Word Clock output of your  audio interface, the Pr o Tools | Carbon Pre 
+device sample rate follows the sample rate of your audio interface.
+Pro Tools | Carbon Pre example standalone ADAT AD configuration with HD I/O on a HDX systemPro Tools | Carbon Pre964530300294856WORD CLOCK LOOP SYNC
+PRIMARY PORT EXPANSION PORTIN
+OUT
+AC ~ 100-240V;50-60HZ;   AS/PDIF
+IN
+OUTAES/EBU
+INPUT AES/EBU
+OUTPUT 
+OPTICAL
+IN OUT
+ACCESSORY1234567 8ANALOG  INPUT
++4 dBu  BALANCED -10 dBV  BALANCED
+123 45678ANALOG OUTPUT
+BALANCEDDIGITAL I/O
+AES/EBU
+ADAT
+INTDIF I/O
+ADAT
+OUTPro Tools HD I/O 
+
+
+
+ Pro Tools | Carbon Pre Standalone Modes 594Ensure that the Carbon Pre sample rate  matches that of the audio interface.
+5Access the audio channels of the Carbon Pre us ing the ADAT inputs of your audio interface.
+6If you want to control the Mic Preamps from Pro Tools, ensure th at Ethernet is connected for c ontrol data (but not for A VB audi o 
+streaming).
+AD→DA Mode (8-channel Mic Preamp)
+Pro Tools | Carbon Pre can be used as a standalone 8 -channel analog mic preamp device. When AD→DA mode is enabled , 
+analog inputs 1 –8 are routed to both analog outputs 1–8 and the ADAT outputs. ADAT inputs are muted, but ADAT1 is 
+available as a clock source.  AVB inputs and outpu ts are disabled wh ile the device is in AD->DA mode. The sample rate can b e 
+changed by press-ing SR button, an d the clock  source (INT, WC, or ADAT1) can be changed by pressing the CLK button.
+To use Carbon Pre as an analo g mic preamp:
+1 Connect the DB-25 output of y our Carbon Pr e to th e line inputs of yo ur audi o interface or mixer.
+2 Enable AD->DA mod e on your Carbon Pre. 
+3 (Optional) Set your Carbon  Pre samp le rate to 192 kHz for th e highest quality au dio sig nal.
+4 Access the audio channels of your Carbon Pre usin g the Line inputs of you r audio interface o r mixer.
+5 If you want to control the Mic Preamps from Pr o Tool s, ensure that Ethernet is connecte d for c ontrol data (bu t not for AVB aud io 
+streaming).
+Pro Tools | Carbon Pre example standalone mic prea mp configuration with an HD I/O in an HDX system964530300294856WORD CLOCK LOOP SYNC
+PRIMARY PORT EXPANSION PORTIN
+OUT
+AC ~ 100-240V;50-60HZ;   AS/PDIF
+IN
+OUTAES/EBU
+INPUT AES/EBU
+OUTPUT 
+OPTICAL
+IN OUT
+ACCESSORY1234567 8ANALOG  INPUT
++4 dBu  BALANCED -10 dBV  BALANCED
+123 45678ANALOG OUTPUT
+BALANCEDDIGITAL I/O
+AES/EBU
+ADAT
+INTDIF I/O
+ADAT
+OUT
+Pro Tools | Carbon PrePro Tools HD I/O 
+
+
+
+ Pro Tools | Carbon Pre Standalone Modes 60To enable AD →DA mode:
+Press and hold the SR button for 2 seconds then release. Both th e SR button and the AD→DA LED light violet, and the IN 
+and OUT meter buttons light green.
+To disable AD →DA mode:
+Press and hold the SR button fo r 2 seconds then release. The lights for the SR button and the AD→DA LED turn off,  and the 
+IN and OUT meter buttons light green.
+If a valid AVB connection is made when AD→DA mode is disab led, th en AVB mode is automatically enabled. If 
+no valid AVB connection is made when AD→DA mode is disabled, th en ADAT mode is automatically enabled.
+Standalone AVB Mode
+In Standalone AVB mode, Pro Tools | Carbon Pre appears as a generic Core Au dio interface ( Pro Tools | Carbon Pre: I/O ). In 
+Standalone AVB mode, Pro Tools | Carbon Pre provides 8 channels of analog I/O and up to 16 channels of ADAT I/O. 
+Configure your Pro Tools | Carbon Pre in AMS for use as a st andalone Core Audio AVB audio interface. For more information, 
+see AVB Connections and Settings ).
+
+
+Appendix A: Specifications 61Appendix A: Specifications
+Audio Specifications for Pro Tools | Carbon
+Microphone Preamp Inputs
+Line InputsSpecifications s ubject to change.
+ Back panel: XLR inputs 1–8
+Frequency Response 20 Hz to 20 kHz, ±0.1 dB
+Gain Range 3–60 dB in 1 dB stepsEquivalent Input Noise (EIN) –129 dBu (A-weighted)Signal to Noise Ratio (SNR) –123.5 dB, –126 dB (A-weighted)Dynamic Range 126 dB (A-weighted)Total Harmonic Distortion (THD) 1 kHz @ –1 dBFS –105 dB (0.00056%)Maximum Input Level +24 dBuCrosstalk –145 dB @ 1 kHzPhantom Power +48VConnector Type 8 XLR (XLR/TRS Combo)
+Back panel: DB25 inputs 1–8 and 1/4-inch TRS inputs 1–8
+Frequency Response 20 Hz to 20 kHz, ±0.1 dBGain Range 6–60 dB in 1 dB stepsSNR –122 dB, –125 dB (A-weighted)Dynamic Range 123 dB, 125 dB (A-weighted)THD 1 kHz @ –1 dBFS –106 dB (0.0005%)Maximum Input Level +24 dBuCrosstalk –145 dB @ 1 kHzConnector Type 1/4-inch TRS Balanced (Combo XLR/TRS)
+DB25 (Tascam wiring), normalled
+
+
+Appendix A: Specifications 62Line Inputs (True Bypass)
+Instrument Inputs
+Line OutputsBack panel: DB25 inputs 1–8 and 1/4-inch TRS inputs 1–8
+Frequency Response 20 Hz to 20 kHz, ±0.1 dB
+Gain Range 0 dB fixedSNR –123 dB, –126 dB (A-weighted)Dynamic Range 123 dB, 126 dB (A-weighted)THD 1 kHz @ –1 dBFS –113 dB (0.00022%)Maximum Input Level +24 dBuCrosstalk –145 dB @ 1 kHzConnector Type 1/4-inch TRS Balanced (Combo XLR/TRS)
+DB25 (Tascam wiring), normalled
+Front panel 1/4-inch TS inputs 1–2
+Frequency Response 20 Hz to 20 kHz, ±0.1 dB
+Gain Range 3–60 dB in 1 dB stepsSNR –120 dB, –122 dB (A-weighted)Dynamic Range 123 dB, 125 dB (A-weighted)THD 1 kHz @ –1 dBFS –103 dB (0.0007%)Maximum Input Level +15.7 dBVCrosstalk –145 dB @ 1 kHzConnector Type 1/4-inch TS Unbalanced
+Back panel DB25 outputs 1–8
+Frequency Response 20 Hz to 20 kHz, ±0.1 dB
+SNR –124 dB (A-weighted)Dynamic Range 124 dB (A-weighted)THD 1 kHz @ –1 dBFS –110 dB (0.0003%)Maximum Output Level +24 dBuCrosstalk –135 dB @ 1 kHzOutput Impedance 100 ohm balanced (50 ohm per leg)Connector Type DB25 (Tascam wiring)
+
+
+Appendix A: Specifications 63Monitor Outputs
+Headphone Outputs
+Digital I/O ADATBack panel 1 ⁄4-inch TRS outputs L–R
+Frequency Response 20 Hz to 20 kHz, ±0.1 dB
+SNR –126 dB (A-weighted)Dynamic Range 126 dB (A-weighted)THD 1 kHz @ –1 dBFS –110 dB (0.0003%)Maximum Output Level +24 dBuCrosstalk –135 dB @ 1 kHzOutput Impedance 100 ohm balanced (50 ohm per leg)Connector Type 1 ⁄4-inch TRS Balanced
+Front panel 1/4-inch TRS stereo 1–4
+Power 100 mW into 300 ohm; 200 mW into 32 ohm
+Frequency Response 20 Hz to 20 kHz, ±0.1 dBSNR –116 dB (A-weighted)Dynamic Range 116 dB (A-weighted)Total Harmonic Distortion + Noise Ratio 32 Ohm: –87 dB (0.0045%)
+300 ohm: –100 dB (0.001%)
+Connector Type 1 ⁄4-inch TRS Stereo
+Back panel optical ports 1 and 2
+Format ADAT Digital Lightpipe with S/MUX
+Supported Sample Rates 44.1, 48, 88.2, 96, 176.4, 192 kHzChannel Assignments (44.1–48 kHz) Port 1 = Channels 1–8, Port 2 = Channels 1–8Channel Assignments (88.2–96 kHz) Port 1 = Channels 1–4, Port 2 = Channels 1–4Channel Assignments (176.4/192 kHz) Port 1 = Channels 1–2, Port 2 = Channels 1–2Connector Type Optical TOSLINK
+
+
+Appendix A: Specifications 64Digital I/O Optical S/PDIF
+Audio Specifications for Pro Tools | Carbon Pre
+Microphone Preamp Inputs
+Line InputsBack panel optical ports 1 and 2
+Format Optical S/PDIF
+Supported Sample Rates 44.1, 48, 88.2, 96 kHzChannel Assignments (44.1–48 kHz) Port 1 = Channels 1–2, Port 2 = Channels 1–2Channel Assignments (88.2–96 kHz) Port 1 = Channels 1–2, Port 2 = Channels 1–2Connector Type Optical TOSLINK
+ Back panel: XLR inputs 1–8
+Frequency Response 20 Hz to 20 kHz, ±0.1 dB
+Gain Range 3–60 dB in 1 dB stepsEquivalent Input Noise (EIN) –129 dBu (A-weighted)Signal to Noise Ratio (SNR) –123.5 dB, –126 dB (A-weighted)Dynamic Range 126 dB (A-weighted)Total Harmonic Distortion (THD) 1 kHz @ –1 dBFS –105 dB (0.00056%)Maximum Input Level +24 dBuCrosstalk –145 dB @ 1 kHzPhantom Power +48VConnector Type 8 XLR (XLR/TRS Combo)
+Back panel: DB25 inputs 1–8 and 1/4-inch TRS inputs 1–8
+Frequency Response 20 Hz to 20 kHz, ±0.1 dB
+Gain Range 6–60 dB in 1 dB stepsSNR –122 dB, –125 dB (A-weighted)Dynamic Range 123 dB, 125 dB (A-weighted)THD 1 kHz @ –1 dBFS –106 dB (0.0005%)Maximum Input Level +24 dBuCrosstalk –145 dB @ 1 kHzConnector Type 1/4-inch TRS Balanced (Combo XLR/TRS)
+DB25 (Tascam wiring), normalled
+
+
+Appendix A: Specifications 65Line Inputs (True Bypass)
+Instrument Inputs
+Line OutputsBack panel: DB25 inputs 1–8 and 1/4-inch TRS inputs 1–8
+Frequency Response 20 Hz to 20 kHz, ±0.1 dB
+Gain Range 0 dB fixedSNR –123 dB, –126 dB (A-weighted)Dynamic Range 123 dB, 126 dB (A-weighted)THD 1 kHz @ –1 dBFS –113 dB (0.00022%)Maximum Input Level +24 dBuCrosstalk –145 dB @ 1 kHzConnector Type 1/4-inch TRS Balanced (Combo XLR/TRS)
+DB25 (Tascam wiring), normalled
+Front panel 1/4-inch TS inputs 1–2
+Frequency Response 20 Hz to 20 kHz, ±0.1 dB
+Gain Range 3–60 dB in 1 dB stepsSNR –120 dB, –122 dB (A-weighted)Dynamic Range 123 dB, 125 dB (A-weighted)THD 1 kHz @ –1 dBFS –103 dB (0.0007%)Maximum Input Level +15.7 dBVCrosstalk –145 dB @ 1 kHzConnector Type 1/4-inch TS Unbalanced
+Back panel DB25 outputs 1–8
+Frequency Response 20 Hz to 20 kHz, ±0.1 dB
+SNR –124 dB (A-weighted)Dynamic Range 124 dB (A-weighted)THD 1 kHz @ –1 dBFS –110 dB (0.0003%)Maximum Output Level +24 dBuCrosstalk –135 dB @ 1 kHzOutput Impedance 100 ohm balanced (50 ohm per leg)Connector Type DB25 (Tascam wiring)
+
+
+Appendix A: Specifications 66Digital I/O ADAT
+Digital I/O Optical S/PDIF
+Synchronization and Network Specifications
+Synchronization
+Network Interface
+Mechanical SpecificationsBack panel optical ports 1 and 2
+Format ADAT Digital Lightpipe with S/MUX
+Supported Sample Rates 44.1, 48, 88.2, 96, 176.4, 192 kHzChannel Assignments (44.1–48 kHz) Port 1 = Channels 1–8, Port 2 = Channels 1–8Channel Assignments (88.2–96 kHz) Port 1 = Channels 1–4, Port 2 = Channels 1–4Channel Assignments (176.4/192 kHz) Port 1 = Channels 1–2, Port 2 = Channels 1–2Connector Type Optical TOSLINK
+Back panel optical ports 1 and 2
+Format Optical S/PDIF
+Supported Sample Rates 44.1, 48, 88.2, 96 kHzChannel Assignments (44.1–48 kHz) Port 1 = Channels 1–2, Port 2 = Channels 1–2Channel Assignments (88.2–96 kHz) Port 1 = Channels 1–2, Port 2 = Channels 1–2Connector Type Optical TOSLINK
+Connector Types Optical or BNC
+Synchronization Sources Internal, AVB Ethernet, ADAT, Word Clock
+Interface 1000BASE-T, RJ45 connector, 4-pair connection
+Chassis standard 19”, 1 RU
+Chassis depth, without connectors mounted 34.8 cm / 13.5”Chassis body width 44.2 cm / 17.4”Weight 4.45 kg / 9.8 lbs.
+
+
+Appendix A: Specifications 67Environmental Specifications
+Operating Temperature 4–40º C / 39.2–140º F
+Humidity 20–85% (non-condensing)
+
+
+68Appendix B: Core Audio Devices
+When using Audio MIDI Setup to connect Pro Tools | Carbon the de vice provides two se parate AVB Audio Devi ces in the Audio De-
+vices list in AMS: Pro Tools | Carbon: I/O  and Pro Tools | Carbon: Reserved for Pro Tools .
+When using Audio MIDI Setup to connect Pro Tools | Carbon Pre as a standalone AVB devi ce the device provides one AVB Audio De-
+vice in the Audio Devices list in AMS: Pro Tools | Carbon Pre: I/O .
+When using Avid Carbon Central to connect Pro Tools | Carbon Expanded Avid Carbon Central provides one Carbon | Expanded: Re-
+served  AVB Audio Device in the Audio Devices list in AMS. Avid Carbon Central also  provides one I/O AVB Audio Device for each 
+device with Core Audio I/O selected.
+AVB Connections and Settings
+Pro Tools | Carbon
+Pro Tools | Carbon requires a direct connecti on to your computer using AVB Ethernet. The AVB Ethernet connection provides up to  56 
+input channels and 84 output channels of AVB  audio between Pro Tools | Carbon and Pro To ols, and up to 28 input channels and 28 out-
+put channels of AVB audio betwee n Pro Tools | Carbon and third-pa rty Core Audio–compat ible software. The number of available AV B 
+input and output channels is re duced at higher sample rates.
+Before you can use Pro Tools | Carbon with your Mac, do each of the following:
+Make sure you have met all th e System Requirements (see System Requirements and Compatibility Information ).
+Make sure that you have connected Pro Tools | Carbon to your computer us ing a direct connection to one of the comput er's
+Ethernet por
+ts or Thunderbolt ports using an A VB-capable Thunderbolt adapter (see Connect Ethernet ).
+Configure Avid Carbon Central or en able A VB in Audio MIDI Setup (see Enable AVB ).
+Select Pro Tools | Carbon as the Pro Tools Playback Engine ( Setup > Playback Engine ) (see Playback Engine ).
+Update Pro Tools | Carbon firmware when  prompted. This is absolutely requir ed for your system to perform pr operly
+(see Firmware U
+pdate ).
+Pro Tools | Carbon Pre
+Pro Tools | Carbon Pre in Standalone AVB m ode requires a direct connection to your computer usi ng AVB Ethernet. The AVB Etherne t 
+connection provides up to 24 in put channels and 24 output channels of AVB audio between Pro Too ls | Carbon Pre and Pro Tools or 
+third-party Core Audio–compatible software.
+Before you can use Pro Tools | Carbon Pre with your Mac, do each of the following:
+Make sure you have met all th e System Requirements (see System Requirements and Compatibility Information ).
+Make sure that you have connected Pro Tools | Carbon Pre to  your computer using a direct connection to one of the comput er's
+Ethernet por
+ts or Thunderbolt ports using an A VB-capable Thunderbolt adapter (see Connect Ethernet ).
+Configure enable A VB in Audio MIDI Setup (see Enable AVB ).
+Select Pro Tools | Carbon Pre: I/O  as the Pro Tools Playback Engine ( Setup > Playback Engine ) (see Playback Engine ).
+Update Pro Tools | Carbon Pre firmware when prompted. This is absolutely required for you r system to perform pr operly
+(see Firmware U
+pdate ).You can also set the clock source  and AVB configuration in Avid  Carbon Central software (see Avid Carbon Central ).
+
+
+69Enable AVB
+To connect Pro Tools | Carbon or Pro Tools | Carbon Pre to a Mac computer without using Avid Carbon Central:
+1Make sure your Pro Tools | Carbon or Pro To ols | Carbon Pre device is connected by Ethern et to your computer and that both are pow-
+ered on.
+2Go to Applications > Utilities  and launch Audio MIDI Setup (AMS).
+3In Audio MIDI Setup, choose Window  > Show Network Device Browser  (or press Command+3). If the device is correctly con-
+nected and powered-on,  it appears in th e Device list as Pro Tools | Carbon  or Pro Tools | Carbon Pre.
+4Click to enable Pro Tools | Carbon  or Pro Tools | Carbon Pre in the Device list.
+Setting Up Pro Tools | Carbon or Pro Tools | Carbon Pre for macOS System Sound Input and Output
+You can use Pro Tools | Carbon or Pro Tools | Carbon Pre for macOS System Sound Input and Output. Select Pro Tools | Carbon: I/O  
+or Pro Tools | Carbon: I/O Pre as the Sound Input device for recording audio with third-party Co re Audio audio appl ications. Select 
+Pro Tools | Carbon: I/O  or Pro Tools | Carbon: I/O Pre as the Sound Output device to play back third-party Core Audio audio appli-
+cations and websites through the Main Monitor (MON L–R) outputs on  the back of Pro Tools | Carbon as well as headphones that ar e 
+assigned to the Main Monitor output path (configured in the Pro To ols Hardware Setup) or through analog output channels 1 and 2  on 
+Pro Tools Carbon Pre.If Pro Tools | Carbon or Pro Tools | Carbon Pre does not appear in the Netw ork Device Browser, double ch eck the Ethernet cable con -
+nections and make sure that you are using an AVB-compatible connection (Ethernet port or qualified adapter) and that your Mac i s 
+AVB-compatible. In addition to checking cabl e connections, you may need to disable any active VPN (d epending on the specific VP N 
+configuration) or network prox y. For more information on tr oubleshooting Pro Too ls | Carbon, visit www.avid.com/carbon-support .
+Pro Tools | Carbon enabled as a network audio device in AMS
+You can use the Configure Speakers feature in  AMS to change the Pro Tools | Carbon: I/ O outputs that are used for macOS System 
+Sound or to configure the Pro Tools | Carbon:  I/O for greater-than-stereo formats. Fo r AVB channel mappings to Pro Tools | Carbon 
+physical outputs, see Core Audio Devices .
+
+
+70To set up Pro Tools | Carbon or Pro Tools | Carbon Pre for macOS System Sound Input and Output:
+1Launch the macOS System Preferences .
+2Open the Sound  preferences.
+3Click the Input  tab.
+4In the device list, select Pro Tools | Carbon: I/O  or Pro Tools | Carbon Pre: I/O  in the Device list.
+5Click the Output  tab.
+6In the device list, select Pro Tools | Carbon: I/O  or Pro Tools | Carbon Pre: I/O  in the Device list.
+AVB Device Configuration in AMS
+Pro Tools | Carbon provides six di fferent device configurations for Pro Tools and third- party DAW input and output channels, wh ile 
+Pro Tools | Carbon Pre provides three different  device configurations for Pro Tools and third-party DAW  input and output channel s. The 
+selected configuration determines the maximu m sample rate and the complexity of DSP Mo de track routing that is possible in Pro Tools. 
+Certain configurations also affect the number of available channels when using the Pro Tools | Carbon: I/O  or Pro Tools | Carbon Pre: 
+I/O device with third-party Core Audio applications. Use a smaller configuration to reduce the load on the host processor. Use a la rger 
+configuration to increase mixi ng capacity in Pro Tools for more complex routing of low latency paths using DSP Mode.Pro Tools | Carbon: I/O selected for macOS System Sound Output
+Never use Pro Tools | Carbon: Reserved for Pro Tools or Carbon | Expanded: Reserved for the macOS System Sound or other 
+third-party audio applications. On ly use Pro Tools | Carbon: I/O or Pro Tools | Carbon Pre: I/O for macOS System Sounds and 
+other third-party audio applications.
+For more information, see AVB Device Configuration .
+
+
+
+71Generic Core Audio I/O
+When using Pro Tools | Carbon or Pro Tools | Carbon Pre with thir d-party Core Audio applications or for macOS system audio, the  
+Pro Tools | Carbon: I/O  or Pro Tools | Carbon Pre: I/O device must be used. The available AVB  input and output channels are deter-
+mined by the selected AVB Device Configuration (see AVB Device Configuration ).
+To use Pro Tools | Carbon or Pro Tools | Carbon Pre for Mac System Sound Input and Output , select the “Pro T ools | Carbon: I/O” 
+or “Pro Tools | Carbon Pre: I/O” device in the Output and the Input pages of the Sound Sy stem Pref erences.
+Pro Tools | Carbon: I/O device selected in AMS
+
+
+
+72Reserved for Pro Tools
+The Pro Tools | Carbon: Reserved for Pro Tools and the Pro Tools | Carbon Expanded: Reserved for Pro Tools  devices are dedi-
+cated to Pro Tools. The available AVB input and output channels  are determined by the selected  AVB Device Configuration (see AVB 
+Device Configuration ).
+AVB Device Configuration
+Pro Tools | Carbon provides six different AVB  device configurations for input and output channels with Pro Tools or third-party  Core 
+Audio–compatible software. The selected co nfiguration determines the maximum number of  record-enabled input  channels and the 
+maximum number of output channels in DSP Mode available in Pro Tools.  Pro Tools | Carbon Pre provides three different AVB device 
+configurations for input and output channels with Pro Tools or thir d-party Core Audio–co mpatible software.
+Certain configurations also affect the numb er of available channels when using the Pro Tools | Carbon: I/O or Pro Tools | Carbon Pre: 
+I/O device with third-party Core Audio applications. Use a smaller configuration to reduce the load on the host processor. Use a la rger 
+configuration to increase mixi ng capacity in Pro Tools for more complex routing of low latency paths using DSP Mode.While you can select the Carbon | Expanded: Reserved devi ce in certain third-party Core A udio applications, it is not supported .
+Never use the “Pro Tools | Carbon: Reserved  for Pro Tools” device for Mac System Sound Input or Output (S ystem Preferences> 
+Sound). Only use the “Pro Tools | Carbon: I/O” or “Pro  Tools | Carbon Pre: I/O” device for Mac System Sounds.
+Pro Tools | Carbon: Reserved for Pro Tools device selected in AMS
+
+
+
+73To set the device configuration using Audio MIDI Setup:
+1Launch Audio MIDI Setup (AMS).
+2In the Audio Devices window, select Pro Tools | Carbon: Reserved for Pro Tools  in the Audio Devices list.
+3Do one of the following:
+• From the Configure Selected Device menu, choose Configure Device .
+• Right-click Pro Tools | Carbon: Reserved for Pr o Tools in the Audio Devices list and choose Configure Device .
+4In the resulting A VB Audio Entity  Configuration window, select Pro Tools | Carbon  or Pro Tools | Carbon Pre .Choosing Configure Device for Pro Tools | Carbon: Reserved for Pro Tools device
+If the AVB Audio Entity Con figuration window does not appear automatically,  choose Window > Audio Entity Configuration 
+(or press Command+1).
+
+
+
+745From the Current Configuration  selector, select the configuratio n that best suits your workflow.
+• Pro Tools | Carbon:
+• 28x56 (44.1–96 kHz)
+• 56x56 (44.1–96 kHz)• 56x84 (44.1–96 kHz)• 28x42 (44.1–192 kHz)• 28x56 / 14x14 (44.1–192 kHz)• 42x56 / 14x14 (44.1–192 kHz)
+• Pro Tools | Carbon Pre:
+• 8x8 (44.1–192 kHz)• 14x14 (44.1–192 kHz)• 24x24 (44.1–192 kHz)
+6Quit the A VB Audio Configuration application ( AVB Audio Configuration > Quit , or press Command+Q).AVB Audio Entity Configuration window
+Do not select any of the “Expanded”  configurations as these are onl y for use by Avid Carbon Central.
+In Pro Tools, the System Usage window shows the number of available Input Channe ls and Output Channels  for the selected 
+configuration, and how many  are currently in use by  the open session. See System Usage .
+
+
+
+75AVB Channel to Physical I/O Mappings for the Pro Tools | Carbon: I/O Device
+The following table is for the Pro Tools | Carb on: I/O device with th ese AVB configurations:
+• 28x56 (44.1–96 kHz)
+• 56x56 (44.1–96 kHz)• 56x84 (44.1–96 kHz)
+AVB Channels44.1–48 kHz 88.2–96 kHz
+AVB In 1–28 AVB Out 1–28 AVB In 1–28 AVB Out 1–28
+Pro Tools | Carbon I/O Pro Tools | Carbon I/O
+In 1–28 Out 1–28 In 1–28 Out 1–28
+1–2 Mic/Line/Inst 1–2 Mon L–R Mic/Line/Inst 1–2 Mon L–R
+3–4 Mic/Line 3–4 Line 1–2 Mic/Line 3–4 Line 1–2
+5–6 Mic/Line 5–6 Line 3–4 Mic/Line 5–6 Line 3–4
+7–8 Mic/Line 7–8 Line 5–6 Mic/Line 7–8 Line 5–6
+9–10 ADAT 1 1–2 Line 7–8 ADAT 1 1–2 Line 7–8
+11–12 ADAT 1 3–4 HP 1 ADAT 1 3–4 HP 1
+13–14 ADAT 1 5–6 HP 2 — HP 2
+15–16 ADAT 1 7–8 HP 3 — HP 3
+17–18 ADAT 2 1–2 HP 4 ADAT 2 1–2 HP 4
+19–20 ADAT 2 3–4 ADAT 1 1–2 ADAT 2 3–4 ADAT 1 1–2
+21–22 ADAT 2 5–6 ADAT 1 3–4 — ADAT 1 3–4
+23–24 ADAT 2 7–8 ADAT 1 5–6 — —
+25–26 (25) T
+alkback
+(26) —ADA
+T 1 7–8 (25)
+Talkback
+(26) ——
+27–2
+8 ADAT 2 1–2 ADAT 2 1–2
+
+
+76The following table is for the Pro Tools | Carb on: I/O device with th is AVB configuration:
+• 28x42 (44.1–192 kHz)
+The following table is for the Pro Tools | Carb on: I/O device with th ese AVB configurations:
+• 28x56 / 14x14 (44.1–192 kHz)
+• 42x56 / 14x14 (44.1–192 kHz)AVB 
+Channels44.1–48 kHz 88.2–96 kHz 176.4–192 kHz
+AVB In 1–28 AVB Out 1–28 AVB In 1–28 AVB Out 1–28 AVB In 1–28 AVB Out 1–28
+Pro Tools | Carbon I/O Pro Tools | Carbon I/O Pro Tools | Carbon I/O
+In 1–14 Out 1–14 In 1–14 Out 1–14 In 1–14 Out 1–14
+In 15–28 Out 15–28 In 15–28 Out 15–28 In 15–28 Out 15–28
+1–2 Mic/Line/Inst 1–2 Mon L–R Mic/Line/Inst 1–2 Mon L–R Mic/Line/Inst 1–2 Mon L–R
+3–4 Mic/Line 3–4 Line 1–2 Mic/Line 3–4 Line 1–2 Mic/Line 3–4 Line 1–2
+5–6 Mic/Line 5–6 Line 3–4 Mic/Line 5–6 Line 3–4 Mic/Line 5–6 Line 3–4
+7–8 Mic/Line 7–8 Line 5–6 Mic/Line 7–8 Line 5–6 Mic/Line 7–8 Line 5–6
+9–10 ADAT 1 1–2 Line 7–8 ADAT 1 1–2 Line 7–8 ADAT 1 1–2 Line 7–8
+11–12 ADAT 1 3–4 HP 1 ADAT 1 3–4 HP 1 — HP 1
+13–14 ADAT 1 5–6 HP 2 — HP 2 — HP 2
+15–16 ADAT 1 7–8 HP 3 — HP 3 — HP 3
+17–18 ADAT 2 1–2 HP 4 ADAT 2 1–2 HP 4 ADAT 2 1–2 HP 4
+19–20 ADAT 2 3–4 ADAT 1 1–2 ADAT 2 3–4 ADAT 1 1–2 — ADAT 1 1–2
+21–22 ADAT 2 5–6 ADAT 1 3–4 — ADAT 1 3–4 — —
+23–24 ADAT 2 7–8 ADAT 1 5–6 — — — —
+25–26 (25 ) T
+alkback
+(26) —ADA
+T 1 7–8 (25)
+Talkback
+(26) ——
+(25) T
+alkback
+(26) ——
+27–2
+8 ADAT 2 1–2 ADAT 2 1–2 ADAT 2 1–2
+AVB 
+Channels44.1–96 kHz 176.4–192 kHz
+AVB In 1–14 AVB Out 1–14 AVB In 1–14 AVB Out 1–14
+Pro Tools | Carbon I/O Pro Tools | Carbon I/O Pro Tools | Carbon I/O Pro Tools | Carbon I/O
+In 1–14 Out 1–14 In 1–14 Out 1–14
+1–2 Mic/Line/Inst 1–2 Mon L–R Mic/Line/Inst 1–2 Mon L–R
+3–4 Mic/Line 3–4 Line 1–2 Mic/Line 3–4 Line 1–25–6 Mic/Line 5–6 Line 3–4 Mic/Line 5–6 Line 3–47–8 Mic/Line 7–8 Line 5–6 Mic/Line 7–8 Line 5–69–10 ADAT 1 1–2 Line 7–8 ADAT 1 1–2 Line 7–811–12 ADAT 1 3–4 HP 1 — HP 113–14 (13) ADAT 2 1
+(14)
+T
+alkbackHP 2 (13) ADAT 2 1
+(14) T
+alkbackHP 2
+
+
+77AVB Channel to Physical I/O Mappings for the Pro Tools | Carbon Pre: I/O 
+Device
+The following table is for the Pro Tools | Carbon Pre: I/O device with 24x24 (44.1–1 92 kHz) AVB configuration:
+The following table is for the Pro Tools | Carbon Pre: I/O device with 14x14 (44.1–1 92 kHz) AVB configuration:AVB 
+Channels44.1–48 kHz 88.2–96 kHz 176.4–192 kHz
+AVB In 1–24 AVB Out 1–24 AVB In 1–24 AVB Out 1–24 AVB In 1–24 AVB Out 1–24
+1–2 Mic/Line/Inst 1–2 Line 1–2 Mic/Line/Inst 1–2 Line 1–2 Mic/Line/Inst 1–2 Line 1–2
+3–4 Mic/Line 3–4 Line 3–4 Mic/Line 3–4 Line 3–4 Mic/Line 3–4 Line 3–4
+5–6 Mic/Line 5–6 Line 5–6 Mic/Line 5–6 Line 5–6 Mic/Line 5–6 Line 5–6
+7–8 Mic/Line 7–8 Line 7–8 Mic/Line 7–8 Line 7–8 Mic/Line 7–8 Line 7–8
+9–10 ADAT 1 1–2 ADAT 1 1–2 ADAT 1 1–2 ADAT 1 1–2 ADAT 1 1–2 ADAT 1 1–2
+11–12 ADAT 1 3–4 ADAT 1 3–4 ADAT 1 3–4 ADAT 1 3–4 — —
+13–14 ADAT 1 5–6 ADAT 1 5–6 — — — —
+15–16 ADAT 1 7–8 ADAT 1 7–8 — — — —
+17–18 ADAT 2 1–2 ADAT 2 1–2 ADAT 2 1–2 ADAT 2 1–2 ADAT 2 1–2 ADAT 2 1–219–20 ADAT 2 3–4 ADAT 2 3–4 ADAT 2 3–4 ADAT 2 3–4 — —
+21–22 ADAT 2 5–6 ADAT 2 5–6 — — — —
+23–24 ADAT 2 7–8 ADAT 2 7–8 — — — —
+AVB 
+Channels44.1–48 kHz 88.2–96 kHz 176.4–192 kHz
+AVB In 1–24 AVB Out 1–24 AVB In 1–24 AVB Out 1–24 AVB In 1–24 AVB Out 1–24
+1–2 Mic/Line/Inst 1–2 Line 1–2 Mic/Line/Inst 1–2 Line 1–2 Mic/Line/Inst 1–2 Line 1–2
+3–4 Mic/Line 3–4 Line 3–4 Mic/Line 3–4 Line 3–4 Mic/Line 3–4 Line 3–4
+5–6 Mic/Line 5–6 Line 5–6 Mic/Line 5–6 Line 5–6 Mic/Line 5–6 Line 5–6
+7–8 Mic/Line 7–8 Line 7–8 Mic/Line 7–8 Line 7–8 Mic/Line 7–8 Line 7–8
+9–10 ADAT 1 1–2 ADAT 1 1–2 ADAT 1 1–2 ADAT 1 1–2 ADAT 1 1–2 ADAT 1 1–211–12 ADAT 1 3–4 ADAT 1 3–4 ADAT 1 3–4 ADAT 1 3–4 — —
+13–14 ADAT 2 1–2 ADAT 2 1–2 ADAT 2 1–2 ADAT 2 1–2 ADAT 2 1–2 ADAT 2 1–2
+
+
+78Pro Tools | Carbon Pre Signal Routing
+1LINE IN
+23456781ADAT1 IN
+23456781ADAT2 IN
+23456781ADAT2 OUT ADAT1 OUT LINE OUT8
+7
+6
+5
+4
+3
+2
+18
+7
+6
+5
+4
+3
+2
+18
+7
+6
+5
+4
+3
+2
+144.1 & 48 kHz ADAT Mode
+
+
+791LINE IN
+2345678ADAT1 IN
+1ADAT2 IN
+2345678 123456781ADAT2 OUT ADAT1 OUT LINE OUT8
+7
+6
+5
+4
+3
+2
+1
+8
+7
+6
+5
+4
+3
+2
+18
+7
+6
+5
+4
+3
+2
+144.1 & 48 kHz AD>DA Mode
+
+
+801LINE IN
+23456781ADAT1 IN
+23456781ADAT2 IN
+23456781ADAT2 OUT ADAT1 OUT LINE OUT8
+7
+6
+5
+4
+3
+2
+18
+7
+6
+5
+4
+3
+2
+18
+7
+6
+5
+4
+3
+2
+188.2 & 96 kHz ADAT Mode
+
+
+ 811LINE IN
+23456781ADAT1 IN
+23456781ADAT2 IN
+23456781ADAT2 OUT ADAT1 OUT LINE OUT8
+7
+6
+5
+4
+3
+2
+18
+7
+6
+5
+4
+3
+2
+18
+7
+6
+5
+4
+3
+2
+188.2 & 96 kHz AD >DA Mode
+
+
+ 821LINE IN
+23456781ADAT1 IN
+23456781ADAT2 IN
+23456781ADAT2 OUT ADAT1 OUT LINE OUT8
+7
+6
+5
+4
+3
+2
+18
+7
+6
+5
+4
+3
+2
+18
+7
+6
+5
+4
+3
+2
+1176.4 & 192 kHz ADAT Mode
+
+
+ 831LINE IN
+23456781ADAT1 IN
+23456781ADAT2 IN
+23456781ADAT2 OUT ADAT1 OUT LINE OUT8
+7
+6
+5
+4
+3
+2
+18
+7
+6
+5
+4
+3
+2
+18
+7
+6
+5
+4
+3
+2
+1176.4 & 192 kHz AD >DA Mode
+
+
+84Appendix C: Pin Out Diagrams
+Ethernet, RJ45 Connector, Gigabit
+Pro Tools | Carbon and Pro Tools | Carbon Pre connect to your Pr o Tools system using Ethernet. Pro Tools both controls the unit  over 
+Ethernet and streams audio ov er Ethernet using AVB (see Connect Ethernet ).
+Pin 1 BI_DA+
+Pin 2 BI_DA–
+Pin 3 BI_DB+
+Pin 4 BI_DC+
+Pin 5 BI_DC–
+Pin 6 BI_DB–
+Pin 7 BI_DD+
+Pin 8 BI_DD–
+DB25 Pin Out Connections Channels 1–8
+Connections for the 25-pin D-sub connector ar e listed in the table below. The pinning is according to the proprietary Tascam st andard.
+Pin number Function Pin number Function
+1 AIN/OUT 8 + 14 AIN/OUT 8 –
+2 GND 15 AIN/OUT 7 +3 AIN/OUT 7 – 16 GND4 AIN/OUT 6 + 17 AIN/OUT 6 –5 GND 18 AIN/OUT 5 +6 DOUT 2/6 + 19 GND7 AIN/OUT 4 + 20 AIN/OUT 4 –8 GND 21 AIN/OUT 3 +9 AIN/OUT 3 – 22 GND10 AIN/OUT 2 + 23 AIN/OUT 2 –11 GND 24 AIN/OUT 1 +12 AIN/OUT 1 – 25 GND13 N.C.
+
+
+ 85Appendix D: Network Port Usage
+Required Access for Normal Operation
+The following services are required for normal operation of Pro T ools | Carbon and Pro Tools | Car bon Pre. The actual ports tha t are used 
+in the reserved range may vary depending on the firmware version that is running on the device.
+In addition, Pro Tool | Carbon requires an mDNS se rvice to be running on the connected Mac host. 
+mDNS is enabled by  default on macOS.
+Access for Customer Support
+The following services are not re quired for normal operation of the device, but ma y be required for certain procedures requeste d by Avid 
+customer support. Services that are disabled  by default may be enabled when followin g instructions from Avid customer support.
+Network Security
+Pro Tools | Carbon and Pro Tools | Carbon Pr e should not be made visible to network devices beyo nd the Mac host. Do not connect  Pro 
+Tools | Carbon to a bridged network interface on your Mac.Port Protocol Purpose
+5556 TCP Diagnostics
+6655-6670 TCP Control and communication5353 UDP mDNS Discovery and connection 
+Port Protocol Purpose Enabled by Default
+21 TCP FTP for device firmware repair No22 TCP SSH and SFTP for troubleshooting and firmware repair Yes23 TCP Telnet for device access and diagnostics No80 TCP HTTP for device status information and log collection Yes
+
+
+ 86Appendix E: Running Carbon in Carbon Pre Mode
+Pro Tools | Carbon can boot into Carbon Pre mode for use as a sec ond or third peripheral in a Pr o Tools | Carbon Expanded syste m, as 
+a standalone 8-channel mic pream p, or as a standalone ADAT AD/DA converter. Wh en running in Carbon Pre mode, the Carbon unit 
+provides all features and internal routing of a Carbon Pre, but the Carbon DSPs, HP outputs, and MON L-R outputs are all inacti ve.
+To switch between Carbon and Carbon Pre modes:
+Hold down the INPT  button on Carbon while powering on the unit to t oggle Carbon between Car bon and Carbon Pre modes.
+The selected mode persists until either INPT  is held again on boot, to toggle back to the other mode, or the Meter button is held on boot, 
+to reset the device to its default state.
+The front panel of the Carbon illuminates as a Carbon Pre, and certain buttons and LEDs functi on as follows when running in 
+Carbon Pre mode:
+• The Meter button acts as the clock so urce selection butt on, and the L output meter LEDs indicates clock source.
+• The B button acts as the sample rate selection button, an d the R output meter LEDs indicate sample rate.
+• The A button LED indicates AD–>DA mode. Otherwise, the A and C buttons are inactive.
+• The right rotary encoder, right LE D strip, and Monitor, Headphone, and DIM buttons are all inactive.
+The DIM button can always be used when power cycling the unit to reset the device firmware.
+
+
+For Technical Support, visit
+www.avid.com/support

@@ -1,0 +1,529 @@
+
+
+
+U 87 Ai
+Bedienungsanleitung  
+Operating Instructions
+georg neumann gmbh · leipziger str. 112 · 10117 berlin · germany
+tel +49 (0)30 / 41 77 24-0 · fax -50 · headoffice@neumann.com · www.neumann.com
+
+
+2Table of Contents 
+1. The U 87 Ai Condenser Microphone
+2. Microphone Versions and Output Wiring
+3. Microphone Cables
+4. Power Supply5. Operation with Unbalanced or Center Tap 
+Grounded Inputs
+6. Disassembling of the Microphone and Test Input7. Technical Specifi  cations8. Frequency Responses and Polar Pattern9. Some Remarks on Microphone Maintenance10. Accessories
+1.  The U 87 Ai Condenser Microphone
+The U 87 Ai condenser microphone is an “fet 80®” 
+series studio microphone with three switchable directional patterns, outstanding performance and an attractive shape. The U 87 Ai is equally well suited for applications in radio and television broadcasting, fi  lms and phonograph production.
+The supplementary letter “A” in the name indicates 
+the current version (since 1986) of the U 87 i mi-crophone supplied since 1967.
+The modifi  cation applies only to the electrical part 
+of the microphone: it makes the U 87 Ai safer to op-erate by reason of a lower-impedance supply lead for the capsule polarizing voltages; it increases the transmission factor by about 10 dB for the same sound pressure level; and it improves the S/N ratio by 3 dB. In place of the battery holder of the U 87 i, the U 87 Ai has a dc converter, which increases the current consumption to 0.8 mA.
+The acoustic characteristics and the external form 
+of the microphone remain unaltered: 
+Its large grille houses an elastically suspended 
+dual-membrane capsule. The axis of maximum sen-sitivity is at right angles to the microphone body. Its front is marked by the Neumann emblem. Below the grille are three switches. These enable the di-rectional characteristic, low frequency response and attenuation factor to be changed for diff  erent 
+requirements. Inhaltsverzeichnis
+1. Das Kondensatormikrofon U 87 Ai
+2. Ausführungsformen und Beschaltung des 
+Ausganges
+3. Mikrofonkabel4. Stromversorgung5. Betrieb an unsymmetrischen oder mitten-
+geerdeten Eingängen
+6. Zerlegen des Mikrofons und Messeingang7. Technische Daten8. Frequenzgänge und Polardiagramme9. Einige Hinweise zur Pfl  ege von Mikrofonen10. Zubehör
+1.  Das Kondensatormikrofon U 87 Ai
+Das Kondensatormikrofon U 87 Ai ist ein umschalt-
+bares Studiomikrofon der Serie „fet 80®“, das sich 
+durch seine Übertragungseigenschaft  en, verschie-
+dene Schaltmöglichkeiten und seine gefällige Form auszeichnet. Das U 87 Ai ist für eine große Anzahl von An wen dungs fällen in der Rundfunk-, Fernseh-, Film- und Tonträger-Aufnahmetechnik in gleicher Weise gut geeignet. 
+Der Zusatzbuchstabe „A“ in der Bezeichnung deu-
+tet auf die aktuelle Ausführungsart (seit 1986) im Vergleich zum seit 1967 gelieferten Mikrofon U 87 i hin.
+Die Änderung bezieht sich nur auf den elektrischen 
+Teil des Mikrofons: sie macht das U 87 Ai betriebs-sicherer durch eine niederohmigere Zuführung der Kapselvorspannungen; sie erhöht das Übertra-gungsmaß bei gleichem Schalldruck um ca. 10 dB und verbessert den Geräuschspannungsabstand um 3 dB. Das U 87 Ai hat anstelle der Batteriehal-terung im U 87 i einen Gleichspannungswandler, wodurch sich der Stromverbrauch des Mikrofons auf 0,8 mA erhöht.
+Die akustischen Eigenschaft  en des Mikrofons sowie 
+seine äußere Form haben sich nicht verändert: 
+Die elastisch gelagerte Doppelmembrankapsel 
+umgibt ein großer Drahtgeflechtkorb. Die Ein-sprechrichtung ist seitlich, wobei die Vorderseite durch das Firmenschild gekennzeichnet ist. Un-
+
+
+3U 87 Ai
+terhalb des Korbes sind drei Schalter angeordnet. 
+Mit ihnen lassen sich Richtcharakteristik, Fre-quenzgang und Übertragungsfaktor verändern und unterschiedlichen Anforderungen anpassen: 
+Für die Einstellung der Richtcharakteristiken „Ku-
+gel“, „Niere“ oder „Acht“ dient der Schiebeschalter an der Vorderseite. Ein darüberliegendes Fenster zeigt in Sym bolen die Einstellung an. Der Frequenz-gang des Übertragungsfaktors ist für die Charak-teristiken „Niere“ und „Acht“ auch im oberen Tonfrequenzbereich für senkrechten Schalleinfall praktisch linear. Damit kann das Mikrofon speziell auch in geringem Abstand von den Schallquellen eingesetzt werden, ohne dass sich ein unnatürlich scharfer Klangeindruck ergibt. 
+Ein weiterer Schiebeschalter an der Rückseite des 
+Mikrofons schaltet eine Vordämpfung von ca. 10 dB ein. Das Mikrofon vermag dann Schalldruckpegel bis zu 127 dB (entspricht einem Schalldruck von 45 Pa) verzerrungsfrei zu übertragen.
+Als Maßnahme gegen Störschall beschneidet im 
+U 87 Ai ein elektrischer Hochpass unterhörfre-quenten Schall. 
+Betätigt man den dritten Schalter, so wird im 
+entsprechenden Fenster das Zeichen 
+ sicht-
+bar, und die untere Grenzfrequenz des Mikrofons wird heraufgesetzt: Tieff  requenter Störschall wird 
+schon am Eingang des Mikrofonverstärkers abge-schwächt. Der bei Druckgradientenempfängern unvermeidbare Tiefenanstieg bei Nahbesprechung wird derart kompensiert, das sich in Stellung „Nie-re“ für einen Besprechungsabstand von 30...40 cm und in Stellung „Acht“ für 15...20 cm Abstand ein ebener Frequenzgang ergibt.
+Siebglieder im Mikrofonausgang, eine statische 
+Schutz wicklung im Übertrager und dessen hohe Unsymmetriedämpfung schützen das Mikrofon nicht nur vor parasitären Wechselströmen im Ka-belschirm (sogenannten Brummschleifen usw.), sondern auch vor Störungen durch Rundfunk- und Fernsehsender sowie durch Radargeräte.
+Das Mikrofon hat einen symmetrischen Ausgang 
+mit Übertrager. Der 3-polige XLR-Stecker hat fol-gende Belegung:
+ Pin 1: 0 V/Masse
+ Pin 2: Modulation (+Phase) Pin 3: Modulation (–Phase)The directional characteristics “omni”, “cardioid” 
+or “fi  gure-8” are set with a slider switch on the front of the microphone. A window above this switch shows the setting by symbols. In the “car-dioid” and “fi  gure  -8” positions the frequency response of the transmission factor is practically linear for perpendicular sound incidence, even in the upper audio frequency range. The microphone is thus particularly suitable for use at short dis-tances from the sound source without an unnatu-rally sharp sound impression.
+A second slider switch located on the rear of the 
+microphone introduces a preattenuation of about 10 dB in the circuit. The microphone will handle sound pressure levels of up to 127 dB (correspond-ing to a sound pressure of 45 Pa) without distor-tion.
+To avoid structure born or wind noise, an electri-
+cal high-pass fi  lter in the U 87 Ai clips sub-audio frequencies. 
+Operating the third switch makes the sign 
+ vis-
+ible in its corresponding cutout window and intro-duces a low frequency roll-off  . Low frequency inter-
+fering noises are thus attenuated at the input of the microphone amplifi  er. The unavoidable emphasis on bass notes which occurs in all pressure-gradient microphones during close talking (proximity eff  ect) 
+is compensated to such an extent that a uniform fre-quency response is produced in the “cardioid” posi-tion for a talking distance of 30–40 cm and in the “fi  gure-8” position for a distance of 15–20 cm.
+The microphone is largely immune to parasitic al-
+ternating currents in the cable shield, ac-induced hum and interference caused by radio and TV transmitters and radar equipment due to fi  ltering in its output line and a specially constructed out-put transformer with high common mode rejection and a static shield winding.
+The microphone has a transformer-balanced out-
+put. The 3-pin XLR connector has the following pin assignments:
+ Pin 1: 0 V/ground
+ Pin 2: Modulation (+phase) Pin 3: Modulation (–phase)
+
+
+42.  Microphone Versions and 
+Output Wiring
+These versions are available:
+U 87 Ai  ................ ni .............Cat. No. 007022
+Standard version with male 3-pole connector in-sert and satin nickel fi  nish. Requires XLR 3 F cable connector.
+The microphone is wired as per DIN EN 60268-12 
+or IEC 60268-12:
+Modulation is connected to pins 2 and 3, the shield 
+to pin 1. A sudden sound pressure rise in front of the diaphragm causes a positive voltage to appear at pin 2.
+The U 87 Ai has an electrical source impedance of 
+200 ohms. The input impedance of the following amplifi  er should be at least fi  ve times as great, i.e. 
+ 1000 ohms.
+U 87 Ai mt  ............ blk ............ Cat. No. 007023
+As above, but with matt black fi  nish.
+3.  Microphone Cables
+The cable length between microphone and follow-ing preamplifi  er should not exceed 300 m (980 ft  .). 
+The capacitance of greater cable lengths could af-fect the frequency response and, in conjunction with the leakage inductance of the microphone’s output transformer , would result in a rise at the upper end of the frequency range. 
+The following cables are available for the U 87 Ai 
+microphone:
+IC 3 mt  ................ blk ............ Cat. No. 006543
+Microphone cable with double twist (double helix) braiding as shield. Ø 5 mm, length 10 m. XLR 3 con-nectors, matte black.
+IC 4 (10 m) ........... ni .............. Cat. No. 006547
+IC 4 mt (10m) ........ blk ............ Cat. No. 006557
+Microphone cable with rotatable swivel mount for 
+microphones with a thread, and double twist braid-ing as shield. It has a 5/8"-27 female thread, plus a thread adapter to connect to 1/2"- and 3/8" stands. Ø 5 mm, length 10 m. XLR 3 connectors.
+AC 22 (0.3 m) ......................... Cat. No. 006598
+Adapter cable with XLR 5 M connector and unbal-anced 3.5 mm stereo jack. It is used to connect 2.  Ausführungsformen und Beschal tung 
+des Ausganges
+Folgende Ausführungsformen sind erhältlich:
+U 87 Ai  ................ ni ............. Best.-Nr. 007022
+Standardausführung mit 3-poligem Switchcraft  -
+Steckereinsatz und nickelmatter Oberfl  äche. Er-forderliches Gegenstück: XLR 3 F.
+Die Zuordnung der Mikrofonanschlüsse entspricht 
+DIN EN 60268-12 bzw. IEC 60268-12.
+Die Modulationsadern liegen an Pin 2 und 3, die 
+Abschirmung an Pin 1. Bei einem Schalldruckan-stieg vor der Mikrofonmembran tritt an Pin 2 eine positive Spannung auf.
+Das U 87 Ai hat einen elektrischen Innenwiderstand 
+von 200 Ohm. Der Eingangswiderstand des nach-folgenden Verstärkers sollte möglichst fünfmal so groß oder größer sein, also 
+ 1000 Ohm.
+U 87 Ai mt  ............ sw ............ Best.-Nr. 007023
+Wie oben, jedoch schwarzmatte Oberfl  äche.
+3. Mikrofonkabel
+Die höchste zulässige Kabellänge zwischen Mi-krofon und Verstärker beträgt etwa 300 m. Bei größeren Kabellängen beeinfl  usst die Kabelkapa-zität den Frequenzgang und führt in Verbindung mit der Streuinduktivität des Mikrofonübertragers zu-nächst zu einem Anstieg am oberen Ende des Übertragungsbereiches.
+Für das Mikrofon U 87 Ai stehen folgende Kabel 
+zur Verfügung:
+IC 3 mt  ................. sw ............ Best.-Nr. 006543
+Mikrofonkabel mit Doppeldrallumspinnung als Abschirmung. Ø 5 mm, Länge 10 m. XLR 3 Steck-verbinder, schwarzmatt.
+IC 4 (10 m) ............ ni ............. Best.-Nr. 006547
+IC 4 mt (10 m) ....... sw ............ Best.-Nr. 006557
+Kabel mit dreh- und schwenkbarem Stativgelenk 
+für Mikrofone mit Gewindeanschluss, mit Doppel-drallumspinnung als Abschirmung. Der Gewindean-schluss hat 5/8"-27-Gang, mit Adapter für 1/2"- und 3/8"-Stative. Ø 5 mm, Länge 10 m. XLR 3-Verbinder.
+AC 22 (0,3 m) ......................... Best.-Nr. 006598
+Adapterkabel mit XLR 5 F-Buchse und 3,5 mm Stereoklinkenstecker, unsymmetrisch, für den 
+
+
+5U 87 Ai
+the 5-pin XLR output of the BS 48 i-2 power sup-
+ply or the MTX 191 A matrix amplifi  er to units with a 3.5 mm stereo input. It is designed for all mi-crophones of the fet 80/100 series and KM 100 F, excluding the KM 100  and the GFM 132.
+AC 25 (0.3 m) ......................... Cat. No. 006600
+Adapter cable with XLR 3 M connector and unbal-anced 6.3 mm mono jack. It is used to connect 3-pin XLR outputs of power supplies to units with a 6.3 mm monojack input. Designed for all micro-phones, excluding KM 100 System and GFM 132.
+AC 27 (0.3 m) ......................... Cat. No. 006602
+Y-cable with XLR 5 M connector and two unbal-anced 6.3 mm mono jacks. It is used to connect XLR 5 outputs of the BS 48 i-2 power supply or the MTX 191 A matrix amplifi  er to units with 6.3 mm monojack inputs. Designed for all microphones, excluding KM 100 System and GFM 132.
+Custom-made cables are available on request.
+4.  Power Supply
+4.1 Phantom Powering
+The U 87 Ai microphone operates on 48 volt phan-
+tom power (P48, IEC 61938).
+With phantom powering the dc from the positive 
+supply terminal is divided via two identical re-sistors, one half of the dc fl  owing through each audio (modulation) conductor to the microphone, and returning to the voltage source via the cable shield. As a consequence, the eff  ect of dc supply 
+voltage noise super-imposed on the microphone output voltage is reduced by the common mode rejection factor. Neumann microphones have a common mode rejection factor exceeding 60 dB. Phantom powering provides a fully compatible connecting system, since no potential diff  erences 
+exist between the two audio conductors. Studio outlets so powered will therefore also accept dynamic microphones and ribbon microphones as well as the modulation conductors of tube-equipped condenser microphones without the need to switch off  the dc supply voltage. No harm is done even if 
+a phantom power supply is connected to an outlet which is centrally phantom powered. Anschluss des XLR 5-Ausganges des Speisege-
+rätes BS 48 i-2 oder der Matrixbox MTX 191 A an Geräte mit 3,5 mm Stereoklinkenbuchse. Für alle Mikrofone außer der Ausgangsstufe KM 100 und des GFM 132.
+AC 25 (0,3 m) ......................... Best.-Nr. 006600
+Adapterkabel mit XLR 3 F-Buchse und 6,3 mm Monoklinkenstecker, unsymmetrisch, für den Anschluss des 3-poligen XLR-Ausganges eines Speisegerätes an Geräte mit 6,3 mm Monoklin-kenbuchse. Für alle Mikrofone mit Ausnahme der Ausgangsstufe KM 100 und des GFM 132.
+AC 27 (0,3 m) ......................... Best.-Nr. 006602
+Y-Kabel mit einer XLR 5 F-Buchse und zwei 6,3 mm Monoklinkensteckern, unsymmetrisch, für den Anschluss des XLR 5-Ausganges des Speisegerätes BS 48 i-2 oder der Matrixbox MTX 191 A an Geräte mit 6,3 mm Monoklinkenbuchsen. Für alle Mikrofo-ne mit Ausnahme von KM 100 und GFM 132.
+Andere Kabellängen sind auf Wunsch lieferbar.
+4. Stromversorgung
+4.1 Die Phantomspeisung
+Das Mikrofon U 87 Ai wird mit 48 V phantomge-
+speist (P48, IEC 61938).
+Bei der Phantomspeisung fl  ießt der Speisestrom 
+vom positiven Pol der Spannungsquelle über die elektrische Mitte der beiden Modulationsadern zum Mikrofon. Er wird hierzu über zwei gleich große Widerstände beiden Tonadern gleichsinnig zuge-führt. Die Rückleitung des Gleichstroms erfolgt über den Kabelschirm. Der Einfl  uss von Störspannungen, 
+die der Speisegleichspannung überlagert sind, auf die Ausgangsspannung des Mikrofons wird dadurch um das Maß der Unsymmetriedämpfung herabge-setzt, bei Neumann-Mikrofonen um mehr als 60 dB. Mit der Phantomspeisung ist eine kompatible An-schlusstechnik möglich, weil zwischen beiden Mo-dulationsadern keine Potential diff  erenz besteht: 
+Auf die Anschlussdosen können wahlweise auch dynamische Mikrofone oder Bändchen   mikrofone sowie die Modulationskabel röhrenbestückter Kondensator-Mikrofone geschaltet werden, ohne dass die Speisegleichspannung abgeschaltet wer-den muss. 
+
+
+64.2 ac Supply Operation
+All P48 power supplies in accordance with IEC 1938 
+which provide at least 0.8 mA per  channel, are suit-able for powering the microphones.
+The Neumann P48 power supply unit bears the 
+designation N 248. It is designed to power two mono condenser microphones or one stereo mi-crophone at 48 V ± 1 V, max. 2 x 6 mA (see also Neumann bulletin no. 68832: ”Phantom 48 VDC Power Supplies“).
+The assignment of the microphone terminals and 
+the modulation polarity at the power supply output are identical to those at the microphone.
+The N 248 supplies one stereo microphone, or two 
+mono condenser microphones with 48 V phantom power (P48). All connectors are of XLR 3 type. The audio signal outputs are DC-free. 
+These versions are available:
+N 248  ................... blk ............ Cat. No. 008537
+4.3 Battery Powering
+If a mains power source is not available, power can 
+be supplied by one of the battery units
+BS 48 i ................................... Cat. No. 006494
+(for one microphone)
+BS 48 i-2 ................................ Cat. No. 006496
+(for two microphones)
+Both units deliver 48 V ± 1 V, at 5 mA maximum, 
+and are powered by a 9-volt monobloc battery Type IEC 6 F 22.
+The BS 48 i-2 is equipped with 5-pin XLR connec-
+tors, the BS 48 i with 3-pin XLR connectors.
+(See Neumann bulletin 68832... “Phantom 48 VDC 
+Power Supplies”.) 
+The assignment of the microphone terminals and 
+the modulation polarity at the power supply output are identical to those at the microphone.
+5. Operation with Unbalanced or
+Center Tap Grounded lnputs
+The BS 48 i, BS 48 i-2 and N 248 phantom 48 Vdc power supplies are dc-free so that no transformer is required for connection to unbalanced inputs.4.2 Betrieb mit Netzgeräten
+Für die Stromversorgung sind alle P48-Netzgeräte geeignet, die mindestens 0,8 mA je Kanal abge-ben.
+Das Neumann P48-Netzgerät hat die Bezeichnung 
+N 248. Es ist zur Stromversorgung zweier Mono-Kondensatormikrofone oder eines Stereomikrofons mit 48 V ± 1 V, maximal 2 x 6 mA, geeignet (siehe auch Neumann-Druckschrift   68832: „48 V-Phan-
+tomspeisegeräte“).
+Die Zuordnung der Mikrofonanschlüsse und die 
+Polarität der Modulationsadern ist am Ausgang des Speisegerätes die gleiche wie am Mikrofon.
+Das Netzgerät N 248 versorgt ein oder zwei Mikrofo-
+ne mit 48 V-Phantomspeisung P48. Alle Anschlüsse mit XLR 3-Flanschdosen. Die Modulationsausgänge sind gleichspannungsfrei.
+Folgende Ausführungsformen sind erhältlich:
+N 248  ................... sw ............ Best.-Nr. 008537
+4.3 Batteriespeisung
+Steht keine Netzspannung zur Verfügung, kann die 
+Speisung mit einem der Geräte
+BS 48 i .................................. Best.-Nr. 006494
+(für ein Mikrofon)
+BS 48 i-2 ............................... Best.-Nr. 006496
+(für zwei Mikrofone)
+erfolgen. Beide Geräte liefern 48 V ± 1 V, maxi-
+mal je 5 mA, und werden jeweils von einer 9 Volt-Blockbatterie Typ IEC 6 F 22 gespeist.
+Das Gerät BS 48 i-2 ist mit 5-poligen, das BS 48 i mit 
+3-poligen XLR-Steckverbindern ausgerüstet.
+(Siehe auch Neumann-Druckschrift   68832... „48 V-
+Phantomspeisegeräte“). 
+Die Zuordnung der Mikrofonanschlüsse und die 
+Polarität der Modulationsadern ist am Ausgang der Speisegeräte die gleiche wie am Mikrofon.
+5. Betrieb an unsymmetrischen oder 
+mittengeerdeten Eingängen
+Die 48 V-Phantom-Speisegeräte BS 48 i, BS 48 i-2 und N 248 haben gleichspannungsfreie Ausgänge, so dass für den Anschluss an unsymmetrische Eingänge kein Übertrager erforderlich ist.
+
+
+7U 87 Ai
+Beim U 87 Ai ist Pin 2 normgemäß die „heiße Pha-
+se“. Für unsymmetrische Eingänge muss PIN 3 am Ausgang des Speisegerätes an Masse gelegt werden (siehe Abbildung 1).
+Bei vielen anderen als den o.g. Phantomspeisege-
+räten liegen nicht nur die Modulationsleitungen zum Mikrofon auf dem Potential der Speisespan-nung von +48 V, sondern auch die vom Speisegerät abgehenden Modulationsleitungen. Für die in der Studiotechnik allgemein üblichen symmetrischen 
+und erdfreien Verstärker und Mischpulteingänge ist dies ohne Bedeutung. Dagegen wird die Speise-spannung beim Anschluss an einseitig oder mitten-geerdete Verstärkereingänge kurzgeschlossen, und es ist kein Betrieb möglich. Dann bestehen folgende Lösungsmöglichkeiten:
+a)  In mittengeerdeten Geräten mit Ein  gangs-
+übertrager (z.B. einige NAGRA-Geräte) kann die be-treff ende Erdverbindung fast immer ohne Nachteile 
+für die Funktion des Gerätes aufgetrennt werden.
+b )   I n  j ed e  a b g e h e n d e  
+Modulationsleitung kann zur Abblockung der 48 V-Gleichspannung eine RC-Kombination eingefügt werden (siehe Abbildung 2 und Neumann-Informati-on Nr. 84 221).In the case of the U 87 Ai condenser microphone 
+pin 2 is the “hot phase“, in accordance with the standard, and pin 3 of the output of the power sup-ply must be connected to earth (see Fig. 1).
+In the case of many other phantom powering units 
+(except those mentioned above), not only the modulation leads to the microphone, but also the outgoing modulation leads from the powering unit, are at the potential of the feed voltage (+48 V). This is of no signifi  cance for the balanced, fl  oat-ing amplifi  er and mixing console inputs in general studio use. On the other hand, the feed voltage will be short-circuited when connected to single-ended or center tap grounded amplifi  er inputs, and no op-eration will be possible. This can be circumvented as follows:
+a) In center tap grounded equipment with input 
+transformer (e.g. some NAGRA units), the earth lead can almost always be disconnected without aff ecting the function of the equipment. 
+b) In every outgoing 
+modulation lead, an RC network can be incorpo-rated to block the 48 Vdc voltage (See Figure 2 and Neumann-Information no. 84 222).
+Abbildung / Figure 2Abbildung / Figure 1
+
+
+86.  Zerlegen des Mikrofons und 
+Meßeingang
+Nach Linksdrehen der Überwurfmutter am unteren Teil des Mikrofons lässt sich das Gehäuserohr ab-ziehen, und es wird eine rote Buchse sichtbar. Über diese kann in die zum Kapselfußpunkt führende Leitung eine Tonfrequenzspannung eingeschleift   
+werden, die den Verstärkereingang über die Kapsel-kapazität in gleicher Weise beaufschlagt, wie dies beim Auft  reff en eines entsprechenden Schallwech-
+seldruckes der Fall wäre. 
+Die meisten elektrischen Daten des Mikrofonver-
+stärkers wie Verstärkung, Frequenzgang und Aus-steuerbarkeit können so direkt überprüft   werden. 
+Der Eingangswiderstand des Messeinganges ist ca. 600 Ohm.
+Rot: zum Kapselfußpunkt.
+Sollwerte für das U 87 Ai sind (Toleranz ± 1 dB):
+Spannungsverstärkung 
+(1 kHz, Abschluss 1 kOhm ) ..........................0 dB
+Rel. Verstärkung bei 40 Hz
+(bezogen auf den Wert bei 1 kHz)  ............... –3 dB
+Rel. Verstärkung bei 40 Hz
+(Schalter  
+) .......................................... –18 dB
+Rel. Verstärkung bei 16 kHz  .......................–4 dBMaximale Eingangswechselspannung 
+(1 kHz), bei der der Klirrfaktor unter 0,5 % sein soll  .............................390 mV
+eﬀ 
+Stromaufnahme bei 48 V  .............. 0,8 ± 0,05 mA
+Störspannungen (DIN 45 405, CCIR 468-3; 
+0 dB : 0,775 V; Toleranz +1 dB):
+Unbewerteter Störspannungspegel  .......–103 dBqs
+Bewerteter Störspannungspegel  ..........–101 dBqps6.  Disassembling of the Microphone and 
+Test Input
+Unscrew the large lower ring of the microphone; the conical housing tube can then be withdrawn downwards and a red socket can be seen. This socket enable an audio frequency test signal to be applied to the amplifi  er input via the capsule capacitance in the same way as a corresponding change in sound pressure.
+Most of the electrical data of the microphone am-
+plifi er, such as gain, frequency response, self noise, 
+and modulability can thus be directly tested. Input impedance of the measuring input: 600 ohms ap-prox. 
+Red: to capsule base-point. 
+The nominal values for the U 87 Ai are as follows 
+(tolerance: ± 1 dB):
+Voltage gain
+(1 kHz, 1 kOhm termination)  ........................0 dB
+Rel. gain at 40 Hz, 
+(ref. 1 kHz) ................................................ –3 dB
+Rel. gain at 40 Hz, 
+(switch 
+) ............................................ –18 dB
+Rel. gain at 16 kHz  ....................................–4 dBMaximum input ac voltage (1 kHz) 
+at which the THD should be less than 0.5 % ...........................................390 mV
+rms
+Current consumption at 48 V  ......... 0.8 ± 0.05 mA
+Nominal self-noise level (DIN 45 405, 
+CCIR 468-3, Reference: 0.775 V, peak to peak, tolerance: +1 dB):
+Unweighted self-noise level  ..................–103 dB
+qs
+Weighted self-noise level  ....................–101 dBqps
+
+
+9U 87 Ai
+7. Technische Daten
+Akust. Arbeitsweise .... Druckgradientenempfänger
+Richtcharakteristik  ................... Kugel/Niere/Acht
+Übertragungsbereich  ....................20 Hz...20 kHzFeldübertragungs-
+faktor
+1)  ............................ 20/28/22 mV/Pa ± 1 dB
+Nennimpedanz  .....................................200 OhmNennlastimpedanz ...............................1000 OhmGeräuschpegelabstand
+2), 
+CCIR3) ............................................. 68/71/69 dB
+Geräuschpegelabstand2), 
+A-bewertet3) .................................... 79/82/80 dB
+Ersatzgeräuschpegel, 
+CCIR3)  ............................................ 26/23/25 dB
+Ersatzgeräuschpegel, 
+A-bewertet3)  ................................15/12/14 dB-A
+Grenzschalldruckpegel bei 1 kHz für 
+0,5 % Klirrfaktor4) (Niere) .........................117 dB
+mit Vordämpfung......................................127 dB
+Max.  Ausgangsspannung ..........................–6 dBuSpeisespannung
+5) .................................48 V ± 4 V
+Stromaufnahme5) ......................................0,8 mA
+Mindestbetriebszeit mit BS 48 i ............ca. 20 Std.
+Erforderlicher Steckverbinder ................... XLR 3 FGewicht ..................................................... 500 gDurchmesser ...........................................  56 mmLänge .................................................... 200 mm
+94 dB SPL entspr. 1 Pa = 10 μbar
+0 dB entspr. 20 μPa
+1) bei 1 kHz an 1 kOhm Nennlastimpedanz.
+2) bezogen auf 94 dB SPL
+3) nach IEC 60268-1; 
+CCIR-Bewertung nach CCIR 468-3, Quasi-Spitzenwert; A-Bewertung nach IEC 61672-1, Eﬀ  ektivwert
+4) Klirrfaktor des Mikrofonverstärkers bei einer Eingangsspannung, 
+die der von der Kapsel beim entsprechenden Schalldruck abgegebe-nen Spannung entspricht.
+5) Phantomspeisung (P48, IEC 61938).7. Technical Speciﬁ  cations
+Acoustical op. principle ............. Pressure gradient  
+transducer
+Directional pattern ........... Omni/cardioid/ﬁ  gure-8Frequency range ............................20 Hz...20 kHz
+Sensitivity
+1)...................... 20/28/22 mV/Pa ± 1 dB
+Rated impedance .................................200 ohms
+Rated load impedance ........................1000 ohmsSignal-to-noise ratio
+2), 
+CCIR3)  ............................................ 68/71/69 dB
+Signal-to-noise ratio2), 
+A-weighted3)  ................................... 79/82/80 dB
+Equivalent noise level, 
+CCIR3)  ............................................ 26/23/25 dB
+Equivalent noise level, 
+A-weighted3)  ................................15/12/14 dB-A
+Max. SPL for 0.5 % THD4) at 
+1 kHz (cardioid) .......................................117 dBwith preattenuation  .................................127 dB
+Max. output voltage ..................................–6 dBuSupply voltage
+5) ...................................48 V ± 4 V
+Current consumption5) ..............................0.8 mA
+Minimum operating time 
+with BS 48 i  .............................. approx. 20 hours
+Matching connector .................................. XLR 3 FWeight ......................................500 g (17.7 ozs.)Diameter ........................................ 56 mm (2.2")Length ......................................... 200 mm (7.9")
+94 dB SPL equiv. to 1 Pa = 10 μbar
+0 dB equiv. to 20 μPa
+1) at 1 kHz into 1 kohms rated load impedance.
+2) re 94 dB SPL
+3) according to IEC 60268-1; CCIR-weighting acccording to CCIR 468-3, quasi peak; A-weighting according to IEC 61672-1, RMS
+4) THD of microphone ampliﬁ  er at an input voltage equivalent to the capsule output at the speciﬁ  ed SPL. 
+5) Phantom powering (P48, IEC 61938).
+
+
+108. Frequenzgänge und Polardiagramm 
+Frequency Responses and Polar Pattern
+gemessen im freien Schallfeld nach IEC 60268-4, Toleranz ±2 dBmeasured in free-ﬁ  eld conditions (IEC 60268-4), tolerance ±2 dB
+
+
+11U 87 Ai
+
+
+129. Einige Hinweise zur Pﬂ  ege von 
+Mikrofonen
+Staubschutz verwenden: Mikrofone, die nicht im Einsatz sind, sollte man nicht auf dem Stativ einstauben lassen. Mit einem Staubschutzbeutel (nicht fusselnd) wird dies verhindert. Wird ein Mikrofon längere Zeit nicht verwendet, sollte es staubgeschützt bei normalem Umgebungsklima aufb ewahrt werden.
+Popschutz verwenden: Ein Popschutz hat nicht nur 
+die Aufgabe, bei Gesangsaufnahmen die Entste-hung von Poplauten zu verhindern. Er vermeidet auch effi   zient, dass sich von der Feuchtigkeit des 
+Atems bis hin zu Essensresten unerwünschte Par-tikel auf der Membran ablagern.
+Keine überalterten Windschutze verwenden: Auch 
+Schaumstoff   altert. Das Material kann brüchig und 
+krümelig werden. Anstatt das Mikrofon zu schüt-zen, kann er dann zur Verunreinigung der Mikro-fonkapsel führen. Überalterte Windschutze also bitte entsorgen.
+Funktionstest: Moderne Kondensatormikrofone 
+nehmen durch lautes Ansprechen keinen Schaden. Zur Kontrolle, ob ein solches Mikrofon angeschlos-sen ist, sollte man es aber keinesfalls anpusten oder anpoppen, da dies einem akustischen Signal von mehr als 140 dB (!) entsprechen kann. Normale Sprache genügt zum Funktionstest völlig.
+Selbsthilfe kann teuer sein! Leider kommt es doch 
+vor, dass durch eine Selbstreparatur mehr beschä-digt als behoben wird. Insbesondere das Reinigen verschmutzter Kapseln erfordert viel Erfahrung und die Hand eines Fachmanns. Der Lackschutz auf Platinen zeigt u.a. an, dass dort nicht gelötet werden darf. Einige Bauteile sind speziell selektiert und können nicht durch Material von der Stange ersetzt werden. Um unnötige Kosten zu vermeiden, empfi  ehlt sich die Einsendung an unsere Vertretun-gen oder an uns.
+Inspektion durchführen lassen: Regelmäßiges 
+Durchchecken des Mikrofonbestands, wie es einige Schauspielhäuser und Rundfunkanstalten prakti-zieren, kann bei der Früherkennung von Schäden helfen. Leichte Verschmutzungen lassen sich eher beseitigen, als eine untrennbar in die Membran eingebrannte Nikotinschicht. Insbeson-dere bei Mikrofonen im Verleih und in verunreinigenden Umgebungen empfi  ehlt sich die regelmäßige Kon-trolle, deren Kosten im Vergleich zu einer aufwen-digen Reparatur sehr gering sind.9. Hints on Microphone Maintenance
+Use a dust cover: Microphones not in use should not be left   on the stand gathering dust. This can 
+be prevented by the use of a non-fl  uff  y dust cover. When not in use for a longer period, the micro-phone should be sealed against dust and stored under standard climatic conditions.
+Use a pop screen: A pop screen not only prevents 
+the occurrence of plosive pop noises in vocal re-cordings, but also effi   ciently prevents unwanted 
+particles, from respiratory moisture to food rem-nants, from settling on the diaphragm.
+Avoid the use of old wind shields: As the foam ma-
+terial of a wind shield ages it can become brittle and crumbly. Instead of protecting the microphone, an old wind shield can thus lead to soiling of the microphone capsule. Therefore please dispose of worn-out wind shields.
+Function testing: Although modern condenser mi-
+crophones are not harmed by high sound pressure levels, one should under no circumstances use a pop-test to check whether the microphone is con-nected and the channel on the mixing console is pulled up, since this can result in sound pressure levels of over 140 dB! Normal speech is quite suf-fi  cient for function testing.
+Do-it-yourself repairs can be expensive! Unfortu-
+nately, do-it-yourself repairs sometimes do more harm than good. Cleaning soiled capsules in par-ticular requires considerable experience and an expert touch. The protective lacquer on circuit boards indicates, among other things, places which must not be soldered. Certain components are specially selected and cannot be replaced by standard parts. To avoid unnecessary expense, we recommend sending defective microphones to us or our representatives for servicing.
+Regular inspections: Sending in microphones regu-
+larly for inspection, as practiced by some theaters and broadcasting corporations, can aid in the early detection of damage. Slight soiling can be removed much more easily than a nicotine layer inextricably bonded to the diaphragm. Regular inspections are particularly to be recommended for microphones which are rented or are used in dusty or smoky en-vironments, since the costs are low in comparison with the cost of a major overhaul.
+
+
+13U 87 Ai
+10. Zubehör*)
+Elastische Aufhängung
+Um mechanische Erschütterung fernzuhalten, 
+empfi  ehlt sich die Verwendung einer elastischen Mikrofonaufh  ängung.
+EA 87 .................... ni ............. Best.-Nr. 007297
+EA 87 mt ............... sw ............ Best.-Nr. 007298
+Die EA 87 ist für das Mikrofon U 87 Ai vorgesehen. 
+Der schwenkbare Gewindeanschluss hat 5/8"-27-Gang, mit Adapter für 1/2"- und 3/8"-Stative.
+Stativgelenke und mechanische Adapter
+SG 287.................. sw ............ Best.-Nr. 008658
+Die Halterung des SG 287 ist aus Metall, der Ge-windeanschluss hat 5/8"-27-Gang, mit Adapter für 1/2"- und 3/8"-Stative.
+Mikrofonneigevorrichtung
+MNV 87 ................. ni ............. Best.-Nr. 006804
+MNV 87 mt ............ sw ............ Best.-Nr. 006806 
+Die Neigevorrichtung besteht aus einer Kabelhal-
+terung und einem drehbaren 1/2"-Gewindezapfen zum Anschluss an z.B. Stativgelenke. Das Kabel wird in die Halterung geklemmt und dort fi  xiert. Die 
+Neigung des an seinem Kabel hängenden Mikrofons ist damit frei einstellbar.
+Fußbodenständer
+MF 4 ..................... sw ............ Best.-Nr. 007337
+Der Mikrofonfuß MF 4 ist ein Fußbodenständer aus Grauguss, ca. 2,6 kg schwer, Ø 160 mm. Der Ständer ist schwarzmatt lackiert und steht gleitfest auf einem Gummiring. Ein umwendbarer Gewin-dezapfen und ein mitgeliefertes Reduzierstück ermöglichen die Verwendung für 1/2"- und 3/8"- Gewindeanschlüsse.
+MF 5 ..................... gr ............. Best.-Nr. 008489
+Der Mikrofonfuß MF 5 hat eine graue Soft  -Touch 
+Pulverbeschichtung und steht gleitfest und tritt-schalldämmend auf einem Gummiring. Der Stativ-anschluss hat ein 3/8"-Gewinde. Gewicht 2,7 kg, Ø 250 mm.10. Accessories*) 
+Elastic Suspension
+The use of an elastic suspension is recommended to prevent the microphone from being exposed to strong mechanical vibrations caused by structure borne shock waves.
+EA 87 .................... ni .............. Cat. No. 007297
+EA 87 mt ............... blk ............ Cat. No. 007298
+The EA 87 is designed for the U 87 Ai microphone. 
+It has a swivel mount with a 5/8"-27 female thread, plus a thread adapter to connect to 1/2"- and 3/8" stands. 
+Stand Mounts and Mechanical Adapter
+SG 287 ................. blk ............ Cat. No. 008658
+The microphone mount of the SG 287 is made of metal. It has a 5/8"-27 female thread, plus a thread adapter to connect to 1/2"- and 3/8" stands.
+Auditorium Hanger
+MNV 87 ................. ni .............. Cat. No. 006804
+MNV 87 mt ............ blk ............ Cat. No. 006806
+The auditorium hanger consists of a cable suspen-
+sion and a rotating 1/2" threaded stud, to connect to e. g. swivel mounts. The stud is screwed into the threaded coupling of the swivel mount. Then the microphone can be tilted while it is suspended from its own cable.
+Floor Stands
+MF 4 ..................... blk ............ Cat. No. 007337
+Floor stand with grey cast iron base. The fl  oor stand has a matt black fi  nish and rests on a non-skid rubber disk attached to the bottom. A reversi-ble stud and a reducer for 1/2" and 3/8" threads are also supplied. Weight 2.6 kg, Ø 160 mm.
+MF 5 ..................... gr .............. Cat. No. 008489
+Floor stand with grey soft  -touch powder coating. 
+It has a non-skid sound-absorbing rubber disk at-tached to the bottom. The stand connection has a 3/8" thread. Weight 2.7 kg, Ø 250 mm.
+
+
+14STV 4 .................... sw ............ Best.-Nr. 006190
+STV 20 .................. sw ............ Best.-Nr. 006187STV 40 .................. sw ............ Best.-Nr. 006188STV 60 .................. sw ............ Best.-Nr. 006189
+Die Stativverlängerungen STV ... werden zwischen 
+Mikrofonständer (z.B. MF 4, MF 5) und Stativgelenk (z.B. SG 21 bk) geschraubt.
+Die STV ... haben eine Länge von 40, 200, 400 oder 
+600 mm. Ø 19 mm.
+Popschutz
+Popschirme bieten einen sehr wirksamen Schutz vor den sogenannten Popgeräuschen. Sie bestehen aus einem runden, dünnen Rahmen, der beidseitig mit schwarzer Gaze bespannt ist.
+Popschirme sind an einem etwa 30 cm langen 
+Schwanenhals montiert. Eine Klammer mit einer Rändelschraube an dessen Ende dient der Befe-stigung am Mikrofonstativ.
+PS 15  .................. sw ............ Best.-Nr. 008472
+Der Rahmendurchmesser beträgt 15 cm.
+PS 20 a  ................ sw ............ Best.-Nr. 008488
+Der Rahmendurchmesser beträgt 20 cm.
+Schaumstoﬀ  windschutz
+WS 87  .................. sw ............ Best.-Nr. 006753
+Dämpfung des Windgeräusches 26 dB. Dämpfung 
+bei 15 kHz 3 dB. Ø ca. 90 mm. Farbe schwarz.
+*) Weitere Artikel sind im Katalog „Zubehör“ beschrieben.STV 4 .................... blk ............ Cat. No. 006190
+STV 20 .................. blk ............ Cat. No. 006187STV 40 .................. blk ............ Cat. No. 006188STV 60 .................. blk ............ Cat. No. 006189
+The STV... stand extensions are screwed between 
+microphone stands (for example MF 4, MF 5) and swivel mounts (for example SG 21 bk). 
+Length 40, 200, 400 or 600 mm. Ø 19 mm.
+Popscreen
+Pop screens provide excellent suppression of so-
+called pop noise. They consist of a round, thin frame covered with black gauze on both sides.
+A gooseneck of about 30 cm (12") in length is 
+mounted at the popshield. It will be attached to microphone stands by means of a clamp with a knurled screw.
+PS 15  .................. blk ............ Cat. No. 008472
+The frame is 15 cm in diameter.
+PS 20 a  ................ blk ............ Cat. No. 008488
+The frame is 20 cm in diameter.
+Foam Windscreen
+WS 87  .................. blk ............ Cat. No. 006753
+Wind noise attenuation 26  dB. Attenuation at 15 kHz 3 dB. Ø 90 mm. Color black.
+*) Further articles are described in the catalog “Accessories”.
+
+
+15U 87 Ai
+IC 3 mt
+EA 87 (mt)AC 25
+ N 248
+BS 48 i-2 BS 48 i
+SG 287
+IC 4 (mt)
+AC 27
+AC 22
+MNV 87 (mt)
+ MF 4
+
+
+
+MF 5
+ PS 15
+PS 20 aSTV...
+WS 87
+Irrtümer und technische Änderungen vorbehalten • Errors excepted, subject to changes
+Printed in Germany • Publ. 10/14 068820/A11
+  Konformitätserklärung
+ Die Georg Neumann GmbH erklärt, dass dieses Gerät die anwendbaren 
+CE-Normen und -Vorschrift  en erfüllt.
+® Neumann ist in zahlreichen Ländern eine eingetragene Marke der 
+Georg Neumann GmbH.
+  Declaration of Conformity
+ Georg Neumann GmbH hereby declares that this device  conforms to 
+the applicable CE standards and regulations.
+® Neumann is a registered trademark of the Georg  Neumann GmbH in 
+certain countries.Haftungsausschluss
+Die Georg Neumann GmbH übernimmt keinerlei Haft  ung für Folgen eines 
+unsachgemäßen Gebrauchs des Produkts, d.h. die Folgen eines Gebrauchs, der von den in der Bedienungsanleitung genannten technischen Vorausset-zungen abweicht (z.B. Bedienungsfehler, mechanische Beschädigungen, falsche Spannung, Abweichung von empfohlenen Korrespondenzgeräten). Jegliche Haft  ung der Georg Neumann GmbH für Schäden und Folgeschä-
+den, die dem Benutzer aufgrund eines solchen abweichenden Gebrauchs entstehen sollten, wird ausgeschlossen. Ausgenommen von diesem Haf-tungsausschluss sind Ansprüche aufgrund zwingender gesetzlicher Haf-tung, wie z.B. nach Produkthaft  ungsgesetz.
+Limitation of Liability
+Georg Neumann GmbH shall not be liable for consequences of an inappro-priate use of the product not being in compliance with the technical allow-ance in the user manual such as handling errors, mechanical spoiling, false voltage and using other than the recommended correspondence devices. Any liability of Georg Neumann GmbH for any damages including indirect, consequential, special, incidental and punitive damages based on the user’s non-compliance with the user manual or unreasonable utilization of the product is hereby excluded as to the extent permitted by law. This limitation of liability on damages is not applicable for the liability under European product liability codes or for users in a state or country where such damages cannot be limited.
