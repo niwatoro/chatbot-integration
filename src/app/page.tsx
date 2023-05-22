@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useEffect } from "react";
 import { ChatbotPopover } from "./components/chatbot-popover";
 import { useLlm } from "./hooks/use-llm";
@@ -13,7 +12,7 @@ export default function Page() {
   }, []);
 
   return (
-    <div className="relative">
+    <div className="relative bg-black w-screen h-screen">
       <div className="w-screen h-screen absolute">
         <ChatbotPopover
           initializing={initializing}
@@ -22,9 +21,6 @@ export default function Page() {
             return res;
           }}
         />
-      </div>
-      <div className="w-screen h-screen overflow-hidden">
-        <Image src="/images/background.png" alt="bg" width={9999} height={9999} />
       </div>
     </div>
   );

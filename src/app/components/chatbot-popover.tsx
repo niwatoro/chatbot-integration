@@ -16,12 +16,12 @@ export const ChatbotPopover: FC<Props> = ({ initializing, generateResponse }) =>
   const [chats, setChats] = useState<Chat[]>([]);
   const queries: Query[] = [
     {
-      value: "salesperson",
-      label: "I need to text a salesperson",
+      value: "engineer",
+      label: "I need an engineer",
     },
     {
-      value: "gear",
-      label: "I have a gear question",
+      value: "entrepreneur",
+      label: "I need an entrepreneur",
     },
   ];
   const [selectedQuery, setSelectedQuery] = useState<string | null>(null);
