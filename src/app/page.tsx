@@ -19,6 +19,16 @@ export default function Page() {
           const res = await generateResponse(input);
           return res;
         }}
+        queries={[
+          {
+            value: "engineer",
+            label: "I need an engineer",
+          },
+          {
+            value: "entrepreneur",
+            label: "I need an entrepreneur",
+          },
+        ]}
       />
     </div>
   );
