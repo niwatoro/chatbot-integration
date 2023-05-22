@@ -38,7 +38,7 @@ export const ChatbotPopover: FC<Props> = ({ initializing, generateResponse }) =>
     if (!initializing) {
       addChat({
         isBot: true,
-        message: "Great! Ask me any questions you may have about any gear or process.",
+        message: "Great! Ask me anything.",
       });
     } else {
       setBotSpeaking(true);
@@ -50,7 +50,7 @@ export const ChatbotPopover: FC<Props> = ({ initializing, generateResponse }) =>
       setBotSpeaking(false);
       addChat({
         isBot: true,
-        message: "Great! Ask me any questions you may have about any gear or process.",
+        message: "Great! Ask me anything.",
       });
     }
   }, [initializing]);
@@ -78,7 +78,7 @@ export const ChatbotPopover: FC<Props> = ({ initializing, generateResponse }) =>
                   </div>
                   <button
                     disabled={botSpeaking || !input}
-                    className="w-12 h-12 bg-[#e2582d] hover:bg-[#FF7448] rounded-full px-3.5 disabled:opacity-50"
+                    className="w-12 h-12 bg-cyan-500 hover:bg-cyan-400 rounded-full px-3.5 disabled:opacity-50"
                     onClick={async () => {
                       setInput("");
                       addChat({
