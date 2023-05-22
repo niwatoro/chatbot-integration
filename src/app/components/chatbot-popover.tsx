@@ -74,7 +74,7 @@ export const ChatbotPopover: FC<Props> = ({ initializing, generateResponse }) =>
               {selectedQuery && (
                 <div className="flex gap-x-3">
                   <div className="flex-1">
-                    <textarea value={input} className="w-full h-12 border border-[#d5d5d5] focus:outline-[#E3592E] rounded-full px-3.5 resize-none pt-2.5" placeholder="Start typing here..." onChange={(e) => setInput(e.target.value)} />
+                    <textarea value={input} className="w-full h-12 border border-[#d5d5d5] focus:outline-cyan-500 rounded-full px-3.5 resize-none pt-2.5" placeholder="Start typing here..." onChange={(e) => setInput(e.target.value)} />
                   </div>
                   <button
                     disabled={botSpeaking || !input}

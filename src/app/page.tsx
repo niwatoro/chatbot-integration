@@ -13,15 +13,13 @@ export default function Page() {
 
   return (
     <div className="relative bg-black w-screen h-screen">
-      <div className="w-screen h-screen absolute">
-        <ChatbotPopover
-          initializing={initializing}
-          generateResponse={async (input) => {
-            const res = await generateResponse(input);
-            return res;
-          }}
-        />
-      </div>
+      <ChatbotPopover
+        initializing={initializing}
+        generateResponse={async (input) => {
+          const res = await generateResponse(input);
+          return res;
+        }}
+      />
     </div>
   );
 }
