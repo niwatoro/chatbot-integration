@@ -46,7 +46,7 @@ export const ChatbotPopover: FC<Props> = ({ queries, initializing, generateRespo
   }, [initializing]);
 
   return (
-    <Popover className="h-screen max-h-screen fixed bottom-0 right-0 pr-8 pb-14 pt-5 flex flex-col items-end justify-end gap-y-5">
+    <Popover className="fixed bottom-0 right-0 flex h-screen max-h-screen flex-col items-end justify-end gap-y-5 pb-14 pr-8 pt-5">
       {(open) => (
         <>
           {open && (

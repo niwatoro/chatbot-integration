@@ -8,10 +8,10 @@ type Props = {
 } & Chat;
 export const ChatBubble: FC<Props> = ({ isBot, message, loading }) => {
   return (
-    <div className={classNames("w-full my-2", !isBot && "flex justify-end")}>
-      <div className={classNames("p-3.5 rounded-xl tracking-tight w-fit max-w-[260px] break-words", isBot ? "bg-[#ececec] rounded-bl-none" : "bg-cyan-100 rounded-br-none")}>
+    <div className={classNames("my-2 w-full", !isBot && "flex justify-end")}>
+      <div className={classNames("w-fit max-w-[260px] break-words rounded-xl p-3.5 tracking-tight", isBot ? "rounded-bl-none bg-[#ececec]" : "rounded-br-none bg-cyan-100")}>
         {loading ? (
-          <div className="p-2 w-20 flex justify-center">
+          <div className="flex w-20 justify-center p-2">
             <ThreeDots color="black" height={40} width={40} />
           </div>
         ) : (
