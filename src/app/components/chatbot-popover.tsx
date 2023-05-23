@@ -1,5 +1,4 @@
 import { Popover } from "@headlessui/react";
-import Image from "next/image";
 import { FC, useEffect, useState } from "react";
 import { Chat } from "../types/chat";
 import { Query } from "../types/query";
@@ -51,7 +50,30 @@ export const ChatbotPopover: FC<Props> = ({ queries, initializing, generateRespo
       {(open) => (
         <>
           {open && (
-            <PopoverPanel isOpen={open.open}>
+            <PopoverPanel
+              isOpen={open.open}
+              disabled={botSpeaking || !input}
+              input={input}
+              setInput={setInput}
+              onSubmit={async (e) => {
+                e.preventDefault();
+                const input_ = e.currentTarget.querySelector("textarea")!.value;
+                setInput("");
+
+                addChat({
+                  isBot: false,
+                  message: input_,
+                });
+
+                setBotSpeaking(true);
+                const response = await generateResponse(input_);
+                setBotSpeaking(false);
+                addChat({
+                  isBot: true,
+                  message: response,
+                });
+              }}
+            >
               {selectedQuery && <QueryButton query={queries.find((q) => q.value === selectedQuery)!} selected={selectedQuery} />}
               {queries
                 .filter((q) => q.value !== selectedQuery)
@@ -62,36 +84,6 @@ export const ChatbotPopover: FC<Props> = ({ queries, initializing, generateRespo
                 <ChatBubble key={index} {...chat} />
               ))}
               {botSpeaking && <ChatBubble isBot loading message="" />}
-              {selectedQuery && (
-                <form
-                  className="flex gap-x-3"
-                  onSubmit={async (e) => {
-                    e.preventDefault();
-                    const input_ = e.currentTarget.querySelector("textarea")!.value;
-                    setInput("");
-
-                    addChat({
-                      isBot: false,
-                      message: input_,
-                    });
-
-                    setBotSpeaking(true);
-                    const response = await generateResponse(input_);
-                    setBotSpeaking(false);
-                    addChat({
-                      isBot: true,
-                      message: response,
-                    });
-                  }}
-                >
-                  <div className="flex-1">
-                    <textarea value={input} className="w-full h-12 border border-[#d5d5d5] focus:outline-cyan-500 rounded-full px-3.5 resize-none pt-2.5" placeholder="Start typing here..." onChange={(e) => setInput(e.target.value)} />
-                  </div>
-                  <button type="submit" disabled={botSpeaking || !input} className="w-12 h-12 bg-cyan-500 hover:bg-cyan-400 rounded-full px-3.5 disabled:opacity-50">
-                    <Image className="w-full h-full" src="/images/send.svg" alt="send" width={999} height={999} />
-                  </button>
-                </form>
-              )}
             </PopoverPanel>
           )}
           <PopoverButton isOpen={open.open} />

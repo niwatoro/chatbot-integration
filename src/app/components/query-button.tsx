@@ -10,7 +10,7 @@ type Props = {
 export const QueryButton: FC<Props> = ({ query, onClick, selected }) => {
   return (
     <div className="w-full">
-      <button disabled={selected !== null} className={classNames("rounded-full py-2.5 px-3.5 text-sm", selected === null ? "bg-cyan-500 border border-cyan-500 text-white drop-shadow-md" : classNames("border border-cyan-800", selected === query.value ? "bg-cyan-800 text-white" : "bg-white text-cyan-800"))} onClick={onClick}>
+      <button disabled={selected !== null} className={classNames("rounded-full py-2.5 px-3.5 text-sm my-0.5", selected === null ? "bg-cyan-500 border border-cyan-500 text-white drop-shadow-md" : classNames("border border-cyan-800", selected === query.value ? "bg-cyan-800 text-white" : "bg-white text-cyan-800"))} onClick={onClick}>
         {query.label}
       </button>
     </div>
