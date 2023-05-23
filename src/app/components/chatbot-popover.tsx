@@ -52,7 +52,8 @@ export const ChatbotPopover: FC<Props> = ({ queries, initializing, generateRespo
           {open && (
             <PopoverPanel
               isOpen={open.open}
-              disabled={botSpeaking || !input}
+              sendDisabled={botSpeaking || !input}
+              showInput={!!selectedQuery}
               input={input}
               setInput={setInput}
               onSubmit={async (e) => {
