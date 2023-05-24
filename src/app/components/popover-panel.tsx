@@ -20,7 +20,7 @@ export const PopoverPanel: FC<Props> = ({ isOpen, children, onSubmit, input, set
         <div className="flex h-[75px] w-full items-center justify-center bg-gradient-to-r from-cyan-500 to-cyan-500/60">
           <div className="text-center text-xl font-bold text-white">INTEGRATED CHATBOT</div>
         </div>
-        <div className={classNames("w-full bg-white px-3.5", showInput ? "h-[425px]" : "h-full")}>
+        <div className={classNames("flex w-full flex-col justify-end bg-white px-3.5", showInput ? "h-[425px]" : "h-full")}>
           <div className="h-[355px] overflow-y-scroll">
             <ChatBubble isBot={true} message="Hi, I’m a chatbot" />
             {children}
