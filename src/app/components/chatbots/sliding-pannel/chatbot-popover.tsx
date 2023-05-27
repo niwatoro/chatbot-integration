@@ -65,7 +65,7 @@ export const SlidingChatbotPopover: FC<Props> = ({ generateResponse, initializin
           </div>
         </Transition.Child>
       </Transition>
-      <button className="rounded-tr-full bg-violet-600 py-5 pl-5 pr-12 font-montserrat text-lg text-white hover:opacity-50" onClick={() => setIsOpen(!isOpen)}>
+      <button className="rounded-tr-[60px] bg-violet-600 pb-4 pl-5 pr-12 pt-6 font-montserrat text-lg text-white hover:opacity-50" onClick={() => setIsOpen(!isOpen)}>
         Ask me anything
       </button>
     </div>
