@@ -17,11 +17,11 @@ export const PopoverPanel: FC<Props> = ({ isOpen, children, onSubmit, input, set
   return (
     <Transition className="h-[500px]" show={isOpen} enter="transition duration-100 ease-out" enterFrom="transform scale-95 opacity-0" enterTo="transform scale-100 opacity-100" leave="transition duration-75 ease-out" leaveFrom="transform scale-100 opacity-100" leaveTo="transform scale-95 opacity-0">
       <Popover.Panel className="flex h-[500px] w-[342px] flex-col overflow-hidden rounded-lg bg-white pb-6 drop-shadow-md">
-        <div className="flex h-[75px] w-full items-center justify-center bg-gradient-to-r from-cyan-500 to-cyan-500/60">
+        <div className="flex h-[75px] w-full items-center justify-center bg-cyan-500">
           <div className="text-center text-xl font-bold text-white">INTEGRATED CHATBOT</div>
         </div>
         <div className={classNames("flex w-full flex-col justify-end bg-white px-3.5", showInput ? "h-[425px]" : "h-full")}>
-          <div className="h-[355px] overflow-y-scroll">
+          <div className={"max-h-[355px] overflow-y-scroll"}>
             <ChatBubble isBot={true} message="Hi, I’m a chatbot" />
             {children}
           </div>
