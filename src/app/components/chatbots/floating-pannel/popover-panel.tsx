@@ -1,8 +1,8 @@
+import { classNames } from "@/app/utils/class-names";
 import { Popover, Transition } from "@headlessui/react";
 import Image from "next/image";
 import { FC, FormEventHandler, ReactNode } from "react";
-import { classNames } from "../utils/class-names";
-import { ChatBubble } from "./chat-bubble";
+import { ChatBubble } from "../common/chat-bubble";
 
 type Props = {
   isOpen: boolean;
@@ -15,8 +15,8 @@ type Props = {
 };
 export const PopoverPanel: FC<Props> = ({ isOpen, children, onSubmit, input, setInput, sendDisabled, showInput }) => {
   return (
-    <Transition className="h-[500px]" show={isOpen} enter="transition duration-100 ease-out" enterFrom="transform scale-95 opacity-0" enterTo="transform scale-100 opacity-100" leave="transition duration-75 ease-out" leaveFrom="transform scale-100 opacity-100" leaveTo="transform scale-95 opacity-0">
-      <Popover.Panel className="flex h-[500px] w-[342px] flex-col overflow-hidden rounded-lg bg-white pb-6 drop-shadow-md">
+    <Transition className="h-[500px] drop-shadow-md" show={isOpen} enter="transition duration-100 ease-out" enterFrom="transform scale-95 opacity-0" enterTo="transform scale-100 opacity-100" leave="transition duration-75 ease-out" leaveFrom="transform scale-100 opacity-100" leaveTo="transform scale-95 opacity-0">
+      <Popover.Panel className="flex h-[500px] w-[342px] flex-col overflow-hidden rounded-lg bg-white pb-6">
         <div className="flex h-[75px] w-full items-center justify-center bg-cyan-500">
           <div className="text-center text-xl font-bold text-white">INTEGRATED CHATBOT</div>
         </div>

@@ -1,7 +1,7 @@
+import { classNames } from "@/app/utils/class-names";
 import { Popover } from "@headlessui/react";
 import Image from "next/image";
 import { FC } from "react";
-import { classNames } from "../utils/class-names";
 
 type Props = {
   isOpen: boolean;

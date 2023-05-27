@@ -1,7 +1,7 @@
+import { Chat } from "@/app/types/chat";
+import { classNames } from "@/app/utils/class-names";
 import { FC } from "react";
 import { ThreeDots } from "react-loader-spinner";
-import { Chat } from "../types/chat";
-import { classNames } from "../utils/class-names";
 
 type Props = {
   loading?: boolean;

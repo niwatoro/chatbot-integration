@@ -1,6 +1,6 @@
+import { Query } from "@/app/types/query";
+import { classNames } from "@/app/utils/class-names";
 import { FC } from "react";
-import { Query } from "../types/query";
-import { classNames } from "../utils/class-names";
 
 type Props = {
   query: Query;
